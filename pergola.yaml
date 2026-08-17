@@ -1,0 +1,17 @@
+version: v1
+
+components:
+  - name: gia-streamlit-test
+
+    docker:
+      file: Dockerfile
+
+    resources:
+      cpu: 100m
+      memory: 0.5Gi
+
+    ingresses:
+      - host: gia-streamlit-test
+
+    ports:
+      - 8080
