@@ -1,6 +1,4 @@
-ARG DOCKER_REGISTRY="common-docker-r.artifactory.geo.conti.de/"
-
-FROM ${DOCKER_REGISTRY}python:3.11-slim
+FROM python:3.11-slim
 
 ARG HTTP_PROXY=http://cias.geoaws.com:8080
 ARG HTTPS_PROXY=http://cias.geoaws.com:8080
