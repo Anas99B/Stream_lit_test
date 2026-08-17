@@ -1,4 +1,6 @@
-FROM python:3.11-slim
+ARG DOCKER_REGISTRY="harbor.continental-tires.com/dockerhub/"
+
+FROM ${DOCKER_REGISTRY}python:3.11-slim
 
 ARG HTTP_PROXY=http://cias.geoaws.com:8080
 ARG HTTPS_PROXY=http://cias.geoaws.com:8080
