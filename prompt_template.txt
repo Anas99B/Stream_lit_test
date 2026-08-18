@@ -1,0 +1,49 @@
+# TASK
+{{TASK}}
+
+# ROLE
+Act as:
+{{ROLE}}
+
+# CONTEXT
+{{CONTEXT}}
+
+# SOURCES / INPUT
+Use the following source material or information:
+{{SOURCES}}
+
+# KNOWLEDGE RULE
+{{KNOWLEDGE_RULE}}
+
+# FOCUS
+Prioritize:
+{{FOCUS}}
+
+# AUDIENCE
+The output is intended for:
+{{AUDIENCE}}
+
+# OUTPUT
+Return the result as:
+{{OUTPUT_FORMAT}}
+
+Additional output requirements:
+{{OUTPUT_REQUIREMENTS}}
+
+# REVIEW INTENSITY
+{{REVIEW_INTENSITY}}
+
+# RESTRICTIONS
+{{RESTRICTIONS}}
+
+# LANGUAGE
+Write in:
+{{LANGUAGE}}
+
+# QUALITY CHECK BEFORE FINALIZING
+Before returning the answer:
+1. Verify that the task has been fully addressed.
+2. Follow the knowledge rule and do not invent missing facts.
+3. Respect all restrictions.
+4. Match the requested audience, output format, and language.
+5. If information is missing and the knowledge rule does not permit assumptions, clearly state what is missing.

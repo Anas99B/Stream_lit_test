@@ -1,8 +1,6 @@
+__pycache__/
+*.py[cod]
+.env
 .venv/
 venv/
-__pycache__/
-*.pyc
-responses.csv
-.env
-.streamlit/secrets.toml
-.vscode/
+data/*.jsonl

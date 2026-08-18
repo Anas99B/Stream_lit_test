@@ -1,8 +1,9 @@
-.git
-.venv
-venv
-__pycache__
-*.pyc
-responses.csv
+__pycache__/
+*.py[cod]
+*.log
 .env
-.streamlit/secrets.toml
+.venv/
+venv/
+.git/
+.gitignore
+data/*.jsonl
