@@ -34,8 +34,8 @@
     "build:timeline": "node scripts/build_timeline.mjs",
     "build:avatar": "python3 -I scripts/prepare_avatar.py",
     "build:sfx": "python3 -I scripts/make_sfx.py",
-    "preview:mcp": "remotion render McpEpisode out/preview_opening_0-12s.mp4 --frames=0-359 --codec=h264 --crf=17 --image-format=png --pixel-format=yuv420p --color-space=bt709 --audio-codec=aac --audio-bitrate=192k",
-    "render:mcp": "remotion render McpEpisode out/mcp_ep01_master.mp4 --codec=h264 --crf=17 --image-format=png --pixel-format=yuv420p --color-space=bt709 --audio-codec=aac --audio-bitrate=192k",
-    "still:mcp-cover": "remotion still McpCover out/mcp_ep01_cover.png --image-format=png"
+    "preview:mcp": "remotion render McpEpisode out/mcp_ep01_v2_preview_0-12s.mp4 --frames=0-719 --codec=h264 --crf=17 --image-format=png --pixel-format=yuv420p --color-space=bt709 --audio-codec=aac --audio-bitrate=192k",
+    "render:mcp": "remotion render McpEpisode out/mcp_ep01_v2_master.mp4 --codec=h264 --crf=17 --image-format=png --pixel-format=yuv420p --color-space=bt709 --audio-codec=aac --audio-bitrate=192k",
+    "still:mcp-cover": "remotion still McpCover out/mcp_ep01_v2_cover.png --image-format=png"
   }
 }

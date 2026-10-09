@@ -19,14 +19,17 @@ export type Chapter = { id: string; num: string; label: string; frame: number };
 
 export type EpisodeTimeline = {
   styleId: string;
+  /** Timebase of all frame numbers below (30). */
   fps: number;
+  /** Frame rate the master renders at (tokens.video.fps). */
+  renderFps: number;
   durationInFrames: number;
   audio: {
     src: string;
     segments: Array<{ from: number; trimBefore: number; durationInFrames: number }>;
     endFrame: number;
   };
-  sfx: { volume: number; events: Array<{ frame: number; sound: string }> };
+  sfx: { events: Array<{ frame: number; sound: string; gain: number }> };
   chapters: Chapter[];
   cues: Record<string, number>;
   avatar: { gaze: GazeEvent[]; layout: LayoutKey[]; blinks: Blink[] };

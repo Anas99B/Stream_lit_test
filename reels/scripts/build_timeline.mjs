@@ -21,7 +21,10 @@ const cuesSrc = read(path.join(epDir, "cues.json"));
 const capSrc = read(path.join(epDir, "captions.source.json"));
 const rawWords = read(path.join(epDir, "narration-words.raw.json")).words;
 
-const fps = tokens.video.fps;
+// Episode data lives on a fixed 30 fps timebase; the master may render at a
+// higher rate (tokens.video.fps) and components convert with useTime().
+const fps = tokens.video.timebaseFps ?? tokens.video.fps;
+const renderFps = tokens.video.fps;
 const PUNCT = /[«»…:؟?،,؛;.!"'ـ]/g;
 const norm = (s) => s.replace(PUNCT, "").trim();
 
@@ -125,9 +128,14 @@ for (const b of cuesSrc.avatar.extraBlinks ?? []) {
 blinks.sort((a, b) => a.frame - b.frame);
 
 // ---- sound effects (sparse, cue-anchored) ----
+const sfxGains = cuesSrc.sfx?.gains ?? {};
 const sfx = (cuesSrc.sfx?.events ?? []).map((e) => {
   if (cues[e.cue] === undefined) fail(`sfx: unknown cue ${e.cue}`);
-  return { frame: cues[e.cue], sound: e.sound };
+  return {
+    frame: Math.max(0, cues[e.cue] + f(e.offset ?? 0)),
+    sound: e.sound,
+    gain: e.gain ?? sfxGains[e.sound] ?? cuesSrc.sfx?.volume ?? 0.2,
+  };
 });
 
 // ---- captions ----
@@ -205,13 +213,14 @@ const timeline = {
   generatedBy: "scripts/build_timeline.mjs",
   styleId: tokens.styleId,
   fps,
+  renderFps,
   durationInFrames,
   alignment: {
     source: "ElevenLabs Scribe alignment of the final narration take (exact, not provisional)",
     provisional: false,
   },
   audio: { src: audioCfg.src, segments, endFrame: audioEndFrame, inserts },
-  sfx: { volume: cuesSrc.sfx?.volume ?? 0.2, events: sfx },
+  sfx: { events: sfx },
   chapters,
   cues,
   avatar: { gaze, layout, blinks },

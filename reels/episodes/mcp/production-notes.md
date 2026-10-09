@@ -23,22 +23,26 @@
   give an AI app tools; MCP standardises the interface, it does not remove
   setup, service-specific code or authorisation.
 
-## Pipeline
+## Pipeline (v2)
 
 ```
-script (brief) ──► ElevenLabs voice design ─► voice gtau3d9AbCFEA6Bhfahu
-                  ElevenLabs TTS eleven_v4 ─► public/audio/mcp/narration.mp3 (take B)
-                  ElevenLabs Scribe         ─► episodes/mcp/narration-words.raw.json
-cues.json + captions.source.json ─ npm run build:timeline ─► timeline.json, captions.json,
-                                                              captions.remotion.json, captions.srt
-src/episodes/mcp/* + src/components/* (Remotion 4.0.534) ─► McpEpisode / McpCover
+script (brief, CTA removed) ─► ElevenLabs TTS eleven_v4, voice "Saad" 3vR1KVyyNDhdkucpugQI
+                               ─► public/audio/mcp/narration.mp3 (take A, k8XQsflrLZlUOLCTkrHA)
+                               ElevenLabs Scribe ─► episodes/mcp/narration-words.raw.json
+scripts/make_sfx.py ─► public/sfx/{riser,whoosh,impact,tick,pop,connect}.wav (procedural)
+cues.json + captions.source.json ─ npm run build:timeline ─► timeline.json (30 fps timebase),
+                                    captions.json, captions.remotion.json, captions.srt
+src/episodes/mcp/* + src/components/* (Remotion 4.0.534) ─► McpEpisode (60 fps) / McpCover
 ```
 
 Audio edit list (in `cues.json → audio`): 0.3 s lead-in; 0.6 s hold inserted
-at 77.667 s of the source (inside the natural 77.41–77.93 s silence after
-«لا.»); 2.8 s tail for reading the takeaway.
+at 80.567 s of the source (inside the natural 80.26–80.84 s silence after
+«لا.»); 2.2 s tail on the final recap. Narration gain 0.77.
 
-## What was tested (and how)
+v1 pipeline (archived): designed voice `gtau3d9AbCFEA6Bhfahu`, take
+`AkotW2DECxtyzrxDXoXE`, hold at 77.667 s, 2.8 s tail with the CTA.
+
+## v1 tests (light style, archived master in deliverables/mcp-ep01-v1)
 
 | Check | Method | Result |
 |---|---|---|
@@ -56,7 +60,7 @@ at 77.667 s of the source (inside the natural 77.41–77.93 s silence after
 | Final frame | still at 3177 | Clean takeaway + CTA, no caption |
 | Code | `npm run lint` (eslint + tsc) | Pass |
 
-## Known limitations
+## Known limitations (v1)
 
 - The narrator voice and take were chosen by **measurement, not by ear**
   (pitch, noise floor, pacing). Please audition `mcp_ep01_narration.m4a`

@@ -1,4 +1,4 @@
-# MCP reel — episode 01 deliverables
+# MCP reel — episode 01 deliverables (style v1, archived)
 
 Style `arab-tech-explainer-v1` · rendered 2026-10-09 · **voiced** (not a
 silent prototype).

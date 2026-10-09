@@ -1,8 +1,10 @@
 # Episode 01 — MCP · script
 
-Status: **final, voiced** (ElevenLabs voice `gtau3d9AbCFEA6Bhfahu`, model
-`eleven_v4`, take `AkotW2DECxtyzrxDXoXE`). Script supplied in the production
-brief and used without changes to its factual claims.
+Status: **final, voiced — v2** (ElevenLabs voice "Saad" `3vR1KVyyNDhdkucpugQI`,
+model `eleven_v4`, take `k8XQsflrLZlUOLCTkrHA`). Script supplied in the
+production brief and used without changes to its factual claims; in v2 the
+closing save/follow line was removed at the owner's request.
+(v1: voice `gtau3d9AbCFEA6Bhfahu`, take `AkotW2DECxtyzrxDXoXE`, with the CTA.)
 
 ## Spoken script (exact, as sent to TTS)
 
@@ -40,15 +42,16 @@ on screen they are always API, MCP, USB-C.
 هو يوحّد طريقة اكتشاف الأدوات واستخدامها داخل تطبيقات الذكاء الاصطناعي.
 
 والاتصال لا يعني الوصول إلى كل شيء؛ الوصول يعتمد على الصلاحيات التي تمنحها.
-
-احفظ الفيديو، وتابعني لتفهم التقنية… بمثال بسيط.
 ```
+
+Removed in v2: «احفظ الفيديو، وتابعني لتفهم التقنية… بمثال بسيط.»
 
 ## Measured result
 
-- 208 spoken words, 102.16 s of speech → ≈122 words/min (no speed change).
-- Composition: 0.3 s lead-in + narration + 0.6 s hold after «لا.» + 2.8 s
-  tail = **3178 frames / 105.93 s**.
+- v2: 201 spoken words, 102.24 s of speech → ≈118 words/min (no speed change).
+- Composition: 0.3 s lead-in + narration + 0.6 s hold after «لا.» (cut at
+  80.567 s, inside the 80.26–80.84 s silence) + 2.2 s tail = **105.43 s**
+  (3163 timebase frames; 6326 frames at 60 fps).
 
 ## On-screen text (not spoken)
 
@@ -62,7 +65,7 @@ on screen they are always API, MCP, USB-C.
 | How | «عميل MCP» inside the app; «خادم MCP للمبيعات»; «الأدوات المتاحة» + `get_weekly_sales` «جلب مبيعات الأسبوع» «مثال توضيحي»; data card (fictional: الطلبات 124 · الإيرادات 48,200 · النمو +12%, «مثال توضيحي»); summary «المبيعات أعلى بـ 12% من الأسبوع الماضي» |
 | Correction | «API ما زالت موجودة»; «خلف الكواليس» |
 | Recap | «تطبيقات الذكاء الاصطناعي»; MCP layer «اكتشاف الأدوات» «واستخدامها»; API layer «واجهات الخدمات والأنظمة» «ما زالت تعمل»; «مثال إعداد»; «الاتصال لا يعني الوصول»; «قراءة المبيعات فقط» / «تعديل» (✕) |
-| Takeaway | «MCP — طريقة موحّدة لاكتشاف الأدوات واستخدامها — وتبقى API تعمل خلف الكواليس»; «احفظ الفيديو» «تابعني» |
+| Ending (v2) | the recap is held to the end — no save/follow screen |
 
 `get_weekly_sales` and all numbers are **illustrative**, not a claim about
 any existing server or real data.

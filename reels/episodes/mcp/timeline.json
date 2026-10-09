@@ -1,8 +1,9 @@
 {
  "generatedBy": "scripts/build_timeline.mjs",
- "styleId": "arab-tech-explainer-v1",
+ "styleId": "arab-tech-explainer-v2",
  "fps": 30,
- "durationInFrames": 3178,
+ "renderFps": 60,
+ "durationInFrames": 3163,
  "alignment": {
   "source": "ElevenLabs Scribe alignment of the final narration take (exact, not provisional)",
   "provisional": false
@@ -13,65 +14,204 @@
    {
     "from": 9,
     "trimBefore": 0,
-    "durationInFrames": 2330
+    "durationInFrames": 2417
    },
    {
-    "from": 2357,
-    "trimBefore": 2330,
-    "durationInFrames": 737
+    "from": 2444,
+    "trimBefore": 2417,
+    "durationInFrames": 653
    }
   ],
-  "endFrame": 3094,
+  "endFrame": 3097,
   "inserts": [
    {
-    "cut": 2330,
+    "cut": 2417,
     "gap": 18,
-    "why": "Hold on the key correction 'API ما زالت موجودة' after the spoken 'لا.' (cut lands inside the natural silence 77.41-77.93s of take B)."
+    "why": "Hold on the key correction 'API ما زالت موجودة' after the spoken 'لا.' (cut lands inside the natural silence 80.26-80.84 s of the v2 take)."
    }
   ]
  },
  "sfx": {
-  "volume": 0.22,
   "events": [
    {
-    "frame": 85,
-    "sound": "pop"
+    "frame": 87,
+    "sound": "pop",
+    "gain": 0.2
    },
    {
-    "frame": 147,
-    "sound": "pop"
+    "frame": 127,
+    "sound": "impact",
+    "gain": 0.5
    },
    {
-    "frame": 699,
-    "sound": "connect"
+    "frame": 151,
+    "sound": "tick",
+    "gain": 0.16
    },
    {
-    "frame": 1270,
-    "sound": "pop"
+    "frame": 247,
+    "sound": "whoosh",
+    "gain": 0.26
    },
    {
-    "frame": 1322,
-    "sound": "connect"
+    "frame": 285,
+    "sound": "pop",
+    "gain": 0.2
    },
    {
-    "frame": 1559,
-    "sound": "tick"
+    "frame": 385,
+    "sound": "pop",
+    "gain": 0.2
    },
    {
-    "frame": 2119,
-    "sound": "tick"
+    "frame": 519,
+    "sound": "tick",
+    "gain": 0.16
    },
    {
-    "frame": 2171,
-    "sound": "tick"
+    "frame": 674,
+    "sound": "pop",
+    "gain": 0.2
    },
    {
-    "frame": 2325,
-    "sound": "pop"
+    "frame": 711,
+    "sound": "connect",
+    "gain": 0.18
    },
    {
-    "frame": 2903,
-    "sound": "tick"
+    "frame": 761,
+    "sound": "tick",
+    "gain": 0.16
+   },
+   {
+    "frame": 799,
+    "sound": "tick",
+    "gain": 0.16
+   },
+   {
+    "frame": 1012,
+    "sound": "whoosh",
+    "gain": 0.26
+   },
+   {
+    "frame": 1087,
+    "sound": "pop",
+    "gain": 0.2
+   },
+   {
+    "frame": 1110,
+    "sound": "pop",
+    "gain": 0.2
+   },
+   {
+    "frame": 1259,
+    "sound": "riser",
+    "gain": 0.28
+   },
+   {
+    "frame": 1294,
+    "sound": "whoosh",
+    "gain": 0.26
+   },
+   {
+    "frame": 1301,
+    "sound": "impact",
+    "gain": 0.5
+   },
+   {
+    "frame": 1360,
+    "sound": "connect",
+    "gain": 0.18
+   },
+   {
+    "frame": 1499,
+    "sound": "whoosh",
+    "gain": 0.26
+   },
+   {
+    "frame": 1607,
+    "sound": "tick",
+    "gain": 0.16
+   },
+   {
+    "frame": 1705,
+    "sound": "whoosh",
+    "gain": 0.26
+   },
+   {
+    "frame": 1859,
+    "sound": "whoosh",
+    "gain": 0.26
+   },
+   {
+    "frame": 1931,
+    "sound": "tick",
+    "gain": 0.16
+   },
+   {
+    "frame": 2033,
+    "sound": "pop",
+    "gain": 0.2
+   },
+   {
+    "frame": 2200,
+    "sound": "tick",
+    "gain": 0.16
+   },
+   {
+    "frame": 2253,
+    "sound": "tick",
+    "gain": 0.16
+   },
+   {
+    "frame": 2299,
+    "sound": "pop",
+    "gain": 0.2
+   },
+   {
+    "frame": 2352,
+    "sound": "whoosh",
+    "gain": 0.26
+   },
+   {
+    "frame": 2367,
+    "sound": "riser",
+    "gain": 0.28
+   },
+   {
+    "frame": 2409,
+    "sound": "impact",
+    "gain": 0.5
+   },
+   {
+    "frame": 2458,
+    "sound": "connect",
+    "gain": 0.18
+   },
+   {
+    "frame": 2596,
+    "sound": "whoosh",
+    "gain": 0.26
+   },
+   {
+    "frame": 2759,
+    "sound": "tick",
+    "gain": 0.16
+   },
+   {
+    "frame": 2792,
+    "sound": "tick",
+    "gain": 0.16
+   },
+   {
+    "frame": 2897,
+    "sound": "pop",
+    "gain": 0.2
+   },
+   {
+    "frame": 3034,
+    "sound": "tick",
+    "gain": 0.16
    }
   ]
  },
@@ -86,132 +226,116 @@
    "id": "example",
    "num": "02",
    "label": "مثال بسيط",
-   "frame": 247
+   "frame": 251
   },
   {
    "id": "api",
    "num": "03",
    "label": "دور API",
-   "frame": 631
+   "frame": 640
   },
   {
    "id": "services",
    "num": "04",
    "label": "خدمات أكثر",
-   "frame": 952
+   "frame": 964
   },
   {
    "id": "protocol",
    "num": "05",
    "label": "طريقة موحّدة",
-   "frame": 1270
+   "frame": 1301
   },
   {
    "id": "how",
    "num": "06",
    "label": "كيف يعمل؟",
-   "frame": 1795
+   "frame": 1862
   },
   {
    "id": "correction",
    "num": "07",
    "label": "تصحيح مهم",
-   "frame": 2271
+   "frame": 2356
   },
   {
    "id": "recap",
    "num": "08",
    "label": "الخلاصة",
-   "frame": 2503
-  },
-  {
-   "id": "outro",
-   "num": "",
-   "label": "",
-   "frame": 2965
+   "frame": 2599
   }
  ],
  "cues": {
-  "hook.api": 85,
-  "hook.question": 122,
-  "hook.mcp": 147,
-  "hook.example": 205,
-  "ex.you": 247,
-  "ex.assistant": 283,
-  "ex.request": 326,
-  "ex.sales": 382,
-  "ex.understands": 439,
-  "ex.disconnected": 509,
-  "ex.noData": 572,
-  "api.block": 662,
-  "api.connect": 699,
-  "api.request": 754,
-  "api.result": 789,
-  "api.code": 889,
-  "svc.more": 998,
-  "svc.files": 1067,
-  "svc.calendar": 1086,
-  "svc.details": 1147,
-  "mcp.band": 1270,
-  "mcp.standardize": 1322,
-  "mcp.analogy": 1456,
-  "mcp.port": 1499,
-  "mcp.plug": 1559,
-  "mcp.analogyOut": 1658,
-  "mcp.setup": 1742,
-  "mcp.permissions": 1760,
-  "how.focus": 1795,
-  "how.server": 1831,
-  "how.discover": 1864,
-  "how.tool": 1959,
-  "how.modelRequest": 2047,
-  "how.call": 2119,
-  "how.result": 2171,
-  "how.summary": 2215,
-  "fix.question": 2271,
-  "fix.no": 2325,
-  "fix.backstage": 2369,
-  "fix.label": 2408,
-  "recap.start": 2503,
-  "recap.notReplace": 2549,
-  "recap.unify": 2626,
-  "recap.discover": 2656,
-  "recap.use": 2686,
-  "recap.access": 2787,
-  "recap.permission": 2903,
-  "outro.save": 2965,
-  "outro.follow": 2996
+  "hook.api": 87,
+  "hook.question": 127,
+  "hook.mcp": 151,
+  "hook.example": 211,
+  "ex.you": 251,
+  "ex.assistant": 285,
+  "ex.request": 329,
+  "ex.sales": 385,
+  "ex.understands": 443,
+  "ex.disconnected": 519,
+  "ex.noData": 581,
+  "api.block": 674,
+  "api.connect": 711,
+  "api.request": 761,
+  "api.result": 799,
+  "api.code": 897,
+  "svc.more": 1015,
+  "svc.files": 1087,
+  "svc.calendar": 1110,
+  "svc.details": 1173,
+  "mcp.band": 1301,
+  "mcp.standardize": 1360,
+  "mcp.analogy": 1502,
+  "mcp.port": 1547,
+  "mcp.plug": 1607,
+  "mcp.analogyOut": 1708,
+  "mcp.setup": 1802,
+  "mcp.permissions": 1822,
+  "how.focus": 1862,
+  "how.server": 1895,
+  "how.discover": 1931,
+  "how.tool": 2033,
+  "how.modelRequest": 2125,
+  "how.call": 2200,
+  "how.result": 2253,
+  "how.summary": 2299,
+  "fix.question": 2356,
+  "fix.no": 2409,
+  "fix.backstage": 2458,
+  "fix.label": 2499,
+  "recap.start": 2599,
+  "recap.notReplace": 2643,
+  "recap.unify": 2728,
+  "recap.discover": 2759,
+  "recap.use": 2792,
+  "recap.access": 2897,
+  "recap.permission": 3034,
+  "host.exit": 1294,
+  "host.return": 2352
  },
  "avatar": {
   "gaze": [
    {
-    "from": 89,
-    "to": 119,
+    "from": 91,
+    "to": 121,
     "state": "image-right"
    },
    {
-    "from": 329,
-    "to": 362,
+    "from": 332,
+    "to": 365,
     "state": "image-right"
    },
    {
-    "from": 1067,
-    "to": 1100,
+    "from": 1087,
+    "to": 1120,
     "state": "image-right"
    },
    {
-    "from": 1499,
-    "to": 1529,
-    "state": "image-right"
-   },
-   {
-    "from": 2119,
-    "to": 2146,
-    "state": "image-right"
-   },
-   {
-    "from": 2174,
-    "to": 2198,
+    "from": 2499,
+    "to": 2526,
     "state": "image-right"
    }
   ],
@@ -221,15 +345,19 @@
     "preset": "hook"
    },
    {
-    "frame": 242,
+    "frame": 247,
     "preset": "standard"
    },
    {
-    "frame": 2267,
+    "frame": 1294,
+    "preset": "away"
+   },
+   {
+    "frame": 2352,
     "preset": "emphasis"
    },
    {
-    "frame": 2498,
+    "frame": 2594,
     "preset": "standard"
    }
   ],
@@ -299,8 +427,12 @@
     "frames": 5
    },
    {
-    "frame": 2371,
-    "frames": 3
+    "frame": 2134,
+    "frames": 4
+   },
+   {
+    "frame": 2279,
+    "frames": 5
    },
    {
     "frame": 2482,
@@ -316,6 +448,10 @@
    },
    {
     "frame": 2825,
+    "frames": 4
+   },
+   {
+    "frame": 2924,
     "frames": 4
    },
    {
@@ -338,1244 +474,1202 @@
   {
    "i": 1,
    "text": "كانت",
-   "frame": 17,
+   "frame": 19,
    "endFrame": 26
   },
   {
    "i": 2,
    "text": "التطبيقات",
    "frame": 28,
-   "endFrame": 47
+   "endFrame": 50
   },
   {
    "i": 3,
    "text": "تتواصل",
-   "frame": 50,
-   "endFrame": 64
+   "frame": 52,
+   "endFrame": 69
   },
   {
    "i": 4,
    "text": "عن",
-   "frame": 67,
-   "endFrame": 71
+   "frame": 71,
+   "endFrame": 74
   },
   {
    "i": 5,
    "text": "طريق",
-   "frame": 73,
-   "endFrame": 83
+   "frame": 75,
+   "endFrame": 86
   },
   {
    "i": 6,
    "text": "«إي",
-   "frame": 85,
-   "endFrame": 88
+   "frame": 87,
+   "endFrame": 91
   },
   {
    "i": 7,
    "text": "بي",
-   "frame": 91,
+   "frame": 92,
    "endFrame": 93
   },
   {
    "i": 8,
    "text": "آي»…",
-   "frame": 95,
-   "endFrame": 119
+   "frame": 98,
+   "endFrame": 124
   },
   {
    "i": 9,
    "text": "لماذا",
-   "frame": 122,
-   "endFrame": 131
+   "frame": 127,
+   "endFrame": 136
   },
   {
    "i": 10,
    "text": "نحتاج",
-   "frame": 133,
-   "endFrame": 146
+   "frame": 137,
+   "endFrame": 151
   },
   {
    "i": 11,
    "text": "«إم",
-   "frame": 147,
-   "endFrame": 149
+   "frame": 151,
+   "endFrame": 154
   },
   {
    "i": 12,
    "text": "سي",
-   "frame": 151,
-   "endFrame": 153
+   "frame": 155,
+   "endFrame": 158
   },
   {
    "i": 13,
    "text": "بي»؟",
-   "frame": 158,
-   "endFrame": 171
+   "frame": 163,
+   "endFrame": 170
   },
   {
    "i": 14,
    "text": "خلّينا",
-   "frame": 183,
-   "endFrame": 189
+   "frame": 186,
+   "endFrame": 194
   },
   {
    "i": 15,
    "text": "نفهمها",
-   "frame": 191,
-   "endFrame": 203
+   "frame": 195,
+   "endFrame": 208
   },
   {
    "i": 16,
    "text": "بمثال",
-   "frame": 205,
-   "endFrame": 218
+   "frame": 211,
+   "endFrame": 223
   },
   {
    "i": 17,
    "text": "بسيط.",
-   "frame": 220,
-   "endFrame": 244
+   "frame": 230,
+   "endFrame": 239
   },
   {
    "i": 18,
    "text": "تخيّل",
-   "frame": 247,
-   "endFrame": 259
+   "frame": 251,
+   "endFrame": 263
   },
   {
    "i": 19,
    "text": "أنك",
-   "frame": 261,
-   "endFrame": 268
+   "frame": 267,
+   "endFrame": 273
   },
   {
    "i": 20,
    "text": "تقول",
-   "frame": 271,
-   "endFrame": 280
+   "frame": 275,
+   "endFrame": 283
   },
   {
    "i": 21,
    "text": "لمساعد",
-   "frame": 283,
-   "endFrame": 297
+   "frame": 285,
+   "endFrame": 302
   },
   {
    "i": 22,
    "text": "ذكي:",
-   "frame": 302,
-   "endFrame": 323
+   "frame": 304,
+   "endFrame": 326
   },
   {
    "i": 23,
    "text": "لخّص",
-   "frame": 326,
-   "endFrame": 338
+   "frame": 329,
+   "endFrame": 340
   },
   {
    "i": 24,
    "text": "مبيعات",
-   "frame": 339,
-   "endFrame": 352
+   "frame": 341,
+   "endFrame": 355
   },
   {
    "i": 25,
    "text": "هذا",
-   "frame": 355,
-   "endFrame": 359
+   "frame": 357,
+   "endFrame": 362
   },
   {
    "i": 26,
    "text": "الأسبوع",
-   "frame": 363,
-   "endFrame": 376
+   "frame": 364,
+   "endFrame": 379
   },
   {
    "i": 27,
    "text": "من",
-   "frame": 379,
-   "endFrame": 381
+   "frame": 381,
+   "endFrame": 383
   },
   {
    "i": 28,
    "text": "نظام",
-   "frame": 382,
-   "endFrame": 391
+   "frame": 385,
+   "endFrame": 393
   },
   {
    "i": 29,
    "text": "الشركة.",
-   "frame": 392,
-   "endFrame": 417
+   "frame": 394,
+   "endFrame": 410
   },
   {
    "i": 30,
    "text": "المساعد",
-   "frame": 419,
-   "endFrame": 436
+   "frame": 422,
+   "endFrame": 441
   },
   {
    "i": 31,
    "text": "يفهم",
-   "frame": 439,
-   "endFrame": 446
+   "frame": 443,
+   "endFrame": 451
   },
   {
    "i": 32,
    "text": "طلبك،",
-   "frame": 451,
-   "endFrame": 472
+   "frame": 453,
+   "endFrame": 477
   },
   {
    "i": 33,
    "text": "لكن",
-   "frame": 475,
-   "endFrame": 487
+   "frame": 482,
+   "endFrame": 491
   },
   {
    "i": 34,
    "text": "إذا",
-   "frame": 488,
-   "endFrame": 491
+   "frame": 494,
+   "endFrame": 501
   },
   {
    "i": 35,
    "text": "لم",
-   "frame": 494,
-   "endFrame": 496
+   "frame": 503,
+   "endFrame": 506
   },
   {
    "i": 36,
    "text": "يكن",
-   "frame": 499,
-   "endFrame": 506
+   "frame": 508,
+   "endFrame": 515
   },
   {
    "i": 37,
    "text": "متصلًا",
-   "frame": 509,
-   "endFrame": 523
+   "frame": 519,
+   "endFrame": 530
   },
   {
    "i": 38,
    "text": "بالنظام،",
-   "frame": 525,
-   "endFrame": 544
+   "frame": 532,
+   "endFrame": 556
   },
   {
    "i": 39,
    "text": "فلن",
-   "frame": 547,
-   "endFrame": 554
+   "frame": 559,
+   "endFrame": 563
   },
   {
    "i": 40,
    "text": "يحصل",
-   "frame": 556,
-   "endFrame": 566
+   "frame": 566,
+   "endFrame": 575
   },
   {
    "i": 41,
    "text": "على",
-   "frame": 568,
-   "endFrame": 571
+   "frame": 578,
+   "endFrame": 580
   },
   {
    "i": 42,
    "text": "البيانات",
-   "frame": 572,
-   "endFrame": 587
+   "frame": 581,
+   "endFrame": 597
   },
   {
    "i": 43,
    "text": "من",
-   "frame": 590,
-   "endFrame": 592
+   "frame": 599,
+   "endFrame": 602
   },
   {
    "i": 44,
    "text": "تلقاء",
-   "frame": 596,
-   "endFrame": 604
+   "frame": 604,
+   "endFrame": 614
   },
   {
    "i": 45,
    "text": "نفسه.",
-   "frame": 607,
+   "frame": 619,
    "endFrame": 628
   },
   {
    "i": 46,
    "text": "هنا",
-   "frame": 631,
-   "endFrame": 638
-  },
-  {
-   "i": 47,
-   "text": "يأتي",
    "frame": 640,
    "endFrame": 650
   },
   {
+   "i": 47,
+   "text": "يأتي",
+   "frame": 652,
+   "endFrame": 662
+  },
+  {
    "i": 48,
    "text": "دور",
-   "frame": 652,
-   "endFrame": 659
+   "frame": 664,
+   "endFrame": 671
   },
   {
    "i": 49,
    "text": "«إي",
-   "frame": 662,
-   "endFrame": 667
+   "frame": 674,
+   "endFrame": 679
   },
   {
    "i": 50,
    "text": "بي",
-   "frame": 668,
-   "endFrame": 669
+   "frame": 681,
+   "endFrame": 683
   },
   {
    "i": 51,
    "text": "آي»:",
-   "frame": 674,
-   "endFrame": 693
+   "frame": 686,
+   "endFrame": 705
   },
   {
    "i": 52,
    "text": "واجهة",
-   "frame": 699,
-   "endFrame": 712
+   "frame": 711,
+   "endFrame": 719
   },
   {
    "i": 53,
    "text": "تسمح",
-   "frame": 717,
-   "endFrame": 724
+   "frame": 722,
+   "endFrame": 734
   },
   {
    "i": 54,
    "text": "لبرنامج",
-   "frame": 727,
-   "endFrame": 746
+   "frame": 736,
+   "endFrame": 755
   },
   {
    "i": 55,
    "text": "أن",
-   "frame": 748,
-   "endFrame": 753
+   "frame": 758,
+   "endFrame": 760
   },
   {
    "i": 56,
    "text": "يطلب",
-   "frame": 754,
-   "endFrame": 765
+   "frame": 761,
+   "endFrame": 772
   },
   {
    "i": 57,
    "text": "بيانات",
-   "frame": 770,
-   "endFrame": 782
+   "frame": 777,
+   "endFrame": 791
   },
   {
    "i": 58,
    "text": "أو",
-   "frame": 784,
-   "endFrame": 787
+   "frame": 794,
+   "endFrame": 796
   },
   {
    "i": 59,
    "text": "خدمات",
-   "frame": 789,
-   "endFrame": 806
+   "frame": 799,
+   "endFrame": 815
   },
   {
    "i": 60,
    "text": "من",
-   "frame": 808,
-   "endFrame": 811
+   "frame": 818,
+   "endFrame": 820
   },
   {
    "i": 61,
    "text": "برنامج",
-   "frame": 819,
-   "endFrame": 827
+   "frame": 829,
+   "endFrame": 837
   },
   {
    "i": 62,
    "text": "آخر.",
-   "frame": 830,
-   "endFrame": 849
+   "frame": 839,
+   "endFrame": 859
   },
   {
    "i": 63,
    "text": "والمطوّر",
-   "frame": 850,
-   "endFrame": 868
+   "frame": 860,
+   "endFrame": 880
   },
   {
    "i": 64,
    "text": "يكتب",
-   "frame": 875,
-   "endFrame": 887
+   "frame": 885,
+   "endFrame": 895
   },
   {
    "i": 65,
    "text": "الربط",
-   "frame": 889,
-   "endFrame": 897
+   "frame": 897,
+   "endFrame": 907
   },
   {
    "i": 66,
    "text": "الذي",
-   "frame": 899,
-   "endFrame": 907
+   "frame": 909,
+   "endFrame": 916
   },
   {
    "i": 67,
    "text": "يحتاجه",
-   "frame": 908,
-   "endFrame": 923
+   "frame": 917,
+   "endFrame": 933
   },
   {
    "i": 68,
    "text": "تطبيقه.",
-   "frame": 926,
-   "endFrame": 943
+   "frame": 935,
+   "endFrame": 952
   },
   {
    "i": 69,
    "text": "طيب،",
-   "frame": 952,
-   "endFrame": 969
+   "frame": 964,
+   "endFrame": 983
   },
   {
    "i": 70,
    "text": "ماذا",
-   "frame": 971,
-   "endFrame": 979
+   "frame": 986,
+   "endFrame": 993
   },
   {
    "i": 71,
    "text": "لو",
-   "frame": 981,
-   "endFrame": 983
+   "frame": 995,
+   "endFrame": 998
   },
   {
    "i": 72,
    "text": "أردت",
-   "frame": 985,
-   "endFrame": 993
+   "frame": 999,
+   "endFrame": 1007
   },
   {
    "i": 73,
    "text": "أن",
-   "frame": 994,
-   "endFrame": 995
+   "frame": 1010,
+   "endFrame": 1012
   },
   {
    "i": 74,
    "text": "يستخدم",
-   "frame": 998,
-   "endFrame": 1012
+   "frame": 1015,
+   "endFrame": 1029
   },
   {
    "i": 75,
    "text": "المساعد",
-   "frame": 1015,
-   "endFrame": 1031
+   "frame": 1031,
+   "endFrame": 1048
   },
   {
    "i": 76,
    "text": "نظام",
-   "frame": 1033,
-   "endFrame": 1041
+   "frame": 1051,
+   "endFrame": 1058
   },
   {
    "i": 77,
    "text": "المبيعات،",
-   "frame": 1045,
-   "endFrame": 1065
+   "frame": 1060,
+   "endFrame": 1084
   },
   {
    "i": 78,
    "text": "والملفات،",
-   "frame": 1067,
-   "endFrame": 1085
+   "frame": 1087,
+   "endFrame": 1109
   },
   {
    "i": 79,
    "text": "والتقويم؟",
-   "frame": 1086,
-   "endFrame": 1115
+   "frame": 1110,
+   "endFrame": 1139
   },
   {
    "i": 80,
    "text": "كل",
-   "frame": 1119,
-   "endFrame": 1123
+   "frame": 1143,
+   "endFrame": 1147
   },
   {
    "i": 81,
    "text": "خدمة",
-   "frame": 1130,
-   "endFrame": 1137
+   "frame": 1149,
+   "endFrame": 1161
   },
   {
    "i": 82,
    "text": "لها",
-   "frame": 1138,
-   "endFrame": 1144
+   "frame": 1163,
+   "endFrame": 1171
   },
   {
    "i": 83,
    "text": "تفاصيلها،",
-   "frame": 1147,
-   "endFrame": 1175
+   "frame": 1173,
+   "endFrame": 1202
   },
   {
    "i": 84,
    "text": "وعلى",
-   "frame": 1178,
-   "endFrame": 1183
+   "frame": 1204,
+   "endFrame": 1211
   },
   {
    "i": 85,
    "text": "التطبيق",
-   "frame": 1184,
-   "endFrame": 1199
+   "frame": 1213,
+   "endFrame": 1228
   },
   {
    "i": 86,
    "text": "أن",
-   "frame": 1202,
-   "endFrame": 1204
+   "frame": 1231,
+   "endFrame": 1233
   },
   {
    "i": 87,
    "text": "يعرف",
-   "frame": 1205,
-   "endFrame": 1216
+   "frame": 1235,
+   "endFrame": 1247
   },
   {
    "i": 88,
    "text": "كيف",
-   "frame": 1219,
-   "endFrame": 1226
+   "frame": 1250,
+   "endFrame": 1257
   },
   {
    "i": 89,
    "text": "يتعامل",
-   "frame": 1228,
-   "endFrame": 1243
+   "frame": 1259,
+   "endFrame": 1276
   },
   {
    "i": 90,
    "text": "معها.",
-   "frame": 1245,
-   "endFrame": 1269
+   "frame": 1279,
+   "endFrame": 1300
   },
   {
    "i": 91,
    "text": "«إم",
-   "frame": 1270,
-   "endFrame": 1274
+   "frame": 1301,
+   "endFrame": 1305
   },
   {
    "i": 92,
    "text": "سي",
-   "frame": 1276,
-   "endFrame": 1279
+   "frame": 1307,
+   "endFrame": 1310
   },
   {
    "i": 93,
    "text": "بي»",
-   "frame": 1281,
-   "endFrame": 1288
+   "frame": 1315,
+   "endFrame": 1322
   },
   {
    "i": 94,
    "text": "يقدّم",
-   "frame": 1291,
-   "endFrame": 1303
+   "frame": 1324,
+   "endFrame": 1339
   },
   {
    "i": 95,
    "text": "طريقة",
-   "frame": 1305,
-   "endFrame": 1319
+   "frame": 1341,
+   "endFrame": 1358
   },
   {
    "i": 96,
    "text": "موحّدة",
-   "frame": 1322,
-   "endFrame": 1339
+   "frame": 1360,
+   "endFrame": 1375
   },
   {
    "i": 97,
    "text": "لربط",
-   "frame": 1341,
-   "endFrame": 1353
+   "frame": 1377,
+   "endFrame": 1389
   },
   {
    "i": 98,
    "text": "تطبيقات",
-   "frame": 1357,
-   "endFrame": 1370
+   "frame": 1391,
+   "endFrame": 1408
   },
   {
    "i": 99,
    "text": "الذكاء",
-   "frame": 1372,
-   "endFrame": 1384
+   "frame": 1409,
+   "endFrame": 1423
   },
   {
    "i": 100,
    "text": "الاصطناعي",
-   "frame": 1385,
-   "endFrame": 1403
+   "frame": 1424,
+   "endFrame": 1444
   },
   {
    "i": 101,
    "text": "بالأدوات",
-   "frame": 1406,
-   "endFrame": 1423
+   "frame": 1447,
+   "endFrame": 1466
   },
   {
    "i": 102,
    "text": "والبيانات.",
-   "frame": 1425,
-   "endFrame": 1454
+   "frame": 1468,
+   "endFrame": 1499
   },
   {
    "i": 103,
    "text": "تخيّله",
-   "frame": 1456,
-   "endFrame": 1473
+   "frame": 1502,
+   "endFrame": 1521
   },
   {
    "i": 104,
    "text": "مثل",
-   "frame": 1478,
-   "endFrame": 1483
+   "frame": 1526,
+   "endFrame": 1531
   },
   {
    "i": 105,
    "text": "منفذ",
-   "frame": 1485,
-   "endFrame": 1497
+   "frame": 1534,
+   "endFrame": 1545
   },
   {
    "i": 106,
    "text": "«يو",
-   "frame": 1499,
-   "endFrame": 1502
+   "frame": 1547,
+   "endFrame": 1550
   },
   {
    "i": 107,
    "text": "إس",
-   "frame": 1504,
-   "endFrame": 1507
+   "frame": 1551,
+   "endFrame": 1552
   },
   {
    "i": 108,
    "text": "بي",
-   "frame": 1509,
-   "endFrame": 1511
+   "frame": 1557,
+   "endFrame": 1559
   },
   {
    "i": 109,
    "text": "سي»:",
-   "frame": 1514,
-   "endFrame": 1531
+   "frame": 1562,
+   "endFrame": 1576
   },
   {
    "i": 110,
    "text": "طريقة",
-   "frame": 1532,
-   "endFrame": 1543
+   "frame": 1579,
+   "endFrame": 1591
   },
   {
    "i": 111,
    "text": "اتصال",
-   "frame": 1546,
-   "endFrame": 1557
+   "frame": 1594,
+   "endFrame": 1605
   },
   {
    "i": 112,
    "text": "مشتركة",
-   "frame": 1559,
-   "endFrame": 1579
+   "frame": 1607,
+   "endFrame": 1627
   },
   {
    "i": 113,
    "text": "لأجهزة",
-   "frame": 1581,
-   "endFrame": 1598
+   "frame": 1629,
+   "endFrame": 1646
   },
   {
    "i": 114,
    "text": "مختلفة.",
-   "frame": 1600,
-   "endFrame": 1627
+   "frame": 1648,
+   "endFrame": 1677
   },
   {
    "i": 115,
    "text": "هنا،",
-   "frame": 1629,
-   "endFrame": 1643
+   "frame": 1679,
+   "endFrame": 1694
   },
   {
    "i": 116,
    "text": "التشبيه",
-   "frame": 1646,
-   "endFrame": 1660
+   "frame": 1696,
+   "endFrame": 1713
   },
   {
    "i": 117,
    "text": "للفكرة",
-   "frame": 1663,
-   "endFrame": 1677
+   "frame": 1715,
+   "endFrame": 1730
   },
   {
    "i": 118,
    "text": "فقط؛",
-   "frame": 1679,
-   "endFrame": 1695
+   "frame": 1732,
+   "endFrame": 1754
   },
   {
    "i": 119,
    "text": "الربط",
-   "frame": 1701,
-   "endFrame": 1713
+   "frame": 1756,
+   "endFrame": 1771
   },
   {
    "i": 120,
    "text": "ما",
-   "frame": 1715,
-   "endFrame": 1718
+   "frame": 1773,
+   "endFrame": 1778
   },
   {
    "i": 121,
    "text": "زال",
-   "frame": 1721,
-   "endFrame": 1725
+   "frame": 1781,
+   "endFrame": 1785
   },
   {
    "i": 122,
    "text": "يحتاج",
-   "frame": 1727,
-   "endFrame": 1739
+   "frame": 1787,
+   "endFrame": 1799
   },
   {
    "i": 123,
    "text": "إعدادًا",
-   "frame": 1742,
-   "endFrame": 1756
+   "frame": 1802,
+   "endFrame": 1819
   },
   {
    "i": 124,
    "text": "وصلاحيات.",
-   "frame": 1760,
-   "endFrame": 1787
+   "frame": 1822,
+   "endFrame": 1853
   },
   {
    "i": 125,
    "text": "كيف",
-   "frame": 1795,
-   "endFrame": 1802
+   "frame": 1862,
+   "endFrame": 1869
   },
   {
    "i": 126,
    "text": "يعمل؟",
-   "frame": 1804,
-   "endFrame": 1823
+   "frame": 1871,
+   "endFrame": 1893
   },
   {
    "i": 127,
    "text": "سيرفر",
-   "frame": 1831,
-   "endFrame": 1840
+   "frame": 1895,
+   "endFrame": 1907
   },
   {
    "i": 128,
    "text": "«إم",
-   "frame": 1843,
-   "endFrame": 1847
+   "frame": 1908,
+   "endFrame": 1912
   },
   {
    "i": 129,
    "text": "سي",
-   "frame": 1850,
-   "endFrame": 1852
+   "frame": 1915,
+   "endFrame": 1917
   },
   {
    "i": 130,
    "text": "بي»",
-   "frame": 1855,
-   "endFrame": 1862
+   "frame": 1919,
+   "endFrame": 1929
   },
   {
    "i": 131,
    "text": "يعرّف",
-   "frame": 1864,
-   "endFrame": 1874
+   "frame": 1931,
+   "endFrame": 1943
   },
   {
    "i": 132,
    "text": "التطبيق",
-   "frame": 1876,
-   "endFrame": 1891
+   "frame": 1946,
+   "endFrame": 1963
   },
   {
    "i": 133,
    "text": "بالأدوات",
-   "frame": 1893,
-   "endFrame": 1910
+   "frame": 1965,
+   "endFrame": 1982
   },
   {
    "i": 134,
    "text": "المتاحة.",
-   "frame": 1913,
-   "endFrame": 1936
+   "frame": 1985,
+   "endFrame": 2011
   },
   {
    "i": 135,
    "text": "مثلًا:",
-   "frame": 1940,
-   "endFrame": 1958
+   "frame": 2014,
+   "endFrame": 2032
   },
   {
    "i": 136,
    "text": "أداة",
-   "frame": 1959,
-   "endFrame": 1972
+   "frame": 2033,
+   "endFrame": 2047
   },
   {
    "i": 137,
    "text": "لجلب",
-   "frame": 1975,
-   "endFrame": 1984
+   "frame": 2049,
+   "endFrame": 2061
   },
   {
    "i": 138,
    "text": "مبيعات",
-   "frame": 1985,
-   "endFrame": 1999
+   "frame": 2063,
+   "endFrame": 2078
   },
   {
    "i": 139,
    "text": "الأسبوع.",
-   "frame": 2001,
-   "endFrame": 2025
+   "frame": 2081,
+   "endFrame": 2104
   },
   {
    "i": 140,
    "text": "المساعد",
-   "frame": 2027,
-   "endFrame": 2044
+   "frame": 2107,
+   "endFrame": 2123
   },
   {
    "i": 141,
    "text": "يطلب",
-   "frame": 2047,
-   "endFrame": 2056
+   "frame": 2125,
+   "endFrame": 2133
   },
   {
    "i": 142,
    "text": "الأداة",
-   "frame": 2059,
-   "endFrame": 2068
+   "frame": 2135,
+   "endFrame": 2147
   },
   {
    "i": 143,
    "text": "المناسبة،",
-   "frame": 2071,
-   "endFrame": 2095
+   "frame": 2150,
+   "endFrame": 2174
   },
   {
    "i": 144,
    "text": "والتطبيق",
-   "frame": 2098,
-   "endFrame": 2114
+   "frame": 2176,
+   "endFrame": 2195
   },
   {
    "i": 145,
    "text": "يستدعيها",
-   "frame": 2119,
-   "endFrame": 2135
+   "frame": 2200,
+   "endFrame": 2217
   },
   {
    "i": 146,
    "text": "عبر",
-   "frame": 2139,
-   "endFrame": 2143
+   "frame": 2219,
+   "endFrame": 2227
   },
   {
    "i": 147,
    "text": "السيرفر.",
-   "frame": 2145,
-   "endFrame": 2169
+   "frame": 2228,
+   "endFrame": 2251
   },
   {
    "i": 148,
    "text": "ترجع",
-   "frame": 2171,
-   "endFrame": 2179
+   "frame": 2253,
+   "endFrame": 2263
   },
   {
    "i": 149,
    "text": "البيانات،",
-   "frame": 2181,
-   "endFrame": 2205
+   "frame": 2264,
+   "endFrame": 2289
   },
   {
    "i": 150,
    "text": "ثم",
-   "frame": 2209,
-   "endFrame": 2212
+   "frame": 2293,
+   "endFrame": 2296
   },
   {
    "i": 151,
    "text": "يلخّصها",
-   "frame": 2215,
-   "endFrame": 2231
+   "frame": 2299,
+   "endFrame": 2315
   },
   {
    "i": 152,
    "text": "المساعد",
-   "frame": 2233,
-   "endFrame": 2248
+   "frame": 2318,
+   "endFrame": 2332
   },
   {
    "i": 153,
    "text": "لك.",
-   "frame": 2253,
-   "endFrame": 2270
+   "frame": 2335,
+   "endFrame": 2354
   },
   {
    "i": 154,
    "text": "وهل",
-   "frame": 2271,
-   "endFrame": 2277
+   "frame": 2356,
+   "endFrame": 2361
   },
   {
    "i": 155,
    "text": "اختفت",
-   "frame": 2281,
-   "endFrame": 2291
+   "frame": 2363,
+   "endFrame": 2375
   },
   {
    "i": 156,
    "text": "«إي",
-   "frame": 2292,
-   "endFrame": 2296
+   "frame": 2377,
+   "endFrame": 2380
   },
   {
    "i": 157,
    "text": "بي",
-   "frame": 2297,
-   "endFrame": 2299
+   "frame": 2381,
+   "endFrame": 2383
   },
   {
    "i": 158,
    "text": "آي»؟",
-   "frame": 2303,
-   "endFrame": 2323
+   "frame": 2387,
+   "endFrame": 2407
   },
   {
    "i": 159,
    "text": "لا.",
-   "frame": 2325,
-   "endFrame": 2357
+   "frame": 2409,
+   "endFrame": 2426
   },
   {
    "i": 160,
    "text": "السيرفر",
-   "frame": 2369,
-   "endFrame": 2379
+   "frame": 2458,
+   "endFrame": 2468
   },
   {
    "i": 161,
    "text": "قد",
-   "frame": 2381,
-   "endFrame": 2386
+   "frame": 2470,
+   "endFrame": 2475
   },
   {
    "i": 162,
    "text": "يستخدمها",
-   "frame": 2387,
-   "endFrame": 2405
+   "frame": 2476,
+   "endFrame": 2497
   },
   {
    "i": 163,
    "text": "خلف",
-   "frame": 2408,
-   "endFrame": 2415
+   "frame": 2499,
+   "endFrame": 2506
   },
   {
    "i": 164,
    "text": "الكواليس",
-   "frame": 2417,
-   "endFrame": 2434
+   "frame": 2509,
+   "endFrame": 2528
   },
   {
    "i": 165,
    "text": "للتواصل",
-   "frame": 2435,
-   "endFrame": 2453
+   "frame": 2529,
+   "endFrame": 2547
   },
   {
    "i": 166,
    "text": "مع",
-   "frame": 2456,
-   "endFrame": 2461
+   "frame": 2549,
+   "endFrame": 2554
   },
   {
    "i": 167,
    "text": "نظام",
-   "frame": 2463,
-   "endFrame": 2470
+   "frame": 2557,
+   "endFrame": 2564
   },
   {
    "i": 168,
    "text": "المبيعات.",
-   "frame": 2473,
-   "endFrame": 2501
+   "frame": 2566,
+   "endFrame": 2597
   },
   {
    "i": 169,
    "text": "إذًا،",
-   "frame": 2503,
-   "endFrame": 2521
+   "frame": 2599,
+   "endFrame": 2617
   },
   {
    "i": 170,
    "text": "«إم",
-   "frame": 2521,
-   "endFrame": 2525
+   "frame": 2617,
+   "endFrame": 2621
   },
   {
    "i": 171,
    "text": "سي",
-   "frame": 2528,
-   "endFrame": 2530
+   "frame": 2624,
+   "endFrame": 2626
   },
   {
    "i": 172,
    "text": "بي»",
-   "frame": 2533,
-   "endFrame": 2539
+   "frame": 2631,
+   "endFrame": 2637
   },
   {
    "i": 173,
    "text": "لا",
-   "frame": 2540,
-   "endFrame": 2545
+   "frame": 2638,
+   "endFrame": 2641
   },
   {
    "i": 174,
    "text": "يستبدل",
-   "frame": 2549,
-   "endFrame": 2561
+   "frame": 2643,
+   "endFrame": 2660
   },
   {
    "i": 175,
    "text": "كل",
-   "frame": 2566,
-   "endFrame": 2573
+   "frame": 2665,
+   "endFrame": 2672
   },
   {
    "i": 176,
    "text": "واجهات",
-   "frame": 2578,
-   "endFrame": 2588
+   "frame": 2674,
+   "endFrame": 2686
   },
   {
    "i": 177,
    "text": "التطبيقات.",
-   "frame": 2590,
-   "endFrame": 2619
+   "frame": 2689,
+   "endFrame": 2720
   },
   {
    "i": 178,
    "text": "هو",
-   "frame": 2621,
-   "endFrame": 2624
+   "frame": 2722,
+   "endFrame": 2725
   },
   {
    "i": 179,
    "text": "يوحّد",
-   "frame": 2626,
-   "endFrame": 2638
+   "frame": 2728,
+   "endFrame": 2739
   },
   {
    "i": 180,
    "text": "طريقة",
-   "frame": 2641,
-   "endFrame": 2653
+   "frame": 2741,
+   "endFrame": 2756
   },
   {
    "i": 181,
    "text": "اكتشاف",
-   "frame": 2656,
-   "endFrame": 2667
+   "frame": 2759,
+   "endFrame": 2770
   },
   {
    "i": 182,
    "text": "الأدوات",
-   "frame": 2669,
-   "endFrame": 2684
+   "frame": 2773,
+   "endFrame": 2789
   },
   {
    "i": 183,
    "text": "واستخدامها",
-   "frame": 2686,
-   "endFrame": 2708
+   "frame": 2792,
+   "endFrame": 2818
   },
   {
    "i": 184,
    "text": "داخل",
-   "frame": 2713,
-   "endFrame": 2722
+   "frame": 2823,
+   "endFrame": 2833
   },
   {
    "i": 185,
    "text": "تطبيقات",
-   "frame": 2725,
-   "endFrame": 2741
+   "frame": 2835,
+   "endFrame": 2852
   },
   {
    "i": 186,
    "text": "الذكاء",
-   "frame": 2743,
-   "endFrame": 2753
+   "frame": 2854,
+   "endFrame": 2866
   },
   {
    "i": 187,
    "text": "الاصطناعي.",
-   "frame": 2756,
-   "endFrame": 2785
+   "frame": 2867,
+   "endFrame": 2895
   },
   {
    "i": 188,
    "text": "والاتصال",
-   "frame": 2787,
-   "endFrame": 2804
+   "frame": 2897,
+   "endFrame": 2917
   },
   {
    "i": 189,
    "text": "لا",
-   "frame": 2806,
-   "endFrame": 2809
+   "frame": 2924,
+   "endFrame": 2929
   },
   {
    "i": 190,
    "text": "يعني",
-   "frame": 2811,
-   "endFrame": 2816
+   "frame": 2931,
+   "endFrame": 2936
   },
   {
    "i": 191,
    "text": "الوصول",
-   "frame": 2818,
-   "endFrame": 2830
+   "frame": 2938,
+   "endFrame": 2950
   },
   {
    "i": 192,
    "text": "إلى",
-   "frame": 2833,
-   "endFrame": 2837
+   "frame": 2953,
+   "endFrame": 2957
   },
   {
    "i": 193,
    "text": "كل",
-   "frame": 2840,
-   "endFrame": 2845
+   "frame": 2960,
+   "endFrame": 2967
   },
   {
    "i": 194,
    "text": "شيء؛",
-   "frame": 2847,
-   "endFrame": 2862
+   "frame": 2969,
+   "endFrame": 2986
   },
   {
    "i": 195,
    "text": "الوصول",
-   "frame": 2866,
-   "endFrame": 2883
+   "frame": 2989,
+   "endFrame": 3005
   },
   {
    "i": 196,
    "text": "يعتمد",
-   "frame": 2885,
-   "endFrame": 2897
+   "frame": 3010,
+   "endFrame": 3027
   },
   {
    "i": 197,
    "text": "على",
-   "frame": 2900,
-   "endFrame": 2902
+   "frame": 3029,
+   "endFrame": 3032
   },
   {
    "i": 198,
    "text": "الصلاحيات",
-   "frame": 2903,
-   "endFrame": 2924
+   "frame": 3034,
+   "endFrame": 3056
   },
   {
    "i": 199,
    "text": "التي",
-   "frame": 2926,
-   "endFrame": 2933
+   "frame": 3058,
+   "endFrame": 3068
   },
   {
    "i": 200,
    "text": "تمنحها.",
-   "frame": 2935,
-   "endFrame": 2962
-  },
-  {
-   "i": 201,
-   "text": "احفظ",
-   "frame": 2965,
-   "endFrame": 2972
-  },
-  {
-   "i": 202,
-   "text": "الفيديو،",
-   "frame": 2974,
-   "endFrame": 2993
-  },
-  {
-   "i": 203,
-   "text": "وتابعني",
-   "frame": 2996,
-   "endFrame": 3013
-  },
-  {
-   "i": 204,
-   "text": "لتفهم",
-   "frame": 3015,
-   "endFrame": 3027
-  },
-  {
-   "i": 205,
-   "text": "التقنية…",
-   "frame": 3031,
-   "endFrame": 3053
-  },
-  {
-   "i": 206,
-   "text": "بمثال",
-   "frame": 3055,
-   "endFrame": 3068
-  },
-  {
-   "i": 207,
-   "text": "بسيط.",
-   "frame": 3070,
-   "endFrame": 3092
+   "frame": 3069,
+   "endFrame": 3094
   }
  ]
 }

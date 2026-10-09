@@ -1,12 +1,13 @@
 import React from "react";
-import { useCurrentFrame } from "remotion";
-import { accentColor, accentSoft, C, FONT, T, type Accent } from "../brand/tokens";
+import { accentColor, accentSoft, C, FONT, glow, onAccent, T, type Accent } from "../brand/tokens";
+import { M } from "../brand/tokens";
 import { mix, vis } from "../lib/anim";
+import { useTime } from "../lib/time";
 import { Icon, type IconName } from "./Icon";
 import { MixedText } from "./Ltr";
 
 export type DiagramCardProps = {
-  /** Centre position in stage (panel) coordinates. */
+  /** Centre position in stage coordinates. */
   x: number;
   y: number;
   w: number;
@@ -15,14 +16,14 @@ export type DiagramCardProps = {
   subtitle?: string;
   icon?: IconName;
   accent?: Accent;
-  /** card: white with accent edge; solid: filled accent; soft: tinted; outline: accent border only. */
+  /** card: dark surface; solid: filled accent (+glow); soft: tinted + accent border; outline: accent border. */
   variant?: "card" | "solid" | "soft" | "outline";
-  /** Appear/exit frames; ignored when `v` is given. */
+  /** Appear/exit timebase frames; ignored when `v` is given. */
   appearAt?: number;
   exitAt?: number;
   /** Explicit visibility 0..1 (caller-controlled transforms). */
   v?: number;
-  /** 0..1: lifts the card and colours its border with the accent. */
+  /** 0..1: lifts the card, accent border + glow. */
   emphasis?: number;
   /** 0..1: fades the card back so another object can lead. */
   dim?: number;
@@ -34,7 +35,7 @@ export type DiagramCardProps = {
   style?: React.CSSProperties;
 };
 
-/** One diagram object. Positioned by centre so moves/resizes are simple interpolations. */
+/** One diagram object, positioned by centre so moves/resizes are simple interpolations. */
 export const DiagramCard: React.FC<DiagramCardProps> = ({
   x,
   y,
@@ -53,19 +54,24 @@ export const DiagramCard: React.FC<DiagramCardProps> = ({
   titleSize = T.label.size,
   subtitleSize = 28,
   layout = "column",
-  radius = 22,
+  radius = 20,
   children,
   style,
 }) => {
-  const frame = useCurrentFrame();
-  const vv = v ?? vis(frame, appearAt, exitAt);
+  const t = useTime();
+  const vv = v ?? vis(t, appearAt, exitAt);
   if (vv <= 0.001) return null;
 
   const ac = accentColor(accent);
   const solid = variant === "solid";
-  const bg = solid ? ac : variant === "soft" ? accentSoft(accent) : C.card;
-  const fg = solid ? "#FFFFFF" : C.ink;
-  const borderColor = solid ? ac : variant === "outline" || variant === "soft" ? ac : emphasis > 0 ? ac : C.border;
+  const bg = solid
+    ? ac
+    : variant === "soft"
+      ? `linear-gradient(180deg, ${accentSoft(accent)}, rgba(255,255,255,0.02)), ${C.card}`
+      : `linear-gradient(180deg, ${C.cardTint}, ${C.card})`;
+  const fg = solid ? onAccent(accent) : C.ink;
+  const borderColor = solid ? ac : variant === "outline" || variant === "soft" || emphasis > 0.05 ? ac : C.border;
+  const shadow = [`0 18px 40px ${C.shadow}`, solid || emphasis > 0 ? glow(accent, solid ? 1 : emphasis) : null].filter(Boolean).join(", ");
 
   return (
     <div
@@ -79,8 +85,8 @@ export const DiagramCard: React.FC<DiagramCardProps> = ({
         boxSizing: "border-box",
         borderRadius: radius,
         background: bg,
-        border: `${mix(2, 3, emphasis)}px solid ${borderColor}`,
-        boxShadow: `0 ${mix(8, 16, emphasis)}px ${mix(22, 34, emphasis)}px ${C.shadow}`,
+        border: `${mix(1.5, 2.5, emphasis)}px solid ${borderColor}`,
+        boxShadow: shadow,
         display: "flex",
         flexDirection: layout,
         alignItems: "center",
@@ -89,14 +95,17 @@ export const DiagramCard: React.FC<DiagramCardProps> = ({
         padding: "8px 14px",
         fontFamily: FONT,
         color: fg,
-        opacity: vv * (1 - 0.72 * dim),
-        translate: `0px ${(1 - vv) * 16}px`,
-        scale: String(1 + 0.04 * emphasis),
+        opacity: Math.min(1, vv * 1.4) * (1 - 0.75 * dim),
+        translate: `0px ${(1 - vv) * M.rise}px`,
+        scale: String((0.96 + 0.04 * vv) * (1 + 0.04 * emphasis)),
+        filter: vv < 0.999 ? `blur(${(1 - vv) * M.revealBlur}px)` : undefined,
         textAlign: "center",
         ...style,
       }}
     >
-      {icon ? <Icon name={icon} size={layout === "row" ? 40 : 52} color={solid ? "#fff" : ac === C.ink ? C.inkMuted : ac} /> : null}
+      {icon ? (
+        <Icon name={icon} size={layout === "row" ? 40 : 50} color={solid ? fg : accent === "neutral" ? C.inkMuted : ac} />
+      ) : null}
       {title || subtitle ? (
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 2 }}>
           {title ? (
@@ -105,7 +114,7 @@ export const DiagramCard: React.FC<DiagramCardProps> = ({
             </div>
           ) : null}
           {subtitle ? (
-            <div style={{ fontSize: subtitleSize, fontWeight: 600, lineHeight: 1.25, color: solid ? "#ffffffdd" : C.inkMuted }}>
+            <div style={{ fontSize: subtitleSize, fontWeight: 600, lineHeight: 1.25, color: solid ? fg : C.inkMuted, opacity: solid ? 0.85 : 1 }}>
               <MixedText text={subtitle} />
             </div>
           ) : null}

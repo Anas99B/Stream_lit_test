@@ -1,4 +1,4 @@
-# Character guide — the host (`arab-tech-explainer-v2`)
+# Character guide — the host (`arab-tech-explainer-v1`)
 
 Our original Arab host: curly black hair, short beard, black hoodie with a
 teal `</>` mark, blue jeans, black-and-white sneakers, grey laptop with teal
@@ -69,42 +69,22 @@ sources → **536×1536**. Character body width 500 px, body centre x = **267**,
 soles at y = **1518**. `AvatarPresenter` positions by (centre x, feet y, body
 width), so scale changes keep the feet planted.
 
-Placement presets (`brand/tokens.json → layout.avatar`, frame coordinates),
-v2 sizes (smaller than v1's 250/330/285):
+Placement presets (`brand/tokens.json → layout.avatar`, frame coordinates):
 
-| Preset | centreX | feetY | width | opacity | When |
-|---|---|---|---|---|---|
-| `standard` | 165 | 1180 | 190 | 1 | Default beside the stage |
-| `hook` | 172 | 1185 | 235 | 1 | Opening question |
-| `emphasis` | 168 | 1182 | 212 | 1 | Key correction |
-| `away` | −140 | 1180 | 190 | 0 | Stepped out — the stage takes the full width |
+| Preset | centreX | feetY | width | When |
+|---|---|---|---|---|
+| `standard` | 195 | 1205 | 250 | Default beside the panel |
+| `hook` | 205 | 1215 | 330 | Opening question (overlaps the panel edge slightly) |
+| `emphasis` | 200 | 1210 | 285 | Key correction |
 
-Changes ease in-out over 22 frames (timebase) and happen **only at scene
-boundaries**. Entrance: 12-frame fade with a small rise. Otherwise the body
-never moves.
-
-### Stepping out to make room (v2)
-
-When an explanation needs the space (wide diagrams, chains with
-annotations), switch the layout to `away`: the host slides out to the left
-while the stage widens from 640 to 870 px in the same move (`stageAt()` in
-`src/lib/stage.ts`), then return with `standard`/`emphasis` at a later scene
-boundary. Episode 01: away for chapters 05–06, back for the correction.
-Pair each exit/return with a soft whoosh. Remove gaze events while away.
-
-### Dark-background treatment (v2)
-
-The black hoodie would disappear on the dark backdrop, so the presenter adds
-a **rim light** (`tokens.avatar.rimLight`: a 1.5 px white edge glow + a wide
-faint halo, applied as a CSS `drop-shadow` filter to the composited layers)
-and a soft **floor glow** under the feet. This is lighting, not a change to
-the artwork; the PNG layers are untouched.
+Changes ease over 18 frames and happen **only at scene boundaries**.
+Entrance: 12-frame fade with an 18 px rise. Afterwards the body never moves.
 
 ## Gaze and blinks
 
 - Default forward. Glance `image-right` when a new object is introduced,
   hold **0.5–1.2 s**, return forward. Don't alternate continuously
-  (episode 01 v2 uses 4 glances; none while the host is away).
+  (episode 01 uses 6 glances in 106 s).
 - Swaps are instantaneous: all overlays stay mounted and are toggled
   0 ↔ 1 opacity on the frame; no cross-fade, the body is unchanged.
 - Blinks: **3–5 frames**, every **3–5 s**, deterministic (seeded PRNG,
@@ -117,14 +97,12 @@ the artwork; the PNG layers are untouched.
 
 Sources have clean transparency. Edge pixels are dark outline (mean luma ≈34,
 none brighter than 180), so there is **no light halo** on white, brand,
-grey or dark backgrounds (checked). On the v2 dark backdrop the outline is
-lifted by the rim light described above. Interior alpha in the WebP sources was
+grey or dark backgrounds (checked). Interior alpha in the WebP sources was
 240–254 (lossy alpha), i.e. the body was ~1–2 % see-through; the build snaps
 interior alpha ≥ 240 to 255. Antialiased edges are untouched. The black
-hoodie has low contrast on very dark backgrounds — always keep the rim light
-and floor glow on (`rimLight` prop, default true) in dark styles.
+hoodie has low contrast on very dark backgrounds — keep light backgrounds.
 
-## Limitations (v1–v2)
+## Limitations (v1)
 
 - **No lip-sync** and no mouth shapes: the relaxed fixed smile is the
   intended look. Do not invent mouth shapes or flap the head.
@@ -138,12 +116,11 @@ and floor glow on (`rimLight` prop, default true) in dark styles.
 <AvatarPresenter
   gaze={[{ from, to, state: "image-right" }]}   // eye events (frames)
   blinks={[{ frame, frames }]}                  // deterministic schedule
-  layout={[{ frame, preset: "standard" }]}      // placement keyframes ("away" = stepped out)
+  layout={[{ frame, preset: "standard" }]}      // placement keyframes
   placement={L.avatar.standard}                 // or a static placement
   eyeState="forward"                            // force (stills)
-  enterAt={0} rimLight
+  enterAt={0} visible opacity={1}
 />
-// Frames are on the 30 fps timebase (useTime() inside).
 ```
 
 QA composition: **Brand / AvatarStates** (`src/components/AvatarStatesDemo.tsx`).
