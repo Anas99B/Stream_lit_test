@@ -119,7 +119,7 @@ dots, white playhead). Decorative and quiet — it frames, it never explains.
   **tick** / **pop** (small UI reveals), **connect** (a link is made).
   Per-sound gains in `cues.json → sfx.gains` (≈ tick 0.16, pop 0.2,
   connect 0.18, whoosh 0.26, riser 0.28, impact 0.5).
-- Narration gain 0.77 → mix ≈ −16 LUFS integrated, true peak < −1 dBFS.
+- Narration gain 0.87 → mix ≈ −16 LUFS integrated, peak < −1 dBFS (0.77 measured −17.2 LUFS).
 - Optional hold after the key correction, cut only inside an existing silence.
 
 ## 9. Host behaviour (details in CHARACTER_GUIDE.md)

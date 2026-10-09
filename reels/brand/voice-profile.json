@@ -34,7 +34,7 @@
     }
   },
   "mix": {
-    "narrationGain": 0.77,
+    "narrationGain": 0.87,
     "targetIntegratedLufs": -16,
     "music": null,
     "sfx": "procedural v2 kit, see STYLE_GUIDE.md §8"

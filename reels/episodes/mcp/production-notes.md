@@ -42,6 +42,41 @@ at 80.567 s of the source (inside the natural 80.26–80.84 s silence after
 v1 pipeline (archived): designed voice `gtau3d9AbCFEA6Bhfahu`, take
 `AkotW2DECxtyzrxDXoXE`, hold at 77.667 s, 2.8 s tail with the CTA.
 
+## v2 tests (dark style, master in deliverables/mcp-ep01-v2)
+
+| Check | Method | Result |
+|---|---|---|
+| Reference study | contact sheets, full-res frames, spectrogram of the owner's showreel | Look, HUD, curve `(.65,0,.35,1)`, riser/impact/tick structure documented in `reference/reference-analysis-v2.md` |
+| Opening preview | 12 s render at 60 fps; frame strip of the title reveal | Premise steps back; «لماذا نحتاج» rises out of its mask and resolves from blur; «MCP؟» glows |
+| Every beat | 36 QA stills (2 × timebase frames) + 2 full-res frames | Grid visible but quiet, HUD in margins, host readable on dark (rim light + floor glow), no overlaps or clipping found |
+| Host step-out / return | frames 43.15–43.80 s and 78.35–78.85 s of the master | Host fades/slides out while the stage widens 640 → 870 and the band wipes in; on return the chain slides back and the host fades in |
+| Mixed Arabic/Latin | captions «لماذا نحتاج MCP؟», «عن طريق API…» | Punctuation stays on the Arabic side (fix from v1 kept) |
+| Eye swaps / jitter | same overlay system as v1 (0 body pixels change outside the eye patch) | Unchanged |
+| Sound/caption drift | 30 source pauses mapped through the edit list vs pauses in the master | 25/30 within 33 ms; the other 5 are pauses intentionally filled by SFX (whoosh 8.2 s, riser+whoosh 43 s, whoosh 78.4 s, riser 80 s, whoosh 86.5 s) |
+| SFX balance | spectrogram of the preview mix | Speech dominant; impact = sub thump under the title; whoosh = soft broadband sweep |
+| Loudness | EBU R128 | gain 0.77 → −17.2 LUFS / −2.6 dBFS peak; final master re-rendered with gain 0.87 (see NOTES.md for the measured value) |
+| Encoding | ffprobe | 1080×1920, 60 fps, H.264 High yuv420p BT.709 TV range, AAC-LC 48 kHz stereo, 105.45 s |
+| Final frame | last frame of the master | Recap with the example permission, no caption, no CTA |
+| Code | eslint + tsc | Pass |
+
+## Known limitations (v2)
+
+- The take was chosen by measurement (noise floor −55 dB vs −49/−46, same
+  pitch ~127 Hz and pacing), not by ear; Scribe's alignment confirms timing,
+  not pronunciation. Please audition the narration.
+- ElevenLabs credits: the account reached its quota during this pass (4 takes
+  requested, 3 delivered; 358 credits left). Further narration needs more
+  credits (~1,223 per 100 s take).
+- SFX are procedural (free, original, deterministic). ElevenLabs Sound
+  Effects could replace individual sounds (~50 credits per variation) once
+  credits are available.
+- Reveals use a frame-driven blur approximation. True multi-sample motion
+  blur (`<HtmlInCanvasMotionBlur>`) needs Remotion's Chrome 157 headless
+  shell, downloaded from `remotion.media`, which this sandbox's network
+  policy blocks.
+- No lip-sync (by design); single body pose; the host's dark outfit relies on
+  the rim light on dark backdrops.
+
 ## v1 tests (light style, archived master in deliverables/mcp-ep01-v1)
 
 | Check | Method | Result |
