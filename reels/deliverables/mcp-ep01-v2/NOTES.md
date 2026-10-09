@@ -5,7 +5,7 @@ owner's ElevenLabs voice "Saad" (`3vR1KVyyNDhdkucpugQI`).
 
 | File | What |
 |---|---|
-| `mcp_ep01_v2_master.mp4` | Final master for Instagram Reels and YouTube Shorts — 1080×1920, **60 fps**, H.264 High (yuv420p, BT.709), AAC 48 kHz 192 kb/s, 105.45 s. No watermark, no save/follow ending. |
+| `mcp_ep01_v2_master.mp4` | Final master for Instagram Reels and YouTube Shorts — 1080×1920, **60 fps**, H.264 High (yuv420p, BT.709), AAC 48 kHz 192 kb/s, 105.45 s, **−16.1 LUFS / −1.6 dBFS peak**. No watermark, no save/follow ending. |
 | `mcp_ep01_v2_cover.png` | Cover frame (1080×1920), same design system |
 | `mcp_ep01_v2_captions.srt` | 55 phrase captions, exact timings, display form (API / MCP / USB-C) |
 | `mcp_ep01_v2_narration.m4a` | Narration only, same edit and gain as the master (0.3 s lead-in, 0.6 s hold after «لا.», 2.2 s tail) |

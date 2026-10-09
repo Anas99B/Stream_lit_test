@@ -54,7 +54,7 @@ v1 pipeline (archived): designed voice `gtau3d9AbCFEA6Bhfahu`, take
 | Eye swaps / jitter | same overlay system as v1 (0 body pixels change outside the eye patch) | Unchanged |
 | Sound/caption drift | 30 source pauses mapped through the edit list vs pauses in the master | 25/30 within 33 ms; the other 5 are pauses intentionally filled by SFX (whoosh 8.2 s, riser+whoosh 43 s, whoosh 78.4 s, riser 80 s, whoosh 86.5 s) |
 | SFX balance | spectrogram of the preview mix | Speech dominant; impact = sub thump under the title; whoosh = soft broadband sweep |
-| Loudness | EBU R128 | gain 0.77 → −17.2 LUFS / −2.6 dBFS peak; final master re-rendered with gain 0.87 (see NOTES.md for the measured value) |
+| Loudness | EBU R128 | gain 0.77 → −17.2 LUFS; final master with gain 0.87 → **−16.1 LUFS, −1.6 dBFS peak** |
 | Encoding | ffprobe | 1080×1920, 60 fps, H.264 High yuv420p BT.709 TV range, AAC-LC 48 kHz stereo, 105.45 s |
 | Final frame | last frame of the master | Recap with the example permission, no caption, no CTA |
 | Code | eslint + tsc | Pass |
