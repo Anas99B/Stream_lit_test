@@ -1,0 +1,1581 @@
+{
+ "generatedBy": "scripts/build_timeline.mjs",
+ "styleId": "arab-tech-explainer-v1",
+ "fps": 30,
+ "durationInFrames": 3178,
+ "alignment": {
+  "source": "ElevenLabs Scribe alignment of the final narration take (exact, not provisional)",
+  "provisional": false
+ },
+ "audio": {
+  "src": "audio/mcp/narration.mp3",
+  "segments": [
+   {
+    "from": 9,
+    "trimBefore": 0,
+    "durationInFrames": 2330
+   },
+   {
+    "from": 2357,
+    "trimBefore": 2330,
+    "durationInFrames": 737
+   }
+  ],
+  "endFrame": 3094,
+  "inserts": [
+   {
+    "cut": 2330,
+    "gap": 18,
+    "why": "Hold on the key correction 'API ما زالت موجودة' after the spoken 'لا.' (cut lands inside the natural silence 77.41-77.93s of take B)."
+   }
+  ]
+ },
+ "sfx": {
+  "volume": 0.22,
+  "events": [
+   {
+    "frame": 85,
+    "sound": "pop"
+   },
+   {
+    "frame": 147,
+    "sound": "pop"
+   },
+   {
+    "frame": 699,
+    "sound": "connect"
+   },
+   {
+    "frame": 1270,
+    "sound": "pop"
+   },
+   {
+    "frame": 1322,
+    "sound": "connect"
+   },
+   {
+    "frame": 1559,
+    "sound": "tick"
+   },
+   {
+    "frame": 2119,
+    "sound": "tick"
+   },
+   {
+    "frame": 2171,
+    "sound": "tick"
+   },
+   {
+    "frame": 2325,
+    "sound": "pop"
+   },
+   {
+    "frame": 2903,
+    "sound": "tick"
+   }
+  ]
+ },
+ "chapters": [
+  {
+   "id": "question",
+   "num": "01",
+   "label": "السؤال",
+   "frame": 11
+  },
+  {
+   "id": "example",
+   "num": "02",
+   "label": "مثال بسيط",
+   "frame": 247
+  },
+  {
+   "id": "api",
+   "num": "03",
+   "label": "دور API",
+   "frame": 631
+  },
+  {
+   "id": "services",
+   "num": "04",
+   "label": "خدمات أكثر",
+   "frame": 952
+  },
+  {
+   "id": "protocol",
+   "num": "05",
+   "label": "طريقة موحّدة",
+   "frame": 1270
+  },
+  {
+   "id": "how",
+   "num": "06",
+   "label": "كيف يعمل؟",
+   "frame": 1795
+  },
+  {
+   "id": "correction",
+   "num": "07",
+   "label": "تصحيح مهم",
+   "frame": 2271
+  },
+  {
+   "id": "recap",
+   "num": "08",
+   "label": "الخلاصة",
+   "frame": 2503
+  },
+  {
+   "id": "outro",
+   "num": "",
+   "label": "",
+   "frame": 2965
+  }
+ ],
+ "cues": {
+  "hook.api": 85,
+  "hook.question": 122,
+  "hook.mcp": 147,
+  "hook.example": 205,
+  "ex.you": 247,
+  "ex.assistant": 283,
+  "ex.request": 326,
+  "ex.sales": 382,
+  "ex.understands": 439,
+  "ex.disconnected": 509,
+  "ex.noData": 572,
+  "api.block": 662,
+  "api.connect": 699,
+  "api.request": 754,
+  "api.result": 789,
+  "api.code": 889,
+  "svc.more": 998,
+  "svc.files": 1067,
+  "svc.calendar": 1086,
+  "svc.details": 1147,
+  "mcp.band": 1270,
+  "mcp.standardize": 1322,
+  "mcp.analogy": 1456,
+  "mcp.port": 1499,
+  "mcp.plug": 1559,
+  "mcp.analogyOut": 1658,
+  "mcp.setup": 1742,
+  "mcp.permissions": 1760,
+  "how.focus": 1795,
+  "how.server": 1831,
+  "how.discover": 1864,
+  "how.tool": 1959,
+  "how.modelRequest": 2047,
+  "how.call": 2119,
+  "how.result": 2171,
+  "how.summary": 2215,
+  "fix.question": 2271,
+  "fix.no": 2325,
+  "fix.backstage": 2369,
+  "fix.label": 2408,
+  "recap.start": 2503,
+  "recap.notReplace": 2549,
+  "recap.unify": 2626,
+  "recap.discover": 2656,
+  "recap.use": 2686,
+  "recap.access": 2787,
+  "recap.permission": 2903,
+  "outro.save": 2965,
+  "outro.follow": 2996
+ },
+ "avatar": {
+  "gaze": [
+   {
+    "from": 89,
+    "to": 119,
+    "state": "image-right"
+   },
+   {
+    "from": 329,
+    "to": 362,
+    "state": "image-right"
+   },
+   {
+    "from": 1067,
+    "to": 1100,
+    "state": "image-right"
+   },
+   {
+    "from": 1499,
+    "to": 1529,
+    "state": "image-right"
+   },
+   {
+    "from": 2119,
+    "to": 2146,
+    "state": "image-right"
+   },
+   {
+    "from": 2174,
+    "to": 2198,
+    "state": "image-right"
+   }
+  ],
+  "layout": [
+   {
+    "frame": 2,
+    "preset": "hook"
+   },
+   {
+    "frame": 242,
+    "preset": "standard"
+   },
+   {
+    "frame": 2267,
+    "preset": "emphasis"
+   },
+   {
+    "frame": 2498,
+    "preset": "standard"
+   }
+  ],
+  "blinks": [
+   {
+    "frame": 48,
+    "frames": 3
+   },
+   {
+    "frame": 142,
+    "frames": 5
+   },
+   {
+    "frame": 274,
+    "frames": 4
+   },
+   {
+    "frame": 388,
+    "frames": 4
+   },
+   {
+    "frame": 492,
+    "frames": 4
+   },
+   {
+    "frame": 626,
+    "frames": 3
+   },
+   {
+    "frame": 725,
+    "frames": 5
+   },
+   {
+    "frame": 846,
+    "frames": 3
+   },
+   {
+    "frame": 958,
+    "frames": 3
+   },
+   {
+    "frame": 1229,
+    "frames": 3
+   },
+   {
+    "frame": 1372,
+    "frames": 3
+   },
+   {
+    "frame": 1471,
+    "frames": 3
+   },
+   {
+    "frame": 1578,
+    "frames": 4
+   },
+   {
+    "frame": 1714,
+    "frames": 3
+   },
+   {
+    "frame": 1859,
+    "frames": 4
+   },
+   {
+    "frame": 1986,
+    "frames": 5
+   },
+   {
+    "frame": 2371,
+    "frames": 3
+   },
+   {
+    "frame": 2482,
+    "frames": 4
+   },
+   {
+    "frame": 2573,
+    "frames": 3
+   },
+   {
+    "frame": 2709,
+    "frames": 4
+   },
+   {
+    "frame": 2825,
+    "frames": 4
+   },
+   {
+    "frame": 2972,
+    "frames": 5
+   },
+   {
+    "frame": 3103,
+    "frames": 3
+   }
+  ]
+ },
+ "words": [
+  {
+   "i": 0,
+   "text": "إذا",
+   "frame": 11,
+   "endFrame": 16
+  },
+  {
+   "i": 1,
+   "text": "كانت",
+   "frame": 17,
+   "endFrame": 26
+  },
+  {
+   "i": 2,
+   "text": "التطبيقات",
+   "frame": 28,
+   "endFrame": 47
+  },
+  {
+   "i": 3,
+   "text": "تتواصل",
+   "frame": 50,
+   "endFrame": 64
+  },
+  {
+   "i": 4,
+   "text": "عن",
+   "frame": 67,
+   "endFrame": 71
+  },
+  {
+   "i": 5,
+   "text": "طريق",
+   "frame": 73,
+   "endFrame": 83
+  },
+  {
+   "i": 6,
+   "text": "«إي",
+   "frame": 85,
+   "endFrame": 88
+  },
+  {
+   "i": 7,
+   "text": "بي",
+   "frame": 91,
+   "endFrame": 93
+  },
+  {
+   "i": 8,
+   "text": "آي»…",
+   "frame": 95,
+   "endFrame": 119
+  },
+  {
+   "i": 9,
+   "text": "لماذا",
+   "frame": 122,
+   "endFrame": 131
+  },
+  {
+   "i": 10,
+   "text": "نحتاج",
+   "frame": 133,
+   "endFrame": 146
+  },
+  {
+   "i": 11,
+   "text": "«إم",
+   "frame": 147,
+   "endFrame": 149
+  },
+  {
+   "i": 12,
+   "text": "سي",
+   "frame": 151,
+   "endFrame": 153
+  },
+  {
+   "i": 13,
+   "text": "بي»؟",
+   "frame": 158,
+   "endFrame": 171
+  },
+  {
+   "i": 14,
+   "text": "خلّينا",
+   "frame": 183,
+   "endFrame": 189
+  },
+  {
+   "i": 15,
+   "text": "نفهمها",
+   "frame": 191,
+   "endFrame": 203
+  },
+  {
+   "i": 16,
+   "text": "بمثال",
+   "frame": 205,
+   "endFrame": 218
+  },
+  {
+   "i": 17,
+   "text": "بسيط.",
+   "frame": 220,
+   "endFrame": 244
+  },
+  {
+   "i": 18,
+   "text": "تخيّل",
+   "frame": 247,
+   "endFrame": 259
+  },
+  {
+   "i": 19,
+   "text": "أنك",
+   "frame": 261,
+   "endFrame": 268
+  },
+  {
+   "i": 20,
+   "text": "تقول",
+   "frame": 271,
+   "endFrame": 280
+  },
+  {
+   "i": 21,
+   "text": "لمساعد",
+   "frame": 283,
+   "endFrame": 297
+  },
+  {
+   "i": 22,
+   "text": "ذكي:",
+   "frame": 302,
+   "endFrame": 323
+  },
+  {
+   "i": 23,
+   "text": "لخّص",
+   "frame": 326,
+   "endFrame": 338
+  },
+  {
+   "i": 24,
+   "text": "مبيعات",
+   "frame": 339,
+   "endFrame": 352
+  },
+  {
+   "i": 25,
+   "text": "هذا",
+   "frame": 355,
+   "endFrame": 359
+  },
+  {
+   "i": 26,
+   "text": "الأسبوع",
+   "frame": 363,
+   "endFrame": 376
+  },
+  {
+   "i": 27,
+   "text": "من",
+   "frame": 379,
+   "endFrame": 381
+  },
+  {
+   "i": 28,
+   "text": "نظام",
+   "frame": 382,
+   "endFrame": 391
+  },
+  {
+   "i": 29,
+   "text": "الشركة.",
+   "frame": 392,
+   "endFrame": 417
+  },
+  {
+   "i": 30,
+   "text": "المساعد",
+   "frame": 419,
+   "endFrame": 436
+  },
+  {
+   "i": 31,
+   "text": "يفهم",
+   "frame": 439,
+   "endFrame": 446
+  },
+  {
+   "i": 32,
+   "text": "طلبك،",
+   "frame": 451,
+   "endFrame": 472
+  },
+  {
+   "i": 33,
+   "text": "لكن",
+   "frame": 475,
+   "endFrame": 487
+  },
+  {
+   "i": 34,
+   "text": "إذا",
+   "frame": 488,
+   "endFrame": 491
+  },
+  {
+   "i": 35,
+   "text": "لم",
+   "frame": 494,
+   "endFrame": 496
+  },
+  {
+   "i": 36,
+   "text": "يكن",
+   "frame": 499,
+   "endFrame": 506
+  },
+  {
+   "i": 37,
+   "text": "متصلًا",
+   "frame": 509,
+   "endFrame": 523
+  },
+  {
+   "i": 38,
+   "text": "بالنظام،",
+   "frame": 525,
+   "endFrame": 544
+  },
+  {
+   "i": 39,
+   "text": "فلن",
+   "frame": 547,
+   "endFrame": 554
+  },
+  {
+   "i": 40,
+   "text": "يحصل",
+   "frame": 556,
+   "endFrame": 566
+  },
+  {
+   "i": 41,
+   "text": "على",
+   "frame": 568,
+   "endFrame": 571
+  },
+  {
+   "i": 42,
+   "text": "البيانات",
+   "frame": 572,
+   "endFrame": 587
+  },
+  {
+   "i": 43,
+   "text": "من",
+   "frame": 590,
+   "endFrame": 592
+  },
+  {
+   "i": 44,
+   "text": "تلقاء",
+   "frame": 596,
+   "endFrame": 604
+  },
+  {
+   "i": 45,
+   "text": "نفسه.",
+   "frame": 607,
+   "endFrame": 628
+  },
+  {
+   "i": 46,
+   "text": "هنا",
+   "frame": 631,
+   "endFrame": 638
+  },
+  {
+   "i": 47,
+   "text": "يأتي",
+   "frame": 640,
+   "endFrame": 650
+  },
+  {
+   "i": 48,
+   "text": "دور",
+   "frame": 652,
+   "endFrame": 659
+  },
+  {
+   "i": 49,
+   "text": "«إي",
+   "frame": 662,
+   "endFrame": 667
+  },
+  {
+   "i": 50,
+   "text": "بي",
+   "frame": 668,
+   "endFrame": 669
+  },
+  {
+   "i": 51,
+   "text": "آي»:",
+   "frame": 674,
+   "endFrame": 693
+  },
+  {
+   "i": 52,
+   "text": "واجهة",
+   "frame": 699,
+   "endFrame": 712
+  },
+  {
+   "i": 53,
+   "text": "تسمح",
+   "frame": 717,
+   "endFrame": 724
+  },
+  {
+   "i": 54,
+   "text": "لبرنامج",
+   "frame": 727,
+   "endFrame": 746
+  },
+  {
+   "i": 55,
+   "text": "أن",
+   "frame": 748,
+   "endFrame": 753
+  },
+  {
+   "i": 56,
+   "text": "يطلب",
+   "frame": 754,
+   "endFrame": 765
+  },
+  {
+   "i": 57,
+   "text": "بيانات",
+   "frame": 770,
+   "endFrame": 782
+  },
+  {
+   "i": 58,
+   "text": "أو",
+   "frame": 784,
+   "endFrame": 787
+  },
+  {
+   "i": 59,
+   "text": "خدمات",
+   "frame": 789,
+   "endFrame": 806
+  },
+  {
+   "i": 60,
+   "text": "من",
+   "frame": 808,
+   "endFrame": 811
+  },
+  {
+   "i": 61,
+   "text": "برنامج",
+   "frame": 819,
+   "endFrame": 827
+  },
+  {
+   "i": 62,
+   "text": "آخر.",
+   "frame": 830,
+   "endFrame": 849
+  },
+  {
+   "i": 63,
+   "text": "والمطوّر",
+   "frame": 850,
+   "endFrame": 868
+  },
+  {
+   "i": 64,
+   "text": "يكتب",
+   "frame": 875,
+   "endFrame": 887
+  },
+  {
+   "i": 65,
+   "text": "الربط",
+   "frame": 889,
+   "endFrame": 897
+  },
+  {
+   "i": 66,
+   "text": "الذي",
+   "frame": 899,
+   "endFrame": 907
+  },
+  {
+   "i": 67,
+   "text": "يحتاجه",
+   "frame": 908,
+   "endFrame": 923
+  },
+  {
+   "i": 68,
+   "text": "تطبيقه.",
+   "frame": 926,
+   "endFrame": 943
+  },
+  {
+   "i": 69,
+   "text": "طيب،",
+   "frame": 952,
+   "endFrame": 969
+  },
+  {
+   "i": 70,
+   "text": "ماذا",
+   "frame": 971,
+   "endFrame": 979
+  },
+  {
+   "i": 71,
+   "text": "لو",
+   "frame": 981,
+   "endFrame": 983
+  },
+  {
+   "i": 72,
+   "text": "أردت",
+   "frame": 985,
+   "endFrame": 993
+  },
+  {
+   "i": 73,
+   "text": "أن",
+   "frame": 994,
+   "endFrame": 995
+  },
+  {
+   "i": 74,
+   "text": "يستخدم",
+   "frame": 998,
+   "endFrame": 1012
+  },
+  {
+   "i": 75,
+   "text": "المساعد",
+   "frame": 1015,
+   "endFrame": 1031
+  },
+  {
+   "i": 76,
+   "text": "نظام",
+   "frame": 1033,
+   "endFrame": 1041
+  },
+  {
+   "i": 77,
+   "text": "المبيعات،",
+   "frame": 1045,
+   "endFrame": 1065
+  },
+  {
+   "i": 78,
+   "text": "والملفات،",
+   "frame": 1067,
+   "endFrame": 1085
+  },
+  {
+   "i": 79,
+   "text": "والتقويم؟",
+   "frame": 1086,
+   "endFrame": 1115
+  },
+  {
+   "i": 80,
+   "text": "كل",
+   "frame": 1119,
+   "endFrame": 1123
+  },
+  {
+   "i": 81,
+   "text": "خدمة",
+   "frame": 1130,
+   "endFrame": 1137
+  },
+  {
+   "i": 82,
+   "text": "لها",
+   "frame": 1138,
+   "endFrame": 1144
+  },
+  {
+   "i": 83,
+   "text": "تفاصيلها،",
+   "frame": 1147,
+   "endFrame": 1175
+  },
+  {
+   "i": 84,
+   "text": "وعلى",
+   "frame": 1178,
+   "endFrame": 1183
+  },
+  {
+   "i": 85,
+   "text": "التطبيق",
+   "frame": 1184,
+   "endFrame": 1199
+  },
+  {
+   "i": 86,
+   "text": "أن",
+   "frame": 1202,
+   "endFrame": 1204
+  },
+  {
+   "i": 87,
+   "text": "يعرف",
+   "frame": 1205,
+   "endFrame": 1216
+  },
+  {
+   "i": 88,
+   "text": "كيف",
+   "frame": 1219,
+   "endFrame": 1226
+  },
+  {
+   "i": 89,
+   "text": "يتعامل",
+   "frame": 1228,
+   "endFrame": 1243
+  },
+  {
+   "i": 90,
+   "text": "معها.",
+   "frame": 1245,
+   "endFrame": 1269
+  },
+  {
+   "i": 91,
+   "text": "«إم",
+   "frame": 1270,
+   "endFrame": 1274
+  },
+  {
+   "i": 92,
+   "text": "سي",
+   "frame": 1276,
+   "endFrame": 1279
+  },
+  {
+   "i": 93,
+   "text": "بي»",
+   "frame": 1281,
+   "endFrame": 1288
+  },
+  {
+   "i": 94,
+   "text": "يقدّم",
+   "frame": 1291,
+   "endFrame": 1303
+  },
+  {
+   "i": 95,
+   "text": "طريقة",
+   "frame": 1305,
+   "endFrame": 1319
+  },
+  {
+   "i": 96,
+   "text": "موحّدة",
+   "frame": 1322,
+   "endFrame": 1339
+  },
+  {
+   "i": 97,
+   "text": "لربط",
+   "frame": 1341,
+   "endFrame": 1353
+  },
+  {
+   "i": 98,
+   "text": "تطبيقات",
+   "frame": 1357,
+   "endFrame": 1370
+  },
+  {
+   "i": 99,
+   "text": "الذكاء",
+   "frame": 1372,
+   "endFrame": 1384
+  },
+  {
+   "i": 100,
+   "text": "الاصطناعي",
+   "frame": 1385,
+   "endFrame": 1403
+  },
+  {
+   "i": 101,
+   "text": "بالأدوات",
+   "frame": 1406,
+   "endFrame": 1423
+  },
+  {
+   "i": 102,
+   "text": "والبيانات.",
+   "frame": 1425,
+   "endFrame": 1454
+  },
+  {
+   "i": 103,
+   "text": "تخيّله",
+   "frame": 1456,
+   "endFrame": 1473
+  },
+  {
+   "i": 104,
+   "text": "مثل",
+   "frame": 1478,
+   "endFrame": 1483
+  },
+  {
+   "i": 105,
+   "text": "منفذ",
+   "frame": 1485,
+   "endFrame": 1497
+  },
+  {
+   "i": 106,
+   "text": "«يو",
+   "frame": 1499,
+   "endFrame": 1502
+  },
+  {
+   "i": 107,
+   "text": "إس",
+   "frame": 1504,
+   "endFrame": 1507
+  },
+  {
+   "i": 108,
+   "text": "بي",
+   "frame": 1509,
+   "endFrame": 1511
+  },
+  {
+   "i": 109,
+   "text": "سي»:",
+   "frame": 1514,
+   "endFrame": 1531
+  },
+  {
+   "i": 110,
+   "text": "طريقة",
+   "frame": 1532,
+   "endFrame": 1543
+  },
+  {
+   "i": 111,
+   "text": "اتصال",
+   "frame": 1546,
+   "endFrame": 1557
+  },
+  {
+   "i": 112,
+   "text": "مشتركة",
+   "frame": 1559,
+   "endFrame": 1579
+  },
+  {
+   "i": 113,
+   "text": "لأجهزة",
+   "frame": 1581,
+   "endFrame": 1598
+  },
+  {
+   "i": 114,
+   "text": "مختلفة.",
+   "frame": 1600,
+   "endFrame": 1627
+  },
+  {
+   "i": 115,
+   "text": "هنا،",
+   "frame": 1629,
+   "endFrame": 1643
+  },
+  {
+   "i": 116,
+   "text": "التشبيه",
+   "frame": 1646,
+   "endFrame": 1660
+  },
+  {
+   "i": 117,
+   "text": "للفكرة",
+   "frame": 1663,
+   "endFrame": 1677
+  },
+  {
+   "i": 118,
+   "text": "فقط؛",
+   "frame": 1679,
+   "endFrame": 1695
+  },
+  {
+   "i": 119,
+   "text": "الربط",
+   "frame": 1701,
+   "endFrame": 1713
+  },
+  {
+   "i": 120,
+   "text": "ما",
+   "frame": 1715,
+   "endFrame": 1718
+  },
+  {
+   "i": 121,
+   "text": "زال",
+   "frame": 1721,
+   "endFrame": 1725
+  },
+  {
+   "i": 122,
+   "text": "يحتاج",
+   "frame": 1727,
+   "endFrame": 1739
+  },
+  {
+   "i": 123,
+   "text": "إعدادًا",
+   "frame": 1742,
+   "endFrame": 1756
+  },
+  {
+   "i": 124,
+   "text": "وصلاحيات.",
+   "frame": 1760,
+   "endFrame": 1787
+  },
+  {
+   "i": 125,
+   "text": "كيف",
+   "frame": 1795,
+   "endFrame": 1802
+  },
+  {
+   "i": 126,
+   "text": "يعمل؟",
+   "frame": 1804,
+   "endFrame": 1823
+  },
+  {
+   "i": 127,
+   "text": "سيرفر",
+   "frame": 1831,
+   "endFrame": 1840
+  },
+  {
+   "i": 128,
+   "text": "«إم",
+   "frame": 1843,
+   "endFrame": 1847
+  },
+  {
+   "i": 129,
+   "text": "سي",
+   "frame": 1850,
+   "endFrame": 1852
+  },
+  {
+   "i": 130,
+   "text": "بي»",
+   "frame": 1855,
+   "endFrame": 1862
+  },
+  {
+   "i": 131,
+   "text": "يعرّف",
+   "frame": 1864,
+   "endFrame": 1874
+  },
+  {
+   "i": 132,
+   "text": "التطبيق",
+   "frame": 1876,
+   "endFrame": 1891
+  },
+  {
+   "i": 133,
+   "text": "بالأدوات",
+   "frame": 1893,
+   "endFrame": 1910
+  },
+  {
+   "i": 134,
+   "text": "المتاحة.",
+   "frame": 1913,
+   "endFrame": 1936
+  },
+  {
+   "i": 135,
+   "text": "مثلًا:",
+   "frame": 1940,
+   "endFrame": 1958
+  },
+  {
+   "i": 136,
+   "text": "أداة",
+   "frame": 1959,
+   "endFrame": 1972
+  },
+  {
+   "i": 137,
+   "text": "لجلب",
+   "frame": 1975,
+   "endFrame": 1984
+  },
+  {
+   "i": 138,
+   "text": "مبيعات",
+   "frame": 1985,
+   "endFrame": 1999
+  },
+  {
+   "i": 139,
+   "text": "الأسبوع.",
+   "frame": 2001,
+   "endFrame": 2025
+  },
+  {
+   "i": 140,
+   "text": "المساعد",
+   "frame": 2027,
+   "endFrame": 2044
+  },
+  {
+   "i": 141,
+   "text": "يطلب",
+   "frame": 2047,
+   "endFrame": 2056
+  },
+  {
+   "i": 142,
+   "text": "الأداة",
+   "frame": 2059,
+   "endFrame": 2068
+  },
+  {
+   "i": 143,
+   "text": "المناسبة،",
+   "frame": 2071,
+   "endFrame": 2095
+  },
+  {
+   "i": 144,
+   "text": "والتطبيق",
+   "frame": 2098,
+   "endFrame": 2114
+  },
+  {
+   "i": 145,
+   "text": "يستدعيها",
+   "frame": 2119,
+   "endFrame": 2135
+  },
+  {
+   "i": 146,
+   "text": "عبر",
+   "frame": 2139,
+   "endFrame": 2143
+  },
+  {
+   "i": 147,
+   "text": "السيرفر.",
+   "frame": 2145,
+   "endFrame": 2169
+  },
+  {
+   "i": 148,
+   "text": "ترجع",
+   "frame": 2171,
+   "endFrame": 2179
+  },
+  {
+   "i": 149,
+   "text": "البيانات،",
+   "frame": 2181,
+   "endFrame": 2205
+  },
+  {
+   "i": 150,
+   "text": "ثم",
+   "frame": 2209,
+   "endFrame": 2212
+  },
+  {
+   "i": 151,
+   "text": "يلخّصها",
+   "frame": 2215,
+   "endFrame": 2231
+  },
+  {
+   "i": 152,
+   "text": "المساعد",
+   "frame": 2233,
+   "endFrame": 2248
+  },
+  {
+   "i": 153,
+   "text": "لك.",
+   "frame": 2253,
+   "endFrame": 2270
+  },
+  {
+   "i": 154,
+   "text": "وهل",
+   "frame": 2271,
+   "endFrame": 2277
+  },
+  {
+   "i": 155,
+   "text": "اختفت",
+   "frame": 2281,
+   "endFrame": 2291
+  },
+  {
+   "i": 156,
+   "text": "«إي",
+   "frame": 2292,
+   "endFrame": 2296
+  },
+  {
+   "i": 157,
+   "text": "بي",
+   "frame": 2297,
+   "endFrame": 2299
+  },
+  {
+   "i": 158,
+   "text": "آي»؟",
+   "frame": 2303,
+   "endFrame": 2323
+  },
+  {
+   "i": 159,
+   "text": "لا.",
+   "frame": 2325,
+   "endFrame": 2357
+  },
+  {
+   "i": 160,
+   "text": "السيرفر",
+   "frame": 2369,
+   "endFrame": 2379
+  },
+  {
+   "i": 161,
+   "text": "قد",
+   "frame": 2381,
+   "endFrame": 2386
+  },
+  {
+   "i": 162,
+   "text": "يستخدمها",
+   "frame": 2387,
+   "endFrame": 2405
+  },
+  {
+   "i": 163,
+   "text": "خلف",
+   "frame": 2408,
+   "endFrame": 2415
+  },
+  {
+   "i": 164,
+   "text": "الكواليس",
+   "frame": 2417,
+   "endFrame": 2434
+  },
+  {
+   "i": 165,
+   "text": "للتواصل",
+   "frame": 2435,
+   "endFrame": 2453
+  },
+  {
+   "i": 166,
+   "text": "مع",
+   "frame": 2456,
+   "endFrame": 2461
+  },
+  {
+   "i": 167,
+   "text": "نظام",
+   "frame": 2463,
+   "endFrame": 2470
+  },
+  {
+   "i": 168,
+   "text": "المبيعات.",
+   "frame": 2473,
+   "endFrame": 2501
+  },
+  {
+   "i": 169,
+   "text": "إذًا،",
+   "frame": 2503,
+   "endFrame": 2521
+  },
+  {
+   "i": 170,
+   "text": "«إم",
+   "frame": 2521,
+   "endFrame": 2525
+  },
+  {
+   "i": 171,
+   "text": "سي",
+   "frame": 2528,
+   "endFrame": 2530
+  },
+  {
+   "i": 172,
+   "text": "بي»",
+   "frame": 2533,
+   "endFrame": 2539
+  },
+  {
+   "i": 173,
+   "text": "لا",
+   "frame": 2540,
+   "endFrame": 2545
+  },
+  {
+   "i": 174,
+   "text": "يستبدل",
+   "frame": 2549,
+   "endFrame": 2561
+  },
+  {
+   "i": 175,
+   "text": "كل",
+   "frame": 2566,
+   "endFrame": 2573
+  },
+  {
+   "i": 176,
+   "text": "واجهات",
+   "frame": 2578,
+   "endFrame": 2588
+  },
+  {
+   "i": 177,
+   "text": "التطبيقات.",
+   "frame": 2590,
+   "endFrame": 2619
+  },
+  {
+   "i": 178,
+   "text": "هو",
+   "frame": 2621,
+   "endFrame": 2624
+  },
+  {
+   "i": 179,
+   "text": "يوحّد",
+   "frame": 2626,
+   "endFrame": 2638
+  },
+  {
+   "i": 180,
+   "text": "طريقة",
+   "frame": 2641,
+   "endFrame": 2653
+  },
+  {
+   "i": 181,
+   "text": "اكتشاف",
+   "frame": 2656,
+   "endFrame": 2667
+  },
+  {
+   "i": 182,
+   "text": "الأدوات",
+   "frame": 2669,
+   "endFrame": 2684
+  },
+  {
+   "i": 183,
+   "text": "واستخدامها",
+   "frame": 2686,
+   "endFrame": 2708
+  },
+  {
+   "i": 184,
+   "text": "داخل",
+   "frame": 2713,
+   "endFrame": 2722
+  },
+  {
+   "i": 185,
+   "text": "تطبيقات",
+   "frame": 2725,
+   "endFrame": 2741
+  },
+  {
+   "i": 186,
+   "text": "الذكاء",
+   "frame": 2743,
+   "endFrame": 2753
+  },
+  {
+   "i": 187,
+   "text": "الاصطناعي.",
+   "frame": 2756,
+   "endFrame": 2785
+  },
+  {
+   "i": 188,
+   "text": "والاتصال",
+   "frame": 2787,
+   "endFrame": 2804
+  },
+  {
+   "i": 189,
+   "text": "لا",
+   "frame": 2806,
+   "endFrame": 2809
+  },
+  {
+   "i": 190,
+   "text": "يعني",
+   "frame": 2811,
+   "endFrame": 2816
+  },
+  {
+   "i": 191,
+   "text": "الوصول",
+   "frame": 2818,
+   "endFrame": 2830
+  },
+  {
+   "i": 192,
+   "text": "إلى",
+   "frame": 2833,
+   "endFrame": 2837
+  },
+  {
+   "i": 193,
+   "text": "كل",
+   "frame": 2840,
+   "endFrame": 2845
+  },
+  {
+   "i": 194,
+   "text": "شيء؛",
+   "frame": 2847,
+   "endFrame": 2862
+  },
+  {
+   "i": 195,
+   "text": "الوصول",
+   "frame": 2866,
+   "endFrame": 2883
+  },
+  {
+   "i": 196,
+   "text": "يعتمد",
+   "frame": 2885,
+   "endFrame": 2897
+  },
+  {
+   "i": 197,
+   "text": "على",
+   "frame": 2900,
+   "endFrame": 2902
+  },
+  {
+   "i": 198,
+   "text": "الصلاحيات",
+   "frame": 2903,
+   "endFrame": 2924
+  },
+  {
+   "i": 199,
+   "text": "التي",
+   "frame": 2926,
+   "endFrame": 2933
+  },
+  {
+   "i": 200,
+   "text": "تمنحها.",
+   "frame": 2935,
+   "endFrame": 2962
+  },
+  {
+   "i": 201,
+   "text": "احفظ",
+   "frame": 2965,
+   "endFrame": 2972
+  },
+  {
+   "i": 202,
+   "text": "الفيديو،",
+   "frame": 2974,
+   "endFrame": 2993
+  },
+  {
+   "i": 203,
+   "text": "وتابعني",
+   "frame": 2996,
+   "endFrame": 3013
+  },
+  {
+   "i": 204,
+   "text": "لتفهم",
+   "frame": 3015,
+   "endFrame": 3027
+  },
+  {
+   "i": 205,
+   "text": "التقنية…",
+   "frame": 3031,
+   "endFrame": 3053
+  },
+  {
+   "i": 206,
+   "text": "بمثال",
+   "frame": 3055,
+   "endFrame": 3068
+  },
+  {
+   "i": 207,
+   "text": "بسيط.",
+   "frame": 3070,
+   "endFrame": 3092
+  }
+ ]
+}

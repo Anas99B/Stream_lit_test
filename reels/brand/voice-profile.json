@@ -1,0 +1,44 @@
+{
+  "styleId": "arab-tech-explainer-v1",
+  "version": "1.0.0",
+  "language": "ar",
+  "variety": "Clear conversational Modern Standard Arabic, broadly understandable across Arab countries",
+  "delivery": {
+    "brief": "Native Arabic, male, 25-35, studio quality. Persona: friendly, knowledgeable technology explainer. Emotion: curious, confident, approachable. Warm mid-range voice with natural variation and crisp consonants. Deliver the opening as a genuine question, pause briefly, then explain as if speaking to one friend. Moderate pace, short pauses between ideas, clear emphasis on contrasts. Say acronyms as separate English letter names. Avoid theatrical delivery and newsreader cadence. Original voice, distinct from any reference narrator.",
+    "acronymSpellings": {
+      "API": "«إي بي آي»",
+      "MCP": "«إم سي بي»",
+      "USB-C": "«يو إس بي سي»"
+    },
+    "audioTags": "Model supports inline tags. Used sparingly: [curious] on the opening question, [warmly] when the explanation starts, [short pause] after a one-word correction. Tags are not spoken.",
+    "measuredPace": "Episode 01: 208 words in 102.2 s = about 122 words/min (no speed change applied)."
+  },
+  "provider": {
+    "name": "ElevenLabs",
+    "access": "Claude connector (ElevenLabs MCP, restricted creative tools) authorised in the user's claude.ai account. No API key is stored in this repository.",
+    "voice": {
+      "voiceId": "gtau3d9AbCFEA6Bhfahu",
+      "name": "Arab Tech Explainer – Narrator v1",
+      "origin": "Designed with Voice Design (model eleven_ttv_v3) from the delivery brief above, using the first lines of the episode-01 script as the preview text. 3 previews generated; this one saved.",
+      "selectionMethod": "Chosen by measurement, NOT by ear: lowest median pitch of the three previews (~148 Hz, male mid-range), cleanest noise floor (-80 dB vs -61 dB), moderate expressiveness (~12 semitone p10-p90 range vs 14 for the most dramatic preview). A human should audition and may swap it (then bump the style version).",
+      "previewsDiscarded": ["SSgY7DYJlZRu7qiO3DhE", "ANAIT3zeUYUDKkvnSkdt"]
+    },
+    "tts": {
+      "modelId": "eleven_v4",
+      "settings": "connector defaults (no stability/similarity overrides were exposed); variations requested: 4, delivered: 2 (2 were rate-limited, not charged)",
+      "chosenTakeEpisode01": "generation AkotW2DECxtyzrxDXoXE (take B): lower noise floor than take A (-59 vs -51 dB), same pacing",
+      "flow": "https://elevenlabs.io/app/flows/RPp0Y1tLwREFTsJiNZwb"
+    },
+    "alignment": {
+      "modelId": "eleven_scribe_v1",
+      "note": "Returned the known script with word timestamps (forced alignment). It confirms timing, not pronunciation; audition each take."
+    }
+  },
+  "mix": {
+    "targetIntegratedLufs": -16,
+    "episode01Measured": { "integratedLufs": -16.2, "truePeakDbfs": -4.1 },
+    "music": null,
+    "sfx": "public/sfx (procedural, scripts/make_sfx.py), gain 0.22, about 10 events per episode"
+  },
+  "secrets": "Never store API keys or tokens here or anywhere in the repo."
+}

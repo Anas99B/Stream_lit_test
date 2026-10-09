@@ -1,0 +1,1397 @@
+[
+ {
+  "text": "إذا",
+  "startMs": 367,
+  "endMs": 540,
+  "timestampMs": 454,
+  "confidence": null
+ },
+ {
+  "text": " كانت",
+  "startMs": 580,
+  "endMs": 860,
+  "timestampMs": 720,
+  "confidence": null
+ },
+ {
+  "text": " التطبيقات",
+  "startMs": 940,
+  "endMs": 1580,
+  "timestampMs": 1260,
+  "confidence": null
+ },
+ {
+  "text": " تتواصل",
+  "startMs": 1660,
+  "endMs": 2140,
+  "timestampMs": 1900,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "عن",
+  "startMs": 2220,
+  "endMs": 2380,
+  "timestampMs": 2300,
+  "confidence": null
+ },
+ {
+  "text": " طريق",
+  "startMs": 2420,
+  "endMs": 2780,
+  "timestampMs": 2600,
+  "confidence": null
+ },
+ {
+  "text": " API…",
+  "startMs": 2820,
+  "endMs": 3980,
+  "timestampMs": 3400,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "لماذا",
+  "startMs": 4060,
+  "endMs": 4380,
+  "timestampMs": 4220,
+  "confidence": null
+ },
+ {
+  "text": " نحتاج",
+  "startMs": 4420,
+  "endMs": 4860,
+  "timestampMs": 4640,
+  "confidence": null
+ },
+ {
+  "text": " MCP؟",
+  "startMs": 4887,
+  "endMs": 5700,
+  "timestampMs": 5294,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "خلّينا",
+  "startMs": 6108,
+  "endMs": 6300,
+  "timestampMs": 6204,
+  "confidence": null
+ },
+ {
+  "text": " نفهمها",
+  "startMs": 6380,
+  "endMs": 6780,
+  "timestampMs": 6580,
+  "confidence": null
+ },
+ {
+  "text": " بمثال",
+  "startMs": 6820,
+  "endMs": 7260,
+  "timestampMs": 7040,
+  "confidence": null
+ },
+ {
+  "text": " بسيط",
+  "startMs": 7340,
+  "endMs": 8140,
+  "timestampMs": 7740,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "تخيّل",
+  "startMs": 8220,
+  "endMs": 8620,
+  "timestampMs": 8420,
+  "confidence": null
+ },
+ {
+  "text": " أنك",
+  "startMs": 8700,
+  "endMs": 8940,
+  "timestampMs": 8820,
+  "confidence": null
+ },
+ {
+  "text": " تقول",
+  "startMs": 9020,
+  "endMs": 9340,
+  "timestampMs": 9180,
+  "confidence": null
+ },
+ {
+  "text": " لمساعد",
+  "startMs": 9420,
+  "endMs": 9900,
+  "timestampMs": 9660,
+  "confidence": null
+ },
+ {
+  "text": " ذكي:",
+  "startMs": 10060,
+  "endMs": 10780,
+  "timestampMs": 10420,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "لخّص",
+  "startMs": 10860,
+  "endMs": 11260,
+  "timestampMs": 11060,
+  "confidence": null
+ },
+ {
+  "text": " مبيعات",
+  "startMs": 11300,
+  "endMs": 11740,
+  "timestampMs": 11520,
+  "confidence": null
+ },
+ {
+  "text": " هذا",
+  "startMs": 11820,
+  "endMs": 11980,
+  "timestampMs": 11900,
+  "confidence": null
+ },
+ {
+  "text": " الأسبوع",
+  "startMs": 12100,
+  "endMs": 12540,
+  "timestampMs": 12320,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "من",
+  "startMs": 12620,
+  "endMs": 12700,
+  "timestampMs": 12660,
+  "confidence": null
+ },
+ {
+  "text": " نظام",
+  "startMs": 12740,
+  "endMs": 13020,
+  "timestampMs": 12880,
+  "confidence": null
+ },
+ {
+  "text": " الشركة",
+  "startMs": 13060,
+  "endMs": 13900,
+  "timestampMs": 13480,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "المساعد",
+  "startMs": 13980,
+  "endMs": 14540,
+  "timestampMs": 14260,
+  "confidence": null
+ },
+ {
+  "text": " يفهم",
+  "startMs": 14620,
+  "endMs": 14860,
+  "timestampMs": 14740,
+  "confidence": null
+ },
+ {
+  "text": " طلبك،",
+  "startMs": 15020,
+  "endMs": 15740,
+  "timestampMs": 15380,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "لكن",
+  "startMs": 15820,
+  "endMs": 16220,
+  "timestampMs": 16020,
+  "confidence": null
+ },
+ {
+  "text": " إذا",
+  "startMs": 16260,
+  "endMs": 16380,
+  "timestampMs": 16320,
+  "confidence": null
+ },
+ {
+  "text": " لم",
+  "startMs": 16460,
+  "endMs": 16540,
+  "timestampMs": 16500,
+  "confidence": null
+ },
+ {
+  "text": " يكن",
+  "startMs": 16620,
+  "endMs": 16860,
+  "timestampMs": 16740,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "متصلًا",
+  "startMs": 16980,
+  "endMs": 17420,
+  "timestampMs": 17200,
+  "confidence": null
+ },
+ {
+  "text": " بالنظام،",
+  "startMs": 17500,
+  "endMs": 18140,
+  "timestampMs": 17820,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "فلن",
+  "startMs": 18220,
+  "endMs": 18460,
+  "timestampMs": 18340,
+  "confidence": null
+ },
+ {
+  "text": " يحصل",
+  "startMs": 18540,
+  "endMs": 18860,
+  "timestampMs": 18700,
+  "confidence": null
+ },
+ {
+  "text": " على",
+  "startMs": 18940,
+  "endMs": 19020,
+  "timestampMs": 18980,
+  "confidence": null
+ },
+ {
+  "text": " البيانات",
+  "startMs": 19060,
+  "endMs": 19580,
+  "timestampMs": 19320,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "من",
+  "startMs": 19660,
+  "endMs": 19740,
+  "timestampMs": 19700,
+  "confidence": null
+ },
+ {
+  "text": " تلقاء",
+  "startMs": 19860,
+  "endMs": 20140,
+  "timestampMs": 20000,
+  "confidence": null
+ },
+ {
+  "text": " نفسه",
+  "startMs": 20220,
+  "endMs": 20940,
+  "timestampMs": 20580,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "هنا",
+  "startMs": 21020,
+  "endMs": 21260,
+  "timestampMs": 21140,
+  "confidence": null
+ },
+ {
+  "text": " يأتي",
+  "startMs": 21340,
+  "endMs": 21660,
+  "timestampMs": 21500,
+  "confidence": null
+ },
+ {
+  "text": " دور",
+  "startMs": 21740,
+  "endMs": 21980,
+  "timestampMs": 21860,
+  "confidence": null
+ },
+ {
+  "text": " API:",
+  "startMs": 22060,
+  "endMs": 23100,
+  "timestampMs": 22580,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "واجهة",
+  "startMs": 23300,
+  "endMs": 23740,
+  "timestampMs": 23520,
+  "confidence": null
+ },
+ {
+  "text": " تسمح",
+  "startMs": 23900,
+  "endMs": 24140,
+  "timestampMs": 24020,
+  "confidence": null
+ },
+ {
+  "text": " لبرنامج",
+  "startMs": 24220,
+  "endMs": 24860,
+  "timestampMs": 24540,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "أن",
+  "startMs": 24940,
+  "endMs": 25100,
+  "timestampMs": 25020,
+  "confidence": null
+ },
+ {
+  "text": " يطلب",
+  "startMs": 25140,
+  "endMs": 25500,
+  "timestampMs": 25320,
+  "confidence": null
+ },
+ {
+  "text": " بيانات",
+  "startMs": 25660,
+  "endMs": 26060,
+  "timestampMs": 25860,
+  "confidence": null
+ },
+ {
+  "text": " أو",
+  "startMs": 26140,
+  "endMs": 26220,
+  "timestampMs": 26180,
+  "confidence": null
+ },
+ {
+  "text": " خدمات",
+  "startMs": 26300,
+  "endMs": 26860,
+  "timestampMs": 26580,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "من",
+  "startMs": 26940,
+  "endMs": 27020,
+  "timestampMs": 26980,
+  "confidence": null
+ },
+ {
+  "text": " برنامج",
+  "startMs": 27300,
+  "endMs": 27580,
+  "timestampMs": 27440,
+  "confidence": null
+ },
+ {
+  "text": " آخر",
+  "startMs": 27660,
+  "endMs": 28300,
+  "timestampMs": 27980,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "والمطوّر",
+  "startMs": 28340,
+  "endMs": 28940,
+  "timestampMs": 28640,
+  "confidence": null
+ },
+ {
+  "text": " يكتب",
+  "startMs": 29180,
+  "endMs": 29580,
+  "timestampMs": 29380,
+  "confidence": null
+ },
+ {
+  "text": " الربط",
+  "startMs": 29620,
+  "endMs": 29900,
+  "timestampMs": 29760,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "الذي",
+  "startMs": 29980,
+  "endMs": 30220,
+  "timestampMs": 30100,
+  "confidence": null
+ },
+ {
+  "text": " يحتاجه",
+  "startMs": 30260,
+  "endMs": 30780,
+  "timestampMs": 30520,
+  "confidence": null
+ },
+ {
+  "text": " تطبيقه",
+  "startMs": 30860,
+  "endMs": 31420,
+  "timestampMs": 31140,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "طيب،",
+  "startMs": 31740,
+  "endMs": 32300,
+  "timestampMs": 32020,
+  "confidence": null
+ },
+ {
+  "text": " ماذا",
+  "startMs": 32380,
+  "endMs": 32620,
+  "timestampMs": 32500,
+  "confidence": null
+ },
+ {
+  "text": " لو",
+  "startMs": 32700,
+  "endMs": 32780,
+  "timestampMs": 32740,
+  "confidence": null
+ },
+ {
+  "text": " أردت",
+  "startMs": 32820,
+  "endMs": 33100,
+  "timestampMs": 32960,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "أن",
+  "startMs": 33140,
+  "endMs": 33180,
+  "timestampMs": 33160,
+  "confidence": null
+ },
+ {
+  "text": " يستخدم",
+  "startMs": 33260,
+  "endMs": 33740,
+  "timestampMs": 33500,
+  "confidence": null
+ },
+ {
+  "text": " المساعد",
+  "startMs": 33820,
+  "endMs": 34380,
+  "timestampMs": 34100,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "نظام",
+  "startMs": 34420,
+  "endMs": 34700,
+  "timestampMs": 34560,
+  "confidence": null
+ },
+ {
+  "text": " المبيعات،",
+  "startMs": 34820,
+  "endMs": 35500,
+  "timestampMs": 35160,
+  "confidence": null
+ },
+ {
+  "text": " والملفات،",
+  "startMs": 35580,
+  "endMs": 36167,
+  "timestampMs": 35873,
+  "confidence": null
+ },
+ {
+  "text": " والتقويم؟",
+  "startMs": 36193,
+  "endMs": 37180,
+  "timestampMs": 36686,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "كل",
+  "startMs": 37300,
+  "endMs": 37420,
+  "timestampMs": 37360,
+  "confidence": null
+ },
+ {
+  "text": " خدمة",
+  "startMs": 37660,
+  "endMs": 37900,
+  "timestampMs": 37780,
+  "confidence": null
+ },
+ {
+  "text": " لها",
+  "startMs": 37940,
+  "endMs": 38140,
+  "timestampMs": 38040,
+  "confidence": null
+ },
+ {
+  "text": " تفاصيلها،",
+  "startMs": 38220,
+  "endMs": 39180,
+  "timestampMs": 38700,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وعلى",
+  "startMs": 39260,
+  "endMs": 39420,
+  "timestampMs": 39340,
+  "confidence": null
+ },
+ {
+  "text": " التطبيق",
+  "startMs": 39460,
+  "endMs": 39980,
+  "timestampMs": 39720,
+  "confidence": null
+ },
+ {
+  "text": " أن",
+  "startMs": 40060,
+  "endMs": 40140,
+  "timestampMs": 40100,
+  "confidence": null
+ },
+ {
+  "text": " يعرف",
+  "startMs": 40180,
+  "endMs": 40540,
+  "timestampMs": 40360,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "كيف",
+  "startMs": 40620,
+  "endMs": 40860,
+  "timestampMs": 40740,
+  "confidence": null
+ },
+ {
+  "text": " يتعامل",
+  "startMs": 40940,
+  "endMs": 41420,
+  "timestampMs": 41180,
+  "confidence": null
+ },
+ {
+  "text": " معها",
+  "startMs": 41500,
+  "endMs": 42300,
+  "timestampMs": 41900,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "MCP",
+  "startMs": 42327,
+  "endMs": 42940,
+  "timestampMs": 42634,
+  "confidence": null
+ },
+ {
+  "text": " يقدّم",
+  "startMs": 43020,
+  "endMs": 43420,
+  "timestampMs": 43220,
+  "confidence": null
+ },
+ {
+  "text": " طريقة",
+  "startMs": 43500,
+  "endMs": 43980,
+  "timestampMs": 43740,
+  "confidence": null
+ },
+ {
+  "text": " موحّدة",
+  "startMs": 44060,
+  "endMs": 44620,
+  "timestampMs": 44340,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "لربط",
+  "startMs": 44700,
+  "endMs": 45100,
+  "timestampMs": 44900,
+  "confidence": null
+ },
+ {
+  "text": " تطبيقات",
+  "startMs": 45220,
+  "endMs": 45660,
+  "timestampMs": 45440,
+  "confidence": null
+ },
+ {
+  "text": " الذكاء",
+  "startMs": 45740,
+  "endMs": 46140,
+  "timestampMs": 45940,
+  "confidence": null
+ },
+ {
+  "text": " الاصطناعي",
+  "startMs": 46180,
+  "endMs": 46780,
+  "timestampMs": 46480,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "بالأدوات",
+  "startMs": 46860,
+  "endMs": 47420,
+  "timestampMs": 47140,
+  "confidence": null
+ },
+ {
+  "text": " والبيانات",
+  "startMs": 47500,
+  "endMs": 48460,
+  "timestampMs": 47980,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "تخيّله",
+  "startMs": 48540,
+  "endMs": 49100,
+  "timestampMs": 48820,
+  "confidence": null
+ },
+ {
+  "text": " مثل",
+  "startMs": 49260,
+  "endMs": 49420,
+  "timestampMs": 49340,
+  "confidence": null
+ },
+ {
+  "text": " منفذ",
+  "startMs": 49500,
+  "endMs": 49900,
+  "timestampMs": 49700,
+  "confidence": null
+ },
+ {
+  "text": " USB-C:",
+  "startMs": 49953,
+  "endMs": 51020,
+  "timestampMs": 50486,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "طريقة",
+  "startMs": 51060,
+  "endMs": 51420,
+  "timestampMs": 51240,
+  "confidence": null
+ },
+ {
+  "text": " اتصال",
+  "startMs": 51540,
+  "endMs": 51900,
+  "timestampMs": 51720,
+  "confidence": null
+ },
+ {
+  "text": " مشتركة",
+  "startMs": 51980,
+  "endMs": 52620,
+  "timestampMs": 52300,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "لأجهزة",
+  "startMs": 52700,
+  "endMs": 53260,
+  "timestampMs": 52980,
+  "confidence": null
+ },
+ {
+  "text": " مختلفة",
+  "startMs": 53340,
+  "endMs": 54220,
+  "timestampMs": 53780,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "هنا،",
+  "startMs": 54300,
+  "endMs": 54780,
+  "timestampMs": 54540,
+  "confidence": null
+ },
+ {
+  "text": " التشبيه",
+  "startMs": 54860,
+  "endMs": 55340,
+  "timestampMs": 55100,
+  "confidence": null
+ },
+ {
+  "text": " للفكرة",
+  "startMs": 55420,
+  "endMs": 55900,
+  "timestampMs": 55660,
+  "confidence": null
+ },
+ {
+  "text": " فقط؛",
+  "startMs": 55980,
+  "endMs": 56500,
+  "timestampMs": 56240,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "الربط",
+  "startMs": 56700,
+  "endMs": 57100,
+  "timestampMs": 56900,
+  "confidence": null
+ },
+ {
+  "text": " ما",
+  "startMs": 57180,
+  "endMs": 57260,
+  "timestampMs": 57220,
+  "confidence": null
+ },
+ {
+  "text": " زال",
+  "startMs": 57380,
+  "endMs": 57500,
+  "timestampMs": 57440,
+  "confidence": null
+ },
+ {
+  "text": " يحتاج",
+  "startMs": 57580,
+  "endMs": 57980,
+  "timestampMs": 57780,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "إعدادًا",
+  "startMs": 58060,
+  "endMs": 58540,
+  "timestampMs": 58300,
+  "confidence": null
+ },
+ {
+  "text": " وصلاحيات",
+  "startMs": 58660,
+  "endMs": 59580,
+  "timestampMs": 59120,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "كيف",
+  "startMs": 59820,
+  "endMs": 60060,
+  "timestampMs": 59940,
+  "confidence": null
+ },
+ {
+  "text": " يعمل؟",
+  "startMs": 60140,
+  "endMs": 60780,
+  "timestampMs": 60460,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "سيرفر",
+  "startMs": 61020,
+  "endMs": 61340,
+  "timestampMs": 61180,
+  "confidence": null
+ },
+ {
+  "text": " MCP",
+  "startMs": 61420,
+  "endMs": 62060,
+  "timestampMs": 61740,
+  "confidence": null
+ },
+ {
+  "text": " يعرّف",
+  "startMs": 62140,
+  "endMs": 62460,
+  "timestampMs": 62300,
+  "confidence": null
+ },
+ {
+  "text": " التطبيق",
+  "startMs": 62540,
+  "endMs": 63020,
+  "timestampMs": 62780,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "بالأدوات",
+  "startMs": 63100,
+  "endMs": 63660,
+  "timestampMs": 63380,
+  "confidence": null
+ },
+ {
+  "text": " المتاحة",
+  "startMs": 63780,
+  "endMs": 64540,
+  "timestampMs": 64160,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "مثلًا:",
+  "startMs": 64660,
+  "endMs": 65260,
+  "timestampMs": 64960,
+  "confidence": null
+ },
+ {
+  "text": " أداة",
+  "startMs": 65300,
+  "endMs": 65740,
+  "timestampMs": 65520,
+  "confidence": null
+ },
+ {
+  "text": " لجلب",
+  "startMs": 65820,
+  "endMs": 66140,
+  "timestampMs": 65980,
+  "confidence": null
+ },
+ {
+  "text": " مبيعات",
+  "startMs": 66180,
+  "endMs": 66620,
+  "timestampMs": 66400,
+  "confidence": null
+ },
+ {
+  "text": " الأسبوع",
+  "startMs": 66700,
+  "endMs": 67500,
+  "timestampMs": 67100,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "المساعد",
+  "startMs": 67580,
+  "endMs": 68140,
+  "timestampMs": 67860,
+  "confidence": null
+ },
+ {
+  "text": " يطلب",
+  "startMs": 68220,
+  "endMs": 68540,
+  "timestampMs": 68380,
+  "confidence": null
+ },
+ {
+  "text": " الأداة",
+  "startMs": 68620,
+  "endMs": 68940,
+  "timestampMs": 68780,
+  "confidence": null
+ },
+ {
+  "text": " المناسبة،",
+  "startMs": 69020,
+  "endMs": 69820,
+  "timestampMs": 69420,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "والتطبيق",
+  "startMs": 69940,
+  "endMs": 70460,
+  "timestampMs": 70200,
+  "confidence": null
+ },
+ {
+  "text": " يستدعيها",
+  "startMs": 70620,
+  "endMs": 71180,
+  "timestampMs": 70900,
+  "confidence": null
+ },
+ {
+  "text": " عبر",
+  "startMs": 71300,
+  "endMs": 71420,
+  "timestampMs": 71360,
+  "confidence": null
+ },
+ {
+  "text": " السيرفر",
+  "startMs": 71500,
+  "endMs": 72300,
+  "timestampMs": 71900,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "ترجع",
+  "startMs": 72380,
+  "endMs": 72620,
+  "timestampMs": 72500,
+  "confidence": null
+ },
+ {
+  "text": " البيانات،",
+  "startMs": 72700,
+  "endMs": 73500,
+  "timestampMs": 73100,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "ثم",
+  "startMs": 73620,
+  "endMs": 73740,
+  "timestampMs": 73680,
+  "confidence": null
+ },
+ {
+  "text": " يلخّصها",
+  "startMs": 73820,
+  "endMs": 74380,
+  "timestampMs": 74100,
+  "confidence": null
+ },
+ {
+  "text": " المساعد",
+  "startMs": 74420,
+  "endMs": 74940,
+  "timestampMs": 74680,
+  "confidence": null
+ },
+ {
+  "text": " لك",
+  "startMs": 75100,
+  "endMs": 75660,
+  "timestampMs": 75380,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وهل",
+  "startMs": 75700,
+  "endMs": 75900,
+  "timestampMs": 75800,
+  "confidence": null
+ },
+ {
+  "text": " اختفت",
+  "startMs": 76020,
+  "endMs": 76380,
+  "timestampMs": 76200,
+  "confidence": null
+ },
+ {
+  "text": " API؟",
+  "startMs": 76407,
+  "endMs": 77420,
+  "timestampMs": 76914,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "لا.",
+  "startMs": 77500,
+  "endMs": 78580,
+  "timestampMs": 78040,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "السيرفر",
+  "startMs": 78957,
+  "endMs": 79300,
+  "timestampMs": 79129,
+  "confidence": null
+ },
+ {
+  "text": " قد",
+  "startMs": 79380,
+  "endMs": 79540,
+  "timestampMs": 79460,
+  "confidence": null
+ },
+ {
+  "text": " يستخدمها",
+  "startMs": 79580,
+  "endMs": 80180,
+  "timestampMs": 79880,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "خلف",
+  "startMs": 80260,
+  "endMs": 80500,
+  "timestampMs": 80380,
+  "confidence": null
+ },
+ {
+  "text": " الكواليس",
+  "startMs": 80580,
+  "endMs": 81140,
+  "timestampMs": 80860,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "للتواصل",
+  "startMs": 81180,
+  "endMs": 81780,
+  "timestampMs": 81480,
+  "confidence": null
+ },
+ {
+  "text": " مع",
+  "startMs": 81860,
+  "endMs": 82020,
+  "timestampMs": 81940,
+  "confidence": null
+ },
+ {
+  "text": " نظام",
+  "startMs": 82100,
+  "endMs": 82340,
+  "timestampMs": 82220,
+  "confidence": null
+ },
+ {
+  "text": " المبيعات",
+  "startMs": 82420,
+  "endMs": 83380,
+  "timestampMs": 82900,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "إذًا،",
+  "startMs": 83420,
+  "endMs": 84020,
+  "timestampMs": 83720,
+  "confidence": null
+ },
+ {
+  "text": " MCP",
+  "startMs": 84047,
+  "endMs": 84620,
+  "timestampMs": 84333,
+  "confidence": null
+ },
+ {
+  "text": " لا",
+  "startMs": 84660,
+  "endMs": 84820,
+  "timestampMs": 84740,
+  "confidence": null
+ },
+ {
+  "text": " يستبدل",
+  "startMs": 84980,
+  "endMs": 85380,
+  "timestampMs": 85180,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "كل",
+  "startMs": 85540,
+  "endMs": 85780,
+  "timestampMs": 85660,
+  "confidence": null
+ },
+ {
+  "text": " واجهات",
+  "startMs": 85940,
+  "endMs": 86260,
+  "timestampMs": 86100,
+  "confidence": null
+ },
+ {
+  "text": " التطبيقات",
+  "startMs": 86340,
+  "endMs": 87300,
+  "timestampMs": 86820,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "هو",
+  "startMs": 87380,
+  "endMs": 87460,
+  "timestampMs": 87420,
+  "confidence": null
+ },
+ {
+  "text": " يوحّد",
+  "startMs": 87540,
+  "endMs": 87940,
+  "timestampMs": 87740,
+  "confidence": null
+ },
+ {
+  "text": " طريقة",
+  "startMs": 88020,
+  "endMs": 88420,
+  "timestampMs": 88220,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "اكتشاف",
+  "startMs": 88540,
+  "endMs": 88900,
+  "timestampMs": 88720,
+  "confidence": null
+ },
+ {
+  "text": " الأدوات",
+  "startMs": 88980,
+  "endMs": 89460,
+  "timestampMs": 89220,
+  "confidence": null
+ },
+ {
+  "text": " واستخدامها",
+  "startMs": 89540,
+  "endMs": 90260,
+  "timestampMs": 89900,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "داخل",
+  "startMs": 90420,
+  "endMs": 90740,
+  "timestampMs": 90580,
+  "confidence": null
+ },
+ {
+  "text": " تطبيقات",
+  "startMs": 90820,
+  "endMs": 91380,
+  "timestampMs": 91100,
+  "confidence": null
+ },
+ {
+  "text": " الذكاء",
+  "startMs": 91420,
+  "endMs": 91780,
+  "timestampMs": 91600,
+  "confidence": null
+ },
+ {
+  "text": " الاصطناعي",
+  "startMs": 91860,
+  "endMs": 92820,
+  "timestampMs": 92340,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "والاتصال",
+  "startMs": 92900,
+  "endMs": 93460,
+  "timestampMs": 93180,
+  "confidence": null
+ },
+ {
+  "text": " لا",
+  "startMs": 93540,
+  "endMs": 93620,
+  "timestampMs": 93580,
+  "confidence": null
+ },
+ {
+  "text": " يعني",
+  "startMs": 93700,
+  "endMs": 93860,
+  "timestampMs": 93780,
+  "confidence": null
+ },
+ {
+  "text": " الوصول",
+  "startMs": 93940,
+  "endMs": 94340,
+  "timestampMs": 94140,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "إلى",
+  "startMs": 94420,
+  "endMs": 94580,
+  "timestampMs": 94500,
+  "confidence": null
+ },
+ {
+  "text": " كل",
+  "startMs": 94660,
+  "endMs": 94820,
+  "timestampMs": 94740,
+  "confidence": null
+ },
+ {
+  "text": " شيء؛",
+  "startMs": 94900,
+  "endMs": 95407,
+  "timestampMs": 95154,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "الوصول",
+  "startMs": 95540,
+  "endMs": 96100,
+  "timestampMs": 95820,
+  "confidence": null
+ },
+ {
+  "text": " يعتمد",
+  "startMs": 96180,
+  "endMs": 96580,
+  "timestampMs": 96380,
+  "confidence": null
+ },
+ {
+  "text": " على",
+  "startMs": 96660,
+  "endMs": 96740,
+  "timestampMs": 96700,
+  "confidence": null
+ },
+ {
+  "text": " الصلاحيات",
+  "startMs": 96780,
+  "endMs": 97460,
+  "timestampMs": 97120,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "التي",
+  "startMs": 97540,
+  "endMs": 97780,
+  "timestampMs": 97660,
+  "confidence": null
+ },
+ {
+  "text": " تمنحها",
+  "startMs": 97820,
+  "endMs": 98740,
+  "timestampMs": 98280,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "احفظ",
+  "startMs": 98820,
+  "endMs": 99060,
+  "timestampMs": 98940,
+  "confidence": null
+ },
+ {
+  "text": " الفيديو،",
+  "startMs": 99140,
+  "endMs": 99780,
+  "timestampMs": 99460,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وتابعني",
+  "startMs": 99860,
+  "endMs": 100420,
+  "timestampMs": 100140,
+  "confidence": null
+ },
+ {
+  "text": " لتفهم",
+  "startMs": 100500,
+  "endMs": 100900,
+  "timestampMs": 100700,
+  "confidence": null
+ },
+ {
+  "text": " التقنية…",
+  "startMs": 101020,
+  "endMs": 101780,
+  "timestampMs": 101400,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "بمثال",
+  "startMs": 101820,
+  "endMs": 102260,
+  "timestampMs": 102040,
+  "confidence": null
+ },
+ {
+  "text": " بسيط",
+  "startMs": 102340,
+  "endMs": 103060,
+  "timestampMs": 102700,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]

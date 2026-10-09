@@ -1,0 +1,459 @@
+{
+  "notes": "Every visual beat is anchored to a spoken word (index into the tag-free word list of narration-words.raw.json) and validated against that word's text, so a re-recorded narration fails loudly instead of drifting. offset is in seconds relative to the word start. Build with: npm run build:timeline",
+  "audio": {
+    "src": "audio/mcp/narration.mp3",
+    "leadInSeconds": 0.3,
+    "tailSeconds": 2.8,
+    "inserts": [
+      {
+        "why": "Hold on the key correction 'API ما زالت موجودة' after the spoken 'لا.' (cut lands inside the natural silence 77.41-77.93s of take B).",
+        "atAudioSeconds": 77.667,
+        "gapSeconds": 0.6
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "question",
+      "w": 0,
+      "word": "إذا",
+      "num": "01",
+      "label": "السؤال"
+    },
+    {
+      "id": "example",
+      "w": 18,
+      "word": "تخيّل",
+      "num": "02",
+      "label": "مثال بسيط"
+    },
+    {
+      "id": "api",
+      "w": 46,
+      "word": "هنا",
+      "num": "03",
+      "label": "دور API"
+    },
+    {
+      "id": "services",
+      "w": 69,
+      "word": "طيب،",
+      "num": "04",
+      "label": "خدمات أكثر"
+    },
+    {
+      "id": "protocol",
+      "w": 91,
+      "word": "«إم",
+      "num": "05",
+      "label": "طريقة موحّدة"
+    },
+    {
+      "id": "how",
+      "w": 125,
+      "word": "كيف",
+      "num": "06",
+      "label": "كيف يعمل؟"
+    },
+    {
+      "id": "correction",
+      "w": 154,
+      "word": "وهل",
+      "num": "07",
+      "label": "تصحيح مهم"
+    },
+    {
+      "id": "recap",
+      "w": 169,
+      "word": "إذًا،",
+      "num": "08",
+      "label": "الخلاصة"
+    },
+    {
+      "id": "outro",
+      "w": 201,
+      "word": "احفظ",
+      "num": "",
+      "label": ""
+    }
+  ],
+  "cues": [
+    {
+      "id": "hook.api",
+      "w": 6,
+      "word": "«إي"
+    },
+    {
+      "id": "hook.question",
+      "w": 9,
+      "word": "لماذا"
+    },
+    {
+      "id": "hook.mcp",
+      "w": 11,
+      "word": "«إم"
+    },
+    {
+      "id": "hook.example",
+      "w": 16,
+      "word": "بمثال"
+    },
+    {
+      "id": "ex.you",
+      "w": 18,
+      "word": "تخيّل"
+    },
+    {
+      "id": "ex.assistant",
+      "w": 21,
+      "word": "لمساعد"
+    },
+    {
+      "id": "ex.request",
+      "w": 23,
+      "word": "لخّص"
+    },
+    {
+      "id": "ex.sales",
+      "w": 28,
+      "word": "نظام"
+    },
+    {
+      "id": "ex.understands",
+      "w": 31,
+      "word": "يفهم"
+    },
+    {
+      "id": "ex.disconnected",
+      "w": 37,
+      "word": "متصلًا"
+    },
+    {
+      "id": "ex.noData",
+      "w": 42,
+      "word": "البيانات"
+    },
+    {
+      "id": "api.block",
+      "w": 49,
+      "word": "«إي"
+    },
+    {
+      "id": "api.connect",
+      "w": 52,
+      "word": "واجهة"
+    },
+    {
+      "id": "api.request",
+      "w": 56,
+      "word": "يطلب"
+    },
+    {
+      "id": "api.result",
+      "w": 59,
+      "word": "خدمات"
+    },
+    {
+      "id": "api.code",
+      "w": 65,
+      "word": "الربط"
+    },
+    {
+      "id": "svc.more",
+      "w": 74,
+      "word": "يستخدم"
+    },
+    {
+      "id": "svc.files",
+      "w": 78,
+      "word": "والملفات،"
+    },
+    {
+      "id": "svc.calendar",
+      "w": 79,
+      "word": "والتقويم؟"
+    },
+    {
+      "id": "svc.details",
+      "w": 83,
+      "word": "تفاصيلها،"
+    },
+    {
+      "id": "mcp.band",
+      "w": 91,
+      "word": "«إم"
+    },
+    {
+      "id": "mcp.standardize",
+      "w": 96,
+      "word": "موحّدة"
+    },
+    {
+      "id": "mcp.analogy",
+      "w": 103,
+      "word": "تخيّله"
+    },
+    {
+      "id": "mcp.port",
+      "w": 106,
+      "word": "«يو"
+    },
+    {
+      "id": "mcp.plug",
+      "w": 112,
+      "word": "مشتركة"
+    },
+    {
+      "id": "mcp.analogyOut",
+      "w": 116,
+      "word": "التشبيه",
+      "offset": 0.4
+    },
+    {
+      "id": "mcp.setup",
+      "w": 123,
+      "word": "إعدادًا"
+    },
+    {
+      "id": "mcp.permissions",
+      "w": 124,
+      "word": "وصلاحيات."
+    },
+    {
+      "id": "how.focus",
+      "w": 125,
+      "word": "كيف"
+    },
+    {
+      "id": "how.server",
+      "w": 127,
+      "word": "سيرفر"
+    },
+    {
+      "id": "how.discover",
+      "w": 131,
+      "word": "يعرّف"
+    },
+    {
+      "id": "how.tool",
+      "w": 136,
+      "word": "أداة"
+    },
+    {
+      "id": "how.modelRequest",
+      "w": 141,
+      "word": "يطلب"
+    },
+    {
+      "id": "how.call",
+      "w": 145,
+      "word": "يستدعيها"
+    },
+    {
+      "id": "how.result",
+      "w": 148,
+      "word": "ترجع"
+    },
+    {
+      "id": "how.summary",
+      "w": 151,
+      "word": "يلخّصها"
+    },
+    {
+      "id": "fix.question",
+      "w": 154,
+      "word": "وهل"
+    },
+    {
+      "id": "fix.no",
+      "w": 159,
+      "word": "لا."
+    },
+    {
+      "id": "fix.backstage",
+      "w": 160,
+      "word": "السيرفر"
+    },
+    {
+      "id": "fix.label",
+      "w": 163,
+      "word": "خلف"
+    },
+    {
+      "id": "recap.start",
+      "w": 169,
+      "word": "إذًا،"
+    },
+    {
+      "id": "recap.notReplace",
+      "w": 174,
+      "word": "يستبدل"
+    },
+    {
+      "id": "recap.unify",
+      "w": 179,
+      "word": "يوحّد"
+    },
+    {
+      "id": "recap.discover",
+      "w": 181,
+      "word": "اكتشاف"
+    },
+    {
+      "id": "recap.use",
+      "w": 183,
+      "word": "واستخدامها"
+    },
+    {
+      "id": "recap.access",
+      "w": 188,
+      "word": "والاتصال"
+    },
+    {
+      "id": "recap.permission",
+      "w": 198,
+      "word": "الصلاحيات"
+    },
+    {
+      "id": "outro.save",
+      "w": 201,
+      "word": "احفظ"
+    },
+    {
+      "id": "outro.follow",
+      "w": 203,
+      "word": "وتابعني"
+    }
+  ],
+  "avatar": {
+    "notes": "Gaze toward the diagram = 'image-right' (the host stands on the image-left side). Hold 0.5-1.2 s, then return forward. Layout changes only at scene boundaries.",
+    "gaze": [
+      {
+        "w": 6,
+        "word": "«إي",
+        "offset": 0.15,
+        "state": "image-right",
+        "hold": 1.0
+      },
+      {
+        "w": 23,
+        "word": "لخّص",
+        "offset": 0.1,
+        "state": "image-right",
+        "hold": 1.1
+      },
+      {
+        "w": 78,
+        "word": "والملفات،",
+        "offset": 0.0,
+        "state": "image-right",
+        "hold": 1.1
+      },
+      {
+        "w": 106,
+        "word": "«يو",
+        "offset": 0.0,
+        "state": "image-right",
+        "hold": 1.0
+      },
+      {
+        "w": 145,
+        "word": "يستدعيها",
+        "offset": 0.0,
+        "state": "image-right",
+        "hold": 0.9
+      },
+      {
+        "w": 148,
+        "word": "ترجع",
+        "offset": 0.1,
+        "state": "image-right",
+        "hold": 0.8
+      }
+    ],
+    "layout": [
+      {
+        "w": 0,
+        "word": "إذا",
+        "offset": -0.3,
+        "preset": "hook"
+      },
+      {
+        "w": 18,
+        "word": "تخيّل",
+        "offset": -0.15,
+        "preset": "standard"
+      },
+      {
+        "w": 154,
+        "word": "وهل",
+        "offset": -0.15,
+        "preset": "emphasis"
+      },
+      {
+        "w": 169,
+        "word": "إذًا،",
+        "offset": -0.15,
+        "preset": "standard"
+      }
+    ],
+    "extraBlinks": [
+      {
+        "w": 34,
+        "word": "إذا",
+        "offset": 0.0
+      },
+      {
+        "w": 189,
+        "word": "لا",
+        "offset": 0.0
+      }
+    ]
+  },
+  "sfx": {
+    "notes": "Sparse, soft UI sounds (public/sfx, generated by scripts/make_sfx.py). Speech stays dominant: volume is a linear gain on a -6 dBFS file.",
+    "volume": 0.22,
+    "events": [
+      {
+        "cue": "hook.api",
+        "sound": "pop"
+      },
+      {
+        "cue": "hook.mcp",
+        "sound": "pop"
+      },
+      {
+        "cue": "api.connect",
+        "sound": "connect"
+      },
+      {
+        "cue": "mcp.band",
+        "sound": "pop"
+      },
+      {
+        "cue": "mcp.standardize",
+        "sound": "connect"
+      },
+      {
+        "cue": "mcp.plug",
+        "sound": "tick"
+      },
+      {
+        "cue": "how.call",
+        "sound": "tick"
+      },
+      {
+        "cue": "how.result",
+        "sound": "tick"
+      },
+      {
+        "cue": "fix.no",
+        "sound": "pop"
+      },
+      {
+        "cue": "recap.permission",
+        "sound": "tick"
+      }
+    ]
+  }
+}

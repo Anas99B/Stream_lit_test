@@ -1,0 +1,1537 @@
+[
+ {
+  "id": 0,
+  "text": "إذا كانت التطبيقات تتواصل",
+  "startFrame": 11,
+  "endFrame": 67,
+  "keyIndex": 3,
+  "keyFrame": 50,
+  "tokens": [
+   {
+    "text": "إذا",
+    "ltr": false,
+    "frame": 11
+   },
+   {
+    "text": "كانت",
+    "ltr": false,
+    "frame": 17
+   },
+   {
+    "text": "التطبيقات",
+    "ltr": false,
+    "frame": 28
+   },
+   {
+    "text": "تتواصل",
+    "ltr": false,
+    "frame": 50
+   }
+  ]
+ },
+ {
+  "id": 1,
+  "text": "عن طريق API…",
+  "startFrame": 67,
+  "endFrame": 122,
+  "keyIndex": 2,
+  "keyFrame": 85,
+  "tokens": [
+   {
+    "text": "عن",
+    "ltr": false,
+    "frame": 67
+   },
+   {
+    "text": "طريق",
+    "ltr": false,
+    "frame": 73
+   },
+   {
+    "text": "API…",
+    "ltr": true,
+    "frame": 85
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "text": "لماذا نحتاج MCP؟",
+  "startFrame": 122,
+  "endFrame": 183,
+  "keyIndex": 2,
+  "keyFrame": 147,
+  "tokens": [
+   {
+    "text": "لماذا",
+    "ltr": false,
+    "frame": 122
+   },
+   {
+    "text": "نحتاج",
+    "ltr": false,
+    "frame": 133
+   },
+   {
+    "text": "MCP؟",
+    "ltr": true,
+    "frame": 147
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "text": "خلّينا نفهمها بمثال بسيط",
+  "startFrame": 183,
+  "endFrame": 247,
+  "keyIndex": 2,
+  "keyFrame": 205,
+  "tokens": [
+   {
+    "text": "خلّينا",
+    "ltr": false,
+    "frame": 183
+   },
+   {
+    "text": "نفهمها",
+    "ltr": false,
+    "frame": 191
+   },
+   {
+    "text": "بمثال",
+    "ltr": false,
+    "frame": 205
+   },
+   {
+    "text": "بسيط",
+    "ltr": false,
+    "frame": 220
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "text": "تخيّل أنك تقول لمساعد ذكي:",
+  "startFrame": 247,
+  "endFrame": 326,
+  "keyIndex": 3,
+  "keyFrame": 283,
+  "tokens": [
+   {
+    "text": "تخيّل",
+    "ltr": false,
+    "frame": 247
+   },
+   {
+    "text": "أنك",
+    "ltr": false,
+    "frame": 261
+   },
+   {
+    "text": "تقول",
+    "ltr": false,
+    "frame": 271
+   },
+   {
+    "text": "لمساعد",
+    "ltr": false,
+    "frame": 283
+   },
+   {
+    "text": "ذكي:",
+    "ltr": false,
+    "frame": 302
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "text": "لخّص مبيعات هذا الأسبوع",
+  "startFrame": 326,
+  "endFrame": 379,
+  "keyIndex": 1,
+  "keyFrame": 339,
+  "tokens": [
+   {
+    "text": "لخّص",
+    "ltr": false,
+    "frame": 326
+   },
+   {
+    "text": "مبيعات",
+    "ltr": false,
+    "frame": 339
+   },
+   {
+    "text": "هذا",
+    "ltr": false,
+    "frame": 355
+   },
+   {
+    "text": "الأسبوع",
+    "ltr": false,
+    "frame": 363
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "text": "من نظام الشركة",
+  "startFrame": 379,
+  "endFrame": 419,
+  "keyIndex": 1,
+  "keyFrame": 382,
+  "tokens": [
+   {
+    "text": "من",
+    "ltr": false,
+    "frame": 379
+   },
+   {
+    "text": "نظام",
+    "ltr": false,
+    "frame": 382
+   },
+   {
+    "text": "الشركة",
+    "ltr": false,
+    "frame": 392
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "text": "المساعد يفهم طلبك،",
+  "startFrame": 419,
+  "endFrame": 475,
+  "keyIndex": 1,
+  "keyFrame": 439,
+  "tokens": [
+   {
+    "text": "المساعد",
+    "ltr": false,
+    "frame": 419
+   },
+   {
+    "text": "يفهم",
+    "ltr": false,
+    "frame": 439
+   },
+   {
+    "text": "طلبك،",
+    "ltr": false,
+    "frame": 451
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "text": "لكن إذا لم يكن",
+  "startFrame": 475,
+  "endFrame": 509,
+  "keyIndex": 2,
+  "keyFrame": 494,
+  "tokens": [
+   {
+    "text": "لكن",
+    "ltr": false,
+    "frame": 475
+   },
+   {
+    "text": "إذا",
+    "ltr": false,
+    "frame": 488
+   },
+   {
+    "text": "لم",
+    "ltr": false,
+    "frame": 494
+   },
+   {
+    "text": "يكن",
+    "ltr": false,
+    "frame": 499
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "text": "متصلًا بالنظام،",
+  "startFrame": 509,
+  "endFrame": 547,
+  "keyIndex": 0,
+  "keyFrame": 509,
+  "tokens": [
+   {
+    "text": "متصلًا",
+    "ltr": false,
+    "frame": 509
+   },
+   {
+    "text": "بالنظام،",
+    "ltr": false,
+    "frame": 525
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "text": "فلن يحصل على البيانات",
+  "startFrame": 547,
+  "endFrame": 590,
+  "keyIndex": 3,
+  "keyFrame": 572,
+  "tokens": [
+   {
+    "text": "فلن",
+    "ltr": false,
+    "frame": 547
+   },
+   {
+    "text": "يحصل",
+    "ltr": false,
+    "frame": 556
+   },
+   {
+    "text": "على",
+    "ltr": false,
+    "frame": 568
+   },
+   {
+    "text": "البيانات",
+    "ltr": false,
+    "frame": 572
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "text": "من تلقاء نفسه",
+  "startFrame": 590,
+  "endFrame": 631,
+  "keyIndex": 2,
+  "keyFrame": 607,
+  "tokens": [
+   {
+    "text": "من",
+    "ltr": false,
+    "frame": 590
+   },
+   {
+    "text": "تلقاء",
+    "ltr": false,
+    "frame": 596
+   },
+   {
+    "text": "نفسه",
+    "ltr": false,
+    "frame": 607
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "text": "هنا يأتي دور API:",
+  "startFrame": 631,
+  "endFrame": 699,
+  "keyIndex": 3,
+  "keyFrame": 662,
+  "tokens": [
+   {
+    "text": "هنا",
+    "ltr": false,
+    "frame": 631
+   },
+   {
+    "text": "يأتي",
+    "ltr": false,
+    "frame": 640
+   },
+   {
+    "text": "دور",
+    "ltr": false,
+    "frame": 652
+   },
+   {
+    "text": "API:",
+    "ltr": true,
+    "frame": 662
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "text": "واجهة تسمح لبرنامج",
+  "startFrame": 699,
+  "endFrame": 748,
+  "keyIndex": 0,
+  "keyFrame": 699,
+  "tokens": [
+   {
+    "text": "واجهة",
+    "ltr": false,
+    "frame": 699
+   },
+   {
+    "text": "تسمح",
+    "ltr": false,
+    "frame": 717
+   },
+   {
+    "text": "لبرنامج",
+    "ltr": false,
+    "frame": 727
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "text": "أن يطلب بيانات أو خدمات",
+  "startFrame": 748,
+  "endFrame": 808,
+  "keyIndex": 1,
+  "keyFrame": 754,
+  "tokens": [
+   {
+    "text": "أن",
+    "ltr": false,
+    "frame": 748
+   },
+   {
+    "text": "يطلب",
+    "ltr": false,
+    "frame": 754
+   },
+   {
+    "text": "بيانات",
+    "ltr": false,
+    "frame": 770
+   },
+   {
+    "text": "أو",
+    "ltr": false,
+    "frame": 784
+   },
+   {
+    "text": "خدمات",
+    "ltr": false,
+    "frame": 789
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "text": "من برنامج آخر",
+  "startFrame": 808,
+  "endFrame": 850,
+  "keyIndex": 2,
+  "keyFrame": 830,
+  "tokens": [
+   {
+    "text": "من",
+    "ltr": false,
+    "frame": 808
+   },
+   {
+    "text": "برنامج",
+    "ltr": false,
+    "frame": 819
+   },
+   {
+    "text": "آخر",
+    "ltr": false,
+    "frame": 830
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "text": "والمطوّر يكتب الربط",
+  "startFrame": 850,
+  "endFrame": 899,
+  "keyIndex": 2,
+  "keyFrame": 889,
+  "tokens": [
+   {
+    "text": "والمطوّر",
+    "ltr": false,
+    "frame": 850
+   },
+   {
+    "text": "يكتب",
+    "ltr": false,
+    "frame": 875
+   },
+   {
+    "text": "الربط",
+    "ltr": false,
+    "frame": 889
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "text": "الذي يحتاجه تطبيقه",
+  "startFrame": 899,
+  "endFrame": 952,
+  "keyIndex": 2,
+  "keyFrame": 926,
+  "tokens": [
+   {
+    "text": "الذي",
+    "ltr": false,
+    "frame": 899
+   },
+   {
+    "text": "يحتاجه",
+    "ltr": false,
+    "frame": 908
+   },
+   {
+    "text": "تطبيقه",
+    "ltr": false,
+    "frame": 926
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "text": "طيب، ماذا لو أردت",
+  "startFrame": 952,
+  "endFrame": 994,
+  "keyIndex": 1,
+  "keyFrame": 971,
+  "tokens": [
+   {
+    "text": "طيب،",
+    "ltr": false,
+    "frame": 952
+   },
+   {
+    "text": "ماذا",
+    "ltr": false,
+    "frame": 971
+   },
+   {
+    "text": "لو",
+    "ltr": false,
+    "frame": 981
+   },
+   {
+    "text": "أردت",
+    "ltr": false,
+    "frame": 985
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "text": "أن يستخدم المساعد",
+  "startFrame": 994,
+  "endFrame": 1033,
+  "keyIndex": 1,
+  "keyFrame": 998,
+  "tokens": [
+   {
+    "text": "أن",
+    "ltr": false,
+    "frame": 994
+   },
+   {
+    "text": "يستخدم",
+    "ltr": false,
+    "frame": 998
+   },
+   {
+    "text": "المساعد",
+    "ltr": false,
+    "frame": 1015
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "text": "نظام المبيعات، والملفات، والتقويم؟",
+  "startFrame": 1033,
+  "endFrame": 1119,
+  "keyIndex": 2,
+  "keyFrame": 1067,
+  "tokens": [
+   {
+    "text": "نظام",
+    "ltr": false,
+    "frame": 1033
+   },
+   {
+    "text": "المبيعات،",
+    "ltr": false,
+    "frame": 1045
+   },
+   {
+    "text": "والملفات،",
+    "ltr": false,
+    "frame": 1067
+   },
+   {
+    "text": "والتقويم؟",
+    "ltr": false,
+    "frame": 1086
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "text": "كل خدمة لها تفاصيلها،",
+  "startFrame": 1119,
+  "endFrame": 1178,
+  "keyIndex": 3,
+  "keyFrame": 1147,
+  "tokens": [
+   {
+    "text": "كل",
+    "ltr": false,
+    "frame": 1119
+   },
+   {
+    "text": "خدمة",
+    "ltr": false,
+    "frame": 1130
+   },
+   {
+    "text": "لها",
+    "ltr": false,
+    "frame": 1138
+   },
+   {
+    "text": "تفاصيلها،",
+    "ltr": false,
+    "frame": 1147
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "text": "وعلى التطبيق أن يعرف",
+  "startFrame": 1178,
+  "endFrame": 1219,
+  "keyIndex": 3,
+  "keyFrame": 1205,
+  "tokens": [
+   {
+    "text": "وعلى",
+    "ltr": false,
+    "frame": 1178
+   },
+   {
+    "text": "التطبيق",
+    "ltr": false,
+    "frame": 1184
+   },
+   {
+    "text": "أن",
+    "ltr": false,
+    "frame": 1202
+   },
+   {
+    "text": "يعرف",
+    "ltr": false,
+    "frame": 1205
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "text": "كيف يتعامل معها",
+  "startFrame": 1219,
+  "endFrame": 1270,
+  "keyIndex": 1,
+  "keyFrame": 1228,
+  "tokens": [
+   {
+    "text": "كيف",
+    "ltr": false,
+    "frame": 1219
+   },
+   {
+    "text": "يتعامل",
+    "ltr": false,
+    "frame": 1228
+   },
+   {
+    "text": "معها",
+    "ltr": false,
+    "frame": 1245
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "text": "MCP يقدّم طريقة موحّدة",
+  "startFrame": 1270,
+  "endFrame": 1341,
+  "keyIndex": 3,
+  "keyFrame": 1322,
+  "tokens": [
+   {
+    "text": "MCP",
+    "ltr": true,
+    "frame": 1270
+   },
+   {
+    "text": "يقدّم",
+    "ltr": false,
+    "frame": 1291
+   },
+   {
+    "text": "طريقة",
+    "ltr": false,
+    "frame": 1305
+   },
+   {
+    "text": "موحّدة",
+    "ltr": false,
+    "frame": 1322
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "text": "لربط تطبيقات الذكاء الاصطناعي",
+  "startFrame": 1341,
+  "endFrame": 1406,
+  "keyIndex": 0,
+  "keyFrame": 1341,
+  "tokens": [
+   {
+    "text": "لربط",
+    "ltr": false,
+    "frame": 1341
+   },
+   {
+    "text": "تطبيقات",
+    "ltr": false,
+    "frame": 1357
+   },
+   {
+    "text": "الذكاء",
+    "ltr": false,
+    "frame": 1372
+   },
+   {
+    "text": "الاصطناعي",
+    "ltr": false,
+    "frame": 1385
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "text": "بالأدوات والبيانات",
+  "startFrame": 1406,
+  "endFrame": 1456,
+  "keyIndex": 0,
+  "keyFrame": 1406,
+  "tokens": [
+   {
+    "text": "بالأدوات",
+    "ltr": false,
+    "frame": 1406
+   },
+   {
+    "text": "والبيانات",
+    "ltr": false,
+    "frame": 1425
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "text": "تخيّله مثل منفذ USB-C:",
+  "startFrame": 1456,
+  "endFrame": 1532,
+  "keyIndex": 3,
+  "keyFrame": 1499,
+  "tokens": [
+   {
+    "text": "تخيّله",
+    "ltr": false,
+    "frame": 1456
+   },
+   {
+    "text": "مثل",
+    "ltr": false,
+    "frame": 1478
+   },
+   {
+    "text": "منفذ",
+    "ltr": false,
+    "frame": 1485
+   },
+   {
+    "text": "USB-C:",
+    "ltr": true,
+    "frame": 1499
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "text": "طريقة اتصال مشتركة",
+  "startFrame": 1532,
+  "endFrame": 1581,
+  "keyIndex": 2,
+  "keyFrame": 1559,
+  "tokens": [
+   {
+    "text": "طريقة",
+    "ltr": false,
+    "frame": 1532
+   },
+   {
+    "text": "اتصال",
+    "ltr": false,
+    "frame": 1546
+   },
+   {
+    "text": "مشتركة",
+    "ltr": false,
+    "frame": 1559
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "text": "لأجهزة مختلفة",
+  "startFrame": 1581,
+  "endFrame": 1629,
+  "keyIndex": 1,
+  "keyFrame": 1600,
+  "tokens": [
+   {
+    "text": "لأجهزة",
+    "ltr": false,
+    "frame": 1581
+   },
+   {
+    "text": "مختلفة",
+    "ltr": false,
+    "frame": 1600
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "text": "هنا، التشبيه للفكرة فقط؛",
+  "startFrame": 1629,
+  "endFrame": 1701,
+  "keyIndex": 3,
+  "keyFrame": 1679,
+  "tokens": [
+   {
+    "text": "هنا،",
+    "ltr": false,
+    "frame": 1629
+   },
+   {
+    "text": "التشبيه",
+    "ltr": false,
+    "frame": 1646
+   },
+   {
+    "text": "للفكرة",
+    "ltr": false,
+    "frame": 1663
+   },
+   {
+    "text": "فقط؛",
+    "ltr": false,
+    "frame": 1679
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "text": "الربط ما زال يحتاج",
+  "startFrame": 1701,
+  "endFrame": 1742,
+  "keyIndex": 3,
+  "keyFrame": 1727,
+  "tokens": [
+   {
+    "text": "الربط",
+    "ltr": false,
+    "frame": 1701
+   },
+   {
+    "text": "ما",
+    "ltr": false,
+    "frame": 1715
+   },
+   {
+    "text": "زال",
+    "ltr": false,
+    "frame": 1721
+   },
+   {
+    "text": "يحتاج",
+    "ltr": false,
+    "frame": 1727
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "text": "إعدادًا وصلاحيات",
+  "startFrame": 1742,
+  "endFrame": 1795,
+  "keyIndex": 1,
+  "keyFrame": 1760,
+  "tokens": [
+   {
+    "text": "إعدادًا",
+    "ltr": false,
+    "frame": 1742
+   },
+   {
+    "text": "وصلاحيات",
+    "ltr": false,
+    "frame": 1760
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "text": "كيف يعمل؟",
+  "startFrame": 1795,
+  "endFrame": 1831,
+  "keyIndex": 1,
+  "keyFrame": 1804,
+  "tokens": [
+   {
+    "text": "كيف",
+    "ltr": false,
+    "frame": 1795
+   },
+   {
+    "text": "يعمل؟",
+    "ltr": false,
+    "frame": 1804
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "text": "سيرفر MCP يعرّف التطبيق",
+  "startFrame": 1831,
+  "endFrame": 1893,
+  "keyIndex": 2,
+  "keyFrame": 1864,
+  "tokens": [
+   {
+    "text": "سيرفر",
+    "ltr": false,
+    "frame": 1831
+   },
+   {
+    "text": "MCP",
+    "ltr": true,
+    "frame": 1843
+   },
+   {
+    "text": "يعرّف",
+    "ltr": false,
+    "frame": 1864
+   },
+   {
+    "text": "التطبيق",
+    "ltr": false,
+    "frame": 1876
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "text": "بالأدوات المتاحة",
+  "startFrame": 1893,
+  "endFrame": 1940,
+  "keyIndex": 0,
+  "keyFrame": 1893,
+  "tokens": [
+   {
+    "text": "بالأدوات",
+    "ltr": false,
+    "frame": 1893
+   },
+   {
+    "text": "المتاحة",
+    "ltr": false,
+    "frame": 1913
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "text": "مثلًا: أداة لجلب مبيعات الأسبوع",
+  "startFrame": 1940,
+  "endFrame": 2027,
+  "keyIndex": 1,
+  "keyFrame": 1959,
+  "tokens": [
+   {
+    "text": "مثلًا:",
+    "ltr": false,
+    "frame": 1940
+   },
+   {
+    "text": "أداة",
+    "ltr": false,
+    "frame": 1959
+   },
+   {
+    "text": "لجلب",
+    "ltr": false,
+    "frame": 1975
+   },
+   {
+    "text": "مبيعات",
+    "ltr": false,
+    "frame": 1985
+   },
+   {
+    "text": "الأسبوع",
+    "ltr": false,
+    "frame": 2001
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "text": "المساعد يطلب الأداة المناسبة،",
+  "startFrame": 2027,
+  "endFrame": 2098,
+  "keyIndex": 1,
+  "keyFrame": 2047,
+  "tokens": [
+   {
+    "text": "المساعد",
+    "ltr": false,
+    "frame": 2027
+   },
+   {
+    "text": "يطلب",
+    "ltr": false,
+    "frame": 2047
+   },
+   {
+    "text": "الأداة",
+    "ltr": false,
+    "frame": 2059
+   },
+   {
+    "text": "المناسبة،",
+    "ltr": false,
+    "frame": 2071
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "text": "والتطبيق يستدعيها عبر السيرفر",
+  "startFrame": 2098,
+  "endFrame": 2171,
+  "keyIndex": 1,
+  "keyFrame": 2119,
+  "tokens": [
+   {
+    "text": "والتطبيق",
+    "ltr": false,
+    "frame": 2098
+   },
+   {
+    "text": "يستدعيها",
+    "ltr": false,
+    "frame": 2119
+   },
+   {
+    "text": "عبر",
+    "ltr": false,
+    "frame": 2139
+   },
+   {
+    "text": "السيرفر",
+    "ltr": false,
+    "frame": 2145
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "text": "ترجع البيانات،",
+  "startFrame": 2171,
+  "endFrame": 2209,
+  "keyIndex": 0,
+  "keyFrame": 2171,
+  "tokens": [
+   {
+    "text": "ترجع",
+    "ltr": false,
+    "frame": 2171
+   },
+   {
+    "text": "البيانات،",
+    "ltr": false,
+    "frame": 2181
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "text": "ثم يلخّصها المساعد لك",
+  "startFrame": 2209,
+  "endFrame": 2271,
+  "keyIndex": 1,
+  "keyFrame": 2215,
+  "tokens": [
+   {
+    "text": "ثم",
+    "ltr": false,
+    "frame": 2209
+   },
+   {
+    "text": "يلخّصها",
+    "ltr": false,
+    "frame": 2215
+   },
+   {
+    "text": "المساعد",
+    "ltr": false,
+    "frame": 2233
+   },
+   {
+    "text": "لك",
+    "ltr": false,
+    "frame": 2253
+   }
+  ]
+ },
+ {
+  "id": 41,
+  "text": "وهل اختفت API؟",
+  "startFrame": 2271,
+  "endFrame": 2325,
+  "keyIndex": 1,
+  "keyFrame": 2281,
+  "tokens": [
+   {
+    "text": "وهل",
+    "ltr": false,
+    "frame": 2271
+   },
+   {
+    "text": "اختفت",
+    "ltr": false,
+    "frame": 2281
+   },
+   {
+    "text": "API؟",
+    "ltr": true,
+    "frame": 2292
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "text": "لا.",
+  "startFrame": 2325,
+  "endFrame": 2369,
+  "keyIndex": 0,
+  "keyFrame": 2325,
+  "tokens": [
+   {
+    "text": "لا.",
+    "ltr": false,
+    "frame": 2325
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "text": "السيرفر قد يستخدمها",
+  "startFrame": 2369,
+  "endFrame": 2408,
+  "keyIndex": 2,
+  "keyFrame": 2387,
+  "tokens": [
+   {
+    "text": "السيرفر",
+    "ltr": false,
+    "frame": 2369
+   },
+   {
+    "text": "قد",
+    "ltr": false,
+    "frame": 2381
+   },
+   {
+    "text": "يستخدمها",
+    "ltr": false,
+    "frame": 2387
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "text": "خلف الكواليس",
+  "startFrame": 2408,
+  "endFrame": 2435,
+  "keyIndex": 1,
+  "keyFrame": 2417,
+  "tokens": [
+   {
+    "text": "خلف",
+    "ltr": false,
+    "frame": 2408
+   },
+   {
+    "text": "الكواليس",
+    "ltr": false,
+    "frame": 2417
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "text": "للتواصل مع نظام المبيعات",
+  "startFrame": 2435,
+  "endFrame": 2503,
+  "keyIndex": 3,
+  "keyFrame": 2473,
+  "tokens": [
+   {
+    "text": "للتواصل",
+    "ltr": false,
+    "frame": 2435
+   },
+   {
+    "text": "مع",
+    "ltr": false,
+    "frame": 2456
+   },
+   {
+    "text": "نظام",
+    "ltr": false,
+    "frame": 2463
+   },
+   {
+    "text": "المبيعات",
+    "ltr": false,
+    "frame": 2473
+   }
+  ]
+ },
+ {
+  "id": 46,
+  "text": "إذًا، MCP لا يستبدل",
+  "startFrame": 2503,
+  "endFrame": 2566,
+  "keyIndex": 3,
+  "keyFrame": 2549,
+  "tokens": [
+   {
+    "text": "إذًا،",
+    "ltr": false,
+    "frame": 2503
+   },
+   {
+    "text": "MCP",
+    "ltr": true,
+    "frame": 2521
+   },
+   {
+    "text": "لا",
+    "ltr": false,
+    "frame": 2540
+   },
+   {
+    "text": "يستبدل",
+    "ltr": false,
+    "frame": 2549
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "text": "كل واجهات التطبيقات",
+  "startFrame": 2566,
+  "endFrame": 2621,
+  "keyIndex": 0,
+  "keyFrame": 2566,
+  "tokens": [
+   {
+    "text": "كل",
+    "ltr": false,
+    "frame": 2566
+   },
+   {
+    "text": "واجهات",
+    "ltr": false,
+    "frame": 2578
+   },
+   {
+    "text": "التطبيقات",
+    "ltr": false,
+    "frame": 2590
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "text": "هو يوحّد طريقة",
+  "startFrame": 2621,
+  "endFrame": 2656,
+  "keyIndex": 1,
+  "keyFrame": 2626,
+  "tokens": [
+   {
+    "text": "هو",
+    "ltr": false,
+    "frame": 2621
+   },
+   {
+    "text": "يوحّد",
+    "ltr": false,
+    "frame": 2626
+   },
+   {
+    "text": "طريقة",
+    "ltr": false,
+    "frame": 2641
+   }
+  ]
+ },
+ {
+  "id": 49,
+  "text": "اكتشاف الأدوات واستخدامها",
+  "startFrame": 2656,
+  "endFrame": 2713,
+  "keyIndex": 0,
+  "keyFrame": 2656,
+  "tokens": [
+   {
+    "text": "اكتشاف",
+    "ltr": false,
+    "frame": 2656
+   },
+   {
+    "text": "الأدوات",
+    "ltr": false,
+    "frame": 2669
+   },
+   {
+    "text": "واستخدامها",
+    "ltr": false,
+    "frame": 2686
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "text": "داخل تطبيقات الذكاء الاصطناعي",
+  "startFrame": 2713,
+  "endFrame": 2787,
+  "keyIndex": 2,
+  "keyFrame": 2743,
+  "tokens": [
+   {
+    "text": "داخل",
+    "ltr": false,
+    "frame": 2713
+   },
+   {
+    "text": "تطبيقات",
+    "ltr": false,
+    "frame": 2725
+   },
+   {
+    "text": "الذكاء",
+    "ltr": false,
+    "frame": 2743
+   },
+   {
+    "text": "الاصطناعي",
+    "ltr": false,
+    "frame": 2756
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "text": "والاتصال لا يعني الوصول",
+  "startFrame": 2787,
+  "endFrame": 2833,
+  "keyIndex": 3,
+  "keyFrame": 2818,
+  "tokens": [
+   {
+    "text": "والاتصال",
+    "ltr": false,
+    "frame": 2787
+   },
+   {
+    "text": "لا",
+    "ltr": false,
+    "frame": 2806
+   },
+   {
+    "text": "يعني",
+    "ltr": false,
+    "frame": 2811
+   },
+   {
+    "text": "الوصول",
+    "ltr": false,
+    "frame": 2818
+   }
+  ]
+ },
+ {
+  "id": 52,
+  "text": "إلى كل شيء؛",
+  "startFrame": 2833,
+  "endFrame": 2866,
+  "keyIndex": 1,
+  "keyFrame": 2840,
+  "tokens": [
+   {
+    "text": "إلى",
+    "ltr": false,
+    "frame": 2833
+   },
+   {
+    "text": "كل",
+    "ltr": false,
+    "frame": 2840
+   },
+   {
+    "text": "شيء؛",
+    "ltr": false,
+    "frame": 2847
+   }
+  ]
+ },
+ {
+  "id": 53,
+  "text": "الوصول يعتمد على الصلاحيات",
+  "startFrame": 2866,
+  "endFrame": 2926,
+  "keyIndex": 3,
+  "keyFrame": 2903,
+  "tokens": [
+   {
+    "text": "الوصول",
+    "ltr": false,
+    "frame": 2866
+   },
+   {
+    "text": "يعتمد",
+    "ltr": false,
+    "frame": 2885
+   },
+   {
+    "text": "على",
+    "ltr": false,
+    "frame": 2900
+   },
+   {
+    "text": "الصلاحيات",
+    "ltr": false,
+    "frame": 2903
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "text": "التي تمنحها",
+  "startFrame": 2926,
+  "endFrame": 2965,
+  "keyIndex": 1,
+  "keyFrame": 2935,
+  "tokens": [
+   {
+    "text": "التي",
+    "ltr": false,
+    "frame": 2926
+   },
+   {
+    "text": "تمنحها",
+    "ltr": false,
+    "frame": 2935
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "text": "احفظ الفيديو،",
+  "startFrame": 2965,
+  "endFrame": 2996,
+  "keyIndex": 0,
+  "keyFrame": 2965,
+  "tokens": [
+   {
+    "text": "احفظ",
+    "ltr": false,
+    "frame": 2965
+   },
+   {
+    "text": "الفيديو،",
+    "ltr": false,
+    "frame": 2974
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "text": "وتابعني لتفهم التقنية…",
+  "startFrame": 2996,
+  "endFrame": 3055,
+  "keyIndex": 0,
+  "keyFrame": 2996,
+  "tokens": [
+   {
+    "text": "وتابعني",
+    "ltr": false,
+    "frame": 2996
+   },
+   {
+    "text": "لتفهم",
+    "ltr": false,
+    "frame": 3015
+   },
+   {
+    "text": "التقنية…",
+    "ltr": false,
+    "frame": 3031
+   }
+  ]
+ },
+ {
+  "id": 57,
+  "text": "بمثال بسيط",
+  "startFrame": 3055,
+  "endFrame": 3116,
+  "keyIndex": 1,
+  "keyFrame": 3070,
+  "tokens": [
+   {
+    "text": "بمثال",
+    "ltr": false,
+    "frame": 3055
+   },
+   {
+    "text": "بسيط",
+    "ltr": false,
+    "frame": 3070
+   }
+  ]
+ }
+]
