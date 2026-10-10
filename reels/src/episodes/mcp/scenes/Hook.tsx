@@ -4,19 +4,14 @@ import { Chip } from "../../../components/Chip";
 import { Connector } from "../../../components/Connector";
 import { DiagramCard } from "../../../components/DiagramCard";
 import { Ltr } from "../../../components/Ltr";
+import { MaskLine } from "../../../components/MaskLine";
 import { mix, prog, vis } from "../../../lib/anim";
 import type { StageBox } from "../../../lib/stage";
 import { useTime } from "../../../lib/time";
 import { cue } from "../data";
 
-/** A line that rises out of its own mask and resolves from blur (reference text reveal). */
-export const MaskLine: React.FC<{ v: number; children: React.ReactNode; style?: React.CSSProperties }> = ({ v, children, style }) => (
-  <div style={{ overflow: "hidden", paddingBottom: 6, ...style }}>
-    <div style={{ translate: `0px ${(1 - v) * 105}%`, filter: v < 0.999 ? `blur(${(1 - v) * 10}px)` : undefined, opacity: Math.min(1, v * 2) }}>
-      {children}
-    </div>
-  </div>
-);
+// MaskLine moved to the shared components (reused by every episode).
+export { MaskLine };
 
 /**
  * 01 · Question. The premise appears as it is spoken, then steps back for the

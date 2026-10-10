@@ -24,10 +24,22 @@ out of a mask and resolves from blur, risers/whooshes/impacts/ticks).
    existing diagram instead of clearing it.
 4. **Correction.** Name the misconception and hold on it.
 5. **Takeaway.** Answer the opening question explicitly and end there.
-   **No save/follow ending** (removed in v2 at the owner's request); hold the
-   final diagram ~2 s after the last word.
+   **No save/follow ending** by default (removed in v2 at the owner's
+   request); hold the final diagram ~2 s after the last word.
+   *Exception (v2.1):* when the owner's **recorded** narration ends with a
+   save/follow line, keep it: recap → the v1 CTA chips («احفظ الفيديو»
+   bookmark, «تابعني» plus) → channel handle, held ~2.6 s (EP.02).
 
-Target 90–110 s, fitted to the real narration. Never speed up speech.
+List episodes ("5 … you should know", EP.02) follow the recording instead:
+hook with a big number → one chapter per item (each with its own concrete
+example, a discreet `n/N` progress, the English name as chapter title) →
+compact recap.
+
+Target 90–110 s, fitted to the real narration. Never speed up speech —
+except an **owner-supplied** take the owner asks to tighten: pitch-preserving
+FFmpeg `atempo` 1.05–1.12× on a separate copy (the original is kept), before
+any alignment; the video plays the processed file at normal speed (EP.02:
+1.08×).
 
 ## 2. Palette (dark)
 
@@ -103,7 +115,11 @@ dots, white playhead). Decorative and quiet — it frames, it never explains.
 
 ## 7. Captions
 
-- 2–5 words, ≤ 2 lines, dark glass strip, hairline border.
+- 2–5 words, ≤ 2 lines (balanced wrap), dark glass strip, hairline border.
+- English terms stay English (Machine Learning, Linear Regression …).
+  Consecutive Latin words form **one** LTR isolate, so they keep their order
+  in the Arabic line; a multi-word English term can be the keyword and
+  lights up as one.
 - The phrase rises out of a mask and resolves from blur; **one keyword per
   phrase** turns accent-orange with a soft glow when spoken and stays on.
 - Built from the narration alignment by `npm run build:timeline` (validated
@@ -127,14 +143,28 @@ dots, white playhead). Decorative and quiet — it frames, it never explains.
 Forward gaze by default; glance toward the diagram (`image-right`) 0.5–1.2 s
 when a new object arrives; deterministic blinks every 3–5 s; instant eye
 swaps; no lip-sync, no bounce; steps out/in only at scene boundaries.
+Graphical emotion (v2.1) is an overlay, never new artwork: a small accent
+bubble beside the head (`Reaction`: «?» curiosity, «!» surprise), optionally
+with the `emphasis` framing; satisfaction is shown on the diagram (glow +
+ring burst), not on the host.
 
 ## 10. Approved example
 
 Episode 01 — MCP, v2 master in `deliverables/mcp-ep01-v2/`
 (v1 light version kept in `deliverables/mcp-ep01-v1/`).
+Episode 02 — 5 ML algorithms (list format, supplied narration, CTA ending),
+master in `deliverables/ml-algorithms-ep02/`.
 
 ## Changelog
 
+- **v2.1.0** (2026-10-10) — owner's EP.02 brief; look, palette, fonts, host
+  artwork and voice ID unchanged (so no new style ID and nothing archived).
+  Added: pitch-preserving tempo processing of owner-supplied takes (1.05–1.12×);
+  recorded save/follow ending allowed (v1 CTA chips + channel handle);
+  list-episode pattern with `ListProgress` (n/N); `Reaction` bubble for
+  graphical emotion; multi-word English caption keywords, one LTR isolate per
+  Latin run (fixes reversed word order of "Linear Regression"), balanced
+  two-line caption wrap; `MaskLine` moved to shared components.
 - **v2.0.0** (2026-10-09) — dark grid backdrop + HUD chrome, orange accent
   with glow (MCP) and silver (API), masked/blur text reveals, in-out moves,
   60 fps master, smaller host with rim light and step-out/step-in, new

@@ -43,7 +43,15 @@ chat memory.
      script, use estimated timings (mark `"provisional": true` in the
      timeline notes) and label every render "silent prototype — audio
      pending".
-5. **Data.** Copy `episodes/mcp/` as a template:
+   - **If the owner supplies the narration** (EP.02): do not generate a new
+     take. Copy the original into `episodes/<topic>/source-audio/`
+     unchanged; write the processed copy to
+     `public/audio/<topic>/narration.wav` (trim only excess lead/tail
+     silence; if asked, FFmpeg `atempo=1.05–1.12`, pitch-preserving; check
+     F0 and words/min); then align **that** file (Scribe) and keep both the
+     raw Scribe output and a display-spelled copy (English terms in English).
+5. **Data.** Copy `episodes/mcp/` (five-beat) or `episodes/ml-algorithms/`
+   (list episode) as a template:
    - `captions.source.json` — phrases (2–5 words) in display form, one
      `key` word each.
    - `cues.json` — `chapters`, `cues`, `avatar.gaze` (0.5–1.2 s holds,

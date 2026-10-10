@@ -39,7 +39,8 @@ export const eyeStateAt = (t: number, gaze: GazeEvent[] = [], blinks: Blink[] = 
   return g ? g.state : "forward";
 };
 
-const placementAt = (t: number, layout: LayoutKey[] | undefined, fallback: AvatarPlacement): Required<AvatarPlacement> => {
+/** Host placement at time t (shared with overlays that follow the host, e.g. Reaction). */
+export const placementAt = (t: number, layout: LayoutKey[] | undefined, fallback: AvatarPlacement): Required<AvatarPlacement> => {
   const full = (p: AvatarPlacement): Required<AvatarPlacement> => ({ opacity: 1, ...p });
   if (!layout || layout.length === 0) return full(fallback);
   let cur = full(AVATAR_PRESETS[layout[0].preset] ?? fallback);

@@ -33,7 +33,12 @@ Also read `brand/voice-profile.json` (narrator voice + delivery) and follow
   raw `useCurrentFrame()`), the master renders at 60 fps.
 - Give the diagram room when it needs it: the host steps out with layout
   preset `away` (stage widens 640 → 870) and returns at a later boundary.
-- No save/follow ending; end on the takeaway diagram.
+- No save/follow ending by default; end on the takeaway diagram. If the
+  owner's recorded narration ends with a save/follow line, keep it and use
+  the CTA chips + channel handle (EP.02, STYLE_GUIDE v2.1).
+- Owner-supplied narration: keep the original file untouched, process a copy
+  (tail/lead trim, pitch-preserving `atempo` only if asked, 1.05–1.12×),
+  align on the processed copy, never regenerate or re-voice it.
 - Verify technical claims against primary docs; keep deeper detail in the
   episode's `production-notes.md`, not in the beginner narration.
 - Never modify `brand/avatar-source/`; never invent mouth shapes or a new
@@ -53,6 +58,7 @@ npm run build:sfx                       # regenerate the procedural SFX kit (pub
 npm run preview:mcp                     # 12 s opening preview -> out/
 npm run render:mcp                      # final 60 fps master -> out/
 npm run still:mcp-cover                 # cover PNG -> out/
+npm run preview:ml / render:ml / still:ml-cover   # EP.02 (episodes/ml-algorithms)
 npm run lint                            # eslint + tsc
 ```
 

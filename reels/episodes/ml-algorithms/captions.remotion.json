@@ -1,0 +1,1535 @@
+[
+ {
+  "text": "خمس",
+  "startMs": 420,
+  "endMs": 640,
+  "timestampMs": 530,
+  "confidence": null
+ },
+ {
+  "text": " خوارزميات",
+  "startMs": 700,
+  "endMs": 1440,
+  "timestampMs": 1070,
+  "confidence": null
+ },
+ {
+  "text": " في",
+  "startMs": 1480,
+  "endMs": 1560,
+  "timestampMs": 1520,
+  "confidence": null
+ },
+ {
+  "text": " Machine",
+  "startMs": 1600,
+  "endMs": 1940,
+  "timestampMs": 1770,
+  "confidence": null
+ },
+ {
+  "text": " Learning",
+  "startMs": 1980,
+  "endMs": 2360,
+  "timestampMs": 2170,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "لازم",
+  "startMs": 2480,
+  "endMs": 2860,
+  "timestampMs": 2670,
+  "confidence": null
+ },
+ {
+  "text": " تعرفها!",
+  "startMs": 2920,
+  "endMs": 3420,
+  "timestampMs": 3170,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "ما",
+  "startMs": 3760,
+  "endMs": 3840,
+  "timestampMs": 3800,
+  "confidence": null
+ },
+ {
+  "text": " تحتاج",
+  "startMs": 3900,
+  "endMs": 4280,
+  "timestampMs": 4090,
+  "confidence": null
+ },
+ {
+  "text": " تحفظ",
+  "startMs": 4319,
+  "endMs": 4600,
+  "timestampMs": 4460,
+  "confidence": null
+ },
+ {
+  "text": " معادلاتها",
+  "startMs": 4640,
+  "endMs": 5260,
+  "timestampMs": 4950,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "خلّينا",
+  "startMs": 5680,
+  "endMs": 5960,
+  "timestampMs": 5820,
+  "confidence": null
+ },
+ {
+  "text": " نفهم",
+  "startMs": 6000,
+  "endMs": 6380,
+  "timestampMs": 6190,
+  "confidence": null
+ },
+ {
+  "text": " كل",
+  "startMs": 6440,
+  "endMs": 6600,
+  "timestampMs": 6520,
+  "confidence": null
+ },
+ {
+  "text": " واحدة",
+  "startMs": 6640,
+  "endMs": 6940,
+  "timestampMs": 6790,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "بمثال",
+  "startMs": 7000,
+  "endMs": 7400,
+  "timestampMs": 7200,
+  "confidence": null
+ },
+ {
+  "text": " بسيط",
+  "startMs": 7420,
+  "endMs": 7800,
+  "timestampMs": 7610,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "أولًا:",
+  "startMs": 8280,
+  "endMs": 8700,
+  "timestampMs": 8490,
+  "confidence": null
+ },
+ {
+  "text": " Linear",
+  "startMs": 9140,
+  "endMs": 9460,
+  "timestampMs": 9300,
+  "confidence": null
+ },
+ {
+  "text": " Regression",
+  "startMs": 9540,
+  "endMs": 10060,
+  "timestampMs": 9800,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "تخيّل",
+  "startMs": 10440,
+  "endMs": 10880,
+  "timestampMs": 10660,
+  "confidence": null
+ },
+ {
+  "text": " إنك",
+  "startMs": 10920,
+  "endMs": 11140,
+  "timestampMs": 11030,
+  "confidence": null
+ },
+ {
+  "text": " تريد",
+  "startMs": 11180,
+  "endMs": 11400,
+  "timestampMs": 11290,
+  "confidence": null
+ },
+ {
+  "text": " تقدّر",
+  "startMs": 11440,
+  "endMs": 11940,
+  "timestampMs": 11690,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "سعر",
+  "startMs": 11980,
+  "endMs": 12240,
+  "timestampMs": 12110,
+  "confidence": null
+ },
+ {
+  "text": " شقة",
+  "startMs": 12280,
+  "endMs": 12560,
+  "timestampMs": 12420,
+  "confidence": null
+ },
+ {
+  "text": " من",
+  "startMs": 12620,
+  "endMs": 12720,
+  "timestampMs": 12670,
+  "confidence": null
+ },
+ {
+  "text": " مساحتها",
+  "startMs": 12740,
+  "endMs": 13340,
+  "timestampMs": 13040,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "تعطيه",
+  "startMs": 13700,
+  "endMs": 14040,
+  "timestampMs": 13870,
+  "confidence": null
+ },
+ {
+  "text": " أمثلة",
+  "startMs": 14060,
+  "endMs": 14440,
+  "timestampMs": 14250,
+  "confidence": null
+ },
+ {
+  "text": " لشقق",
+  "startMs": 14480,
+  "endMs": 14880,
+  "timestampMs": 14680,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "نعرف",
+  "startMs": 14920,
+  "endMs": 15200,
+  "timestampMs": 15060,
+  "confidence": null
+ },
+ {
+  "text": " مساحاتها",
+  "startMs": 15220,
+  "endMs": 15800,
+  "timestampMs": 15510,
+  "confidence": null
+ },
+ {
+  "text": " وأسعارها،",
+  "startMs": 15880,
+  "endMs": 16379,
+  "timestampMs": 16130,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وهو",
+  "startMs": 16780,
+  "endMs": 17100,
+  "timestampMs": 16940,
+  "confidence": null
+ },
+ {
+  "text": " يتعلم",
+  "startMs": 17140,
+  "endMs": 17620,
+  "timestampMs": 17380,
+  "confidence": null
+ },
+ {
+  "text": " العلاقة",
+  "startMs": 17680,
+  "endMs": 18080,
+  "timestampMs": 17880,
+  "confidence": null
+ },
+ {
+  "text": " بينها",
+  "startMs": 18140,
+  "endMs": 18440,
+  "timestampMs": 18290,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "بعدها",
+  "startMs": 18820,
+  "endMs": 19180,
+  "timestampMs": 19000,
+  "confidence": null
+ },
+ {
+  "text": " تدخل",
+  "startMs": 19580,
+  "endMs": 19880,
+  "timestampMs": 19730,
+  "confidence": null
+ },
+ {
+  "text": " مساحة",
+  "startMs": 19920,
+  "endMs": 20320,
+  "timestampMs": 20120,
+  "confidence": null
+ },
+ {
+  "text": " شقة",
+  "startMs": 20360,
+  "endMs": 20620,
+  "timestampMs": 20490,
+  "confidence": null
+ },
+ {
+  "text": " جديدة",
+  "startMs": 20680,
+  "endMs": 21220,
+  "timestampMs": 20950,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "ويعطيك",
+  "startMs": 21240,
+  "endMs": 21700,
+  "timestampMs": 21470,
+  "confidence": null
+ },
+ {
+  "text": " سعرًا",
+  "startMs": 21760,
+  "endMs": 22120,
+  "timestampMs": 21940,
+  "confidence": null
+ },
+ {
+  "text": " تقريبيًا",
+  "startMs": 22160,
+  "endMs": 22760,
+  "timestampMs": 22460,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "الفكرة",
+  "startMs": 23100,
+  "endMs": 23480,
+  "timestampMs": 23290,
+  "confidence": null
+ },
+ {
+  "text": " هنا:",
+  "startMs": 23520,
+  "endMs": 23740,
+  "timestampMs": 23630,
+  "confidence": null
+ },
+ {
+  "text": " توقّع",
+  "startMs": 24160,
+  "endMs": 24740,
+  "timestampMs": 24450,
+  "confidence": null
+ },
+ {
+  "text": " رقم",
+  "startMs": 24780,
+  "endMs": 25080,
+  "timestampMs": 24930,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "ثانيًا:",
+  "startMs": 25540,
+  "endMs": 25980,
+  "timestampMs": 25760,
+  "confidence": null
+ },
+ {
+  "text": " Logistic",
+  "startMs": 26300,
+  "endMs": 26820,
+  "timestampMs": 26560,
+  "confidence": null
+ },
+ {
+  "text": " Regression",
+  "startMs": 26880,
+  "endMs": 27360,
+  "timestampMs": 27120,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وصلتك",
+  "startMs": 27780,
+  "endMs": 28220,
+  "timestampMs": 28000,
+  "confidence": null
+ },
+ {
+  "text": " رسالة،",
+  "startMs": 28240,
+  "endMs": 28660,
+  "timestampMs": 28450,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "عادية",
+  "startMs": 29060,
+  "endMs": 29520,
+  "timestampMs": 29290,
+  "confidence": null
+ },
+ {
+  "text": " أو",
+  "startMs": 29840,
+  "endMs": 29960,
+  "timestampMs": 29900,
+  "confidence": null
+ },
+ {
+  "text": " Spam؟",
+  "startMs": 30060,
+  "endMs": 30360,
+  "timestampMs": 30210,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "هذه",
+  "startMs": 30780,
+  "endMs": 31000,
+  "timestampMs": 30890,
+  "confidence": null
+ },
+ {
+  "text": " الخوارزمية",
+  "startMs": 31000,
+  "endMs": 31720,
+  "timestampMs": 31360,
+  "confidence": null
+ },
+ {
+  "text": " تتعلم",
+  "startMs": 31800,
+  "endMs": 32240,
+  "timestampMs": 32020,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "من",
+  "startMs": 32280,
+  "endMs": 32380,
+  "timestampMs": 32330,
+  "confidence": null
+ },
+ {
+  "text": " رسائل",
+  "startMs": 32400,
+  "endMs": 32820,
+  "timestampMs": 32610,
+  "confidence": null
+ },
+ {
+  "text": " مصنّفة",
+  "startMs": 32860,
+  "endMs": 33360,
+  "timestampMs": 33110,
+  "confidence": null
+ },
+ {
+  "text": " سابقًا،",
+  "startMs": 33400,
+  "endMs": 33840,
+  "timestampMs": 33620,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وتقدّر",
+  "startMs": 34160,
+  "endMs": 34660,
+  "timestampMs": 34410,
+  "confidence": null
+ },
+ {
+  "text": " احتمال",
+  "startMs": 34720,
+  "endMs": 35140,
+  "timestampMs": 34930,
+  "confidence": null
+ },
+ {
+  "text": " أن",
+  "startMs": 35200,
+  "endMs": 35260,
+  "timestampMs": 35230,
+  "confidence": null
+ },
+ {
+  "text": " تكون",
+  "startMs": 35300,
+  "endMs": 35560,
+  "timestampMs": 35430,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "الرسالة",
+  "startMs": 35580,
+  "endMs": 36000,
+  "timestampMs": 35790,
+  "confidence": null
+ },
+ {
+  "text": " الجديدة",
+  "startMs": 36000,
+  "endMs": 36440,
+  "timestampMs": 36220,
+  "confidence": null
+ },
+ {
+  "text": " Spam،",
+  "startMs": 36560,
+  "endMs": 36860,
+  "timestampMs": 36710,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وبناءً",
+  "startMs": 37140,
+  "endMs": 37580,
+  "timestampMs": 37360,
+  "confidence": null
+ },
+ {
+  "text": " على",
+  "startMs": 37620,
+  "endMs": 37760,
+  "timestampMs": 37690,
+  "confidence": null
+ },
+ {
+  "text": " هذا",
+  "startMs": 37800,
+  "endMs": 37960,
+  "timestampMs": 37880,
+  "confidence": null
+ },
+ {
+  "text": " الاحتمال",
+  "startMs": 37980,
+  "endMs": 38500,
+  "timestampMs": 38240,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "نحدّد",
+  "startMs": 38840,
+  "endMs": 39280,
+  "timestampMs": 39060,
+  "confidence": null
+ },
+ {
+  "text": " تصنيفها",
+  "startMs": 39320,
+  "endMs": 39860,
+  "timestampMs": 39590,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "يعني",
+  "startMs": 40220,
+  "endMs": 40480,
+  "timestampMs": 40350,
+  "confidence": null
+ },
+ {
+  "text": " رغم",
+  "startMs": 40520,
+  "endMs": 40740,
+  "timestampMs": 40630,
+  "confidence": null
+ },
+ {
+  "text": " اسمها",
+  "startMs": 40800,
+  "endMs": 41160,
+  "timestampMs": 40980,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "تستخدم",
+  "startMs": 41480,
+  "endMs": 42060,
+  "timestampMs": 41770,
+  "confidence": null
+ },
+ {
+  "text": " للتصنيف",
+  "startMs": 42100,
+  "endMs": 42760,
+  "timestampMs": 42430,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "ثالثًا:",
+  "startMs": 43180,
+  "endMs": 43660,
+  "timestampMs": 43420,
+  "confidence": null
+ },
+ {
+  "text": " Decision",
+  "startMs": 43980,
+  "endMs": 44400,
+  "timestampMs": 44190,
+  "confidence": null
+ },
+ {
+  "text": " Tree",
+  "startMs": 44520,
+  "endMs": 44800,
+  "timestampMs": 44660,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "تخيّل",
+  "startMs": 45160,
+  "endMs": 45580,
+  "timestampMs": 45370,
+  "confidence": null
+ },
+ {
+  "text": " شجرة،",
+  "startMs": 45620,
+  "endMs": 45960,
+  "timestampMs": 45790,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "لكن",
+  "startMs": 46300,
+  "endMs": 46560,
+  "timestampMs": 46430,
+  "confidence": null
+ },
+ {
+  "text": " بدل",
+  "startMs": 46580,
+  "endMs": 46800,
+  "timestampMs": 46690,
+  "confidence": null
+ },
+ {
+  "text": " الأوراق",
+  "startMs": 46860,
+  "endMs": 47320,
+  "timestampMs": 47090,
+  "confidence": null
+ },
+ {
+  "text": " فيها",
+  "startMs": 47480,
+  "endMs": 47700,
+  "timestampMs": 47590,
+  "confidence": null
+ },
+ {
+  "text": " أسئلة",
+  "startMs": 47780,
+  "endMs": 48100,
+  "timestampMs": 47940,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "مساحة",
+  "startMs": 48420,
+  "endMs": 48820,
+  "timestampMs": 48620,
+  "confidence": null
+ },
+ {
+  "text": " الشقة",
+  "startMs": 48840,
+  "endMs": 49300,
+  "timestampMs": 49070,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "أكبر",
+  "startMs": 49320,
+  "endMs": 49620,
+  "timestampMs": 49470,
+  "confidence": null
+ },
+ {
+  "text": " من",
+  "startMs": 49660,
+  "endMs": 49760,
+  "timestampMs": 49710,
+  "confidence": null
+ },
+ {
+  "text": " 100",
+  "startMs": 49760,
+  "endMs": 50000,
+  "timestampMs": 49880,
+  "confidence": null
+ },
+ {
+  "text": " متر؟",
+  "startMs": 50040,
+  "endMs": 50300,
+  "timestampMs": 50170,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "فيها",
+  "startMs": 50620,
+  "endMs": 50820,
+  "timestampMs": 50720,
+  "confidence": null
+ },
+ {
+  "text": " أكثر",
+  "startMs": 50900,
+  "endMs": 51120,
+  "timestampMs": 51010,
+  "confidence": null
+ },
+ {
+  "text": " من",
+  "startMs": 51160,
+  "endMs": 51240,
+  "timestampMs": 51200,
+  "confidence": null
+ },
+ {
+  "text": " غرفتين؟",
+  "startMs": 51260,
+  "endMs": 51760,
+  "timestampMs": 51510,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "كل",
+  "startMs": 52080,
+  "endMs": 52260,
+  "timestampMs": 52170,
+  "confidence": null
+ },
+ {
+  "text": " إجابة",
+  "startMs": 52300,
+  "endMs": 52840,
+  "timestampMs": 52570,
+  "confidence": null
+ },
+ {
+  "text": " تأخذنا",
+  "startMs": 52860,
+  "endMs": 53240,
+  "timestampMs": 53050,
+  "confidence": null
+ },
+ {
+  "text": " إلى",
+  "startMs": 53280,
+  "endMs": 53440,
+  "timestampMs": 53360,
+  "confidence": null
+ },
+ {
+  "text": " فرع",
+  "startMs": 53540,
+  "endMs": 53780,
+  "timestampMs": 53660,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "حتى",
+  "startMs": 54020,
+  "endMs": 54260,
+  "timestampMs": 54140,
+  "confidence": null
+ },
+ {
+  "text": " نصل",
+  "startMs": 54320,
+  "endMs": 54620,
+  "timestampMs": 54470,
+  "confidence": null
+ },
+ {
+  "text": " إلى",
+  "startMs": 54660,
+  "endMs": 54800,
+  "timestampMs": 54730,
+  "confidence": null
+ },
+ {
+  "text": " توقّع",
+  "startMs": 54880,
+  "endMs": 55340,
+  "timestampMs": 55110,
+  "confidence": null
+ },
+ {
+  "text": " للسعر",
+  "startMs": 55360,
+  "endMs": 55800,
+  "timestampMs": 55580,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "والأسئلة؟",
+  "startMs": 56060,
+  "endMs": 56540,
+  "timestampMs": 56300,
+  "confidence": null
+ },
+ {
+  "text": " الخوارزمية",
+  "startMs": 56860,
+  "endMs": 57580,
+  "timestampMs": 57220,
+  "confidence": null
+ },
+ {
+  "text": " تتعلمها",
+  "startMs": 57640,
+  "endMs": 58220,
+  "timestampMs": 57930,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "من",
+  "startMs": 58260,
+  "endMs": 58340,
+  "timestampMs": 58300,
+  "confidence": null
+ },
+ {
+  "text": " البيانات",
+  "startMs": 58360,
+  "endMs": 58940,
+  "timestampMs": 58650,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "رابعًا:",
+  "startMs": 59380,
+  "endMs": 59820,
+  "timestampMs": 59600,
+  "confidence": null
+ },
+ {
+  "text": " Random",
+  "startMs": 60200,
+  "endMs": 60540,
+  "timestampMs": 60370,
+  "confidence": null
+ },
+ {
+  "text": " Forest",
+  "startMs": 60660,
+  "endMs": 61100,
+  "timestampMs": 60880,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "طيب،",
+  "startMs": 61440,
+  "endMs": 61780,
+  "timestampMs": 61610,
+  "confidence": null
+ },
+ {
+  "text": " لماذا",
+  "startMs": 62020,
+  "endMs": 62340,
+  "timestampMs": 62180,
+  "confidence": null
+ },
+ {
+  "text": " نعتمد",
+  "startMs": 62380,
+  "endMs": 62760,
+  "timestampMs": 62570,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "على",
+  "startMs": 62800,
+  "endMs": 62940,
+  "timestampMs": 62870,
+  "confidence": null
+ },
+ {
+  "text": " شجرة",
+  "startMs": 63020,
+  "endMs": 63300,
+  "timestampMs": 63160,
+  "confidence": null
+ },
+ {
+  "text": " واحدة؟",
+  "startMs": 63340,
+  "endMs": 63700,
+  "timestampMs": 63520,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "هنا",
+  "startMs": 64080,
+  "endMs": 64340,
+  "timestampMs": 64210,
+  "confidence": null
+ },
+ {
+  "text": " نستخدم",
+  "startMs": 64380,
+  "endMs": 64860,
+  "timestampMs": 64620,
+  "confidence": null
+ },
+ {
+  "text": " مجموعة",
+  "startMs": 64899,
+  "endMs": 65399,
+  "timestampMs": 65149,
+  "confidence": null
+ },
+ {
+  "text": " أشجار",
+  "startMs": 65460,
+  "endMs": 65759,
+  "timestampMs": 65610,
+  "confidence": null
+ },
+ {
+  "text": " مختلفة،",
+  "startMs": 65819,
+  "endMs": 66300,
+  "timestampMs": 66060,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وكل",
+  "startMs": 66580,
+  "endMs": 66900,
+  "timestampMs": 66740,
+  "confidence": null
+ },
+ {
+  "text": " واحدة",
+  "startMs": 66940,
+  "endMs": 67280,
+  "timestampMs": 67110,
+  "confidence": null
+ },
+ {
+  "text": " تعطي",
+  "startMs": 67320,
+  "endMs": 67600,
+  "timestampMs": 67460,
+  "confidence": null
+ },
+ {
+  "text": " توقّعها",
+  "startMs": 67640,
+  "endMs": 68200,
+  "timestampMs": 67920,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "في",
+  "startMs": 68500,
+  "endMs": 68560,
+  "timestampMs": 68530,
+  "confidence": null
+ },
+ {
+  "text": " مثال",
+  "startMs": 68600,
+  "endMs": 68900,
+  "timestampMs": 68750,
+  "confidence": null
+ },
+ {
+  "text": " سعر",
+  "startMs": 68960,
+  "endMs": 69120,
+  "timestampMs": 69040,
+  "confidence": null
+ },
+ {
+  "text": " الشقة،",
+  "startMs": 69140,
+  "endMs": 69560,
+  "timestampMs": 69350,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "نأخذ",
+  "startMs": 69900,
+  "endMs": 70260,
+  "timestampMs": 70080,
+  "confidence": null
+ },
+ {
+  "text": " متوسط",
+  "startMs": 70300,
+  "endMs": 70840,
+  "timestampMs": 70570,
+  "confidence": null
+ },
+ {
+  "text": " التوقّعات،",
+  "startMs": 70880,
+  "endMs": 71580,
+  "timestampMs": 71230,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "كأنك",
+  "startMs": 71900,
+  "endMs": 72260,
+  "timestampMs": 72080,
+  "confidence": null
+ },
+ {
+  "text": " تجمع",
+  "startMs": 72280,
+  "endMs": 72620,
+  "timestampMs": 72450,
+  "confidence": null
+ },
+ {
+  "text": " آراء",
+  "startMs": 72700,
+  "endMs": 72960,
+  "timestampMs": 72830,
+  "confidence": null
+ },
+ {
+  "text": " عدة",
+  "startMs": 73040,
+  "endMs": 73360,
+  "timestampMs": 73200,
+  "confidence": null
+ },
+ {
+  "text": " خبراء",
+  "startMs": 73400,
+  "endMs": 73760,
+  "timestampMs": 73580,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "بدل",
+  "startMs": 74020,
+  "endMs": 74240,
+  "timestampMs": 74130,
+  "confidence": null
+ },
+ {
+  "text": " الاعتماد",
+  "startMs": 74260,
+  "endMs": 74780,
+  "timestampMs": 74520,
+  "confidence": null
+ },
+ {
+  "text": " على",
+  "startMs": 74840,
+  "endMs": 74980,
+  "timestampMs": 74910,
+  "confidence": null
+ },
+ {
+  "text": " رأي",
+  "startMs": 75020,
+  "endMs": 75220,
+  "timestampMs": 75120,
+  "confidence": null
+ },
+ {
+  "text": " واحد",
+  "startMs": 75240,
+  "endMs": 75620,
+  "timestampMs": 75430,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "خامسًا:",
+  "startMs": 76040,
+  "endMs": 76540,
+  "timestampMs": 76290,
+  "confidence": null
+ },
+ {
+  "text": " K-Means",
+  "startMs": 76920,
+  "endMs": 77640,
+  "timestampMs": 77280,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "عندك",
+  "startMs": 78040,
+  "endMs": 78320,
+  "timestampMs": 78180,
+  "confidence": null
+ },
+ {
+  "text": " متجر،",
+  "startMs": 78360,
+  "endMs": 78700,
+  "timestampMs": 78530,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وتريد",
+  "startMs": 78940,
+  "endMs": 79260,
+  "timestampMs": 79100,
+  "confidence": null
+ },
+ {
+  "text": " تقسّم",
+  "startMs": 79300,
+  "endMs": 79700,
+  "timestampMs": 79500,
+  "confidence": null
+ },
+ {
+  "text": " زبائنك",
+  "startMs": 79780,
+  "endMs": 80240,
+  "timestampMs": 80010,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "حسب",
+  "startMs": 80280,
+  "endMs": 80540,
+  "timestampMs": 80410,
+  "confidence": null
+ },
+ {
+  "text": " طريقة",
+  "startMs": 80560,
+  "endMs": 80900,
+  "timestampMs": 80730,
+  "confidence": null
+ },
+ {
+  "text": " شرائهم؟",
+  "startMs": 80940,
+  "endMs": 81340,
+  "timestampMs": 81140,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "تحدّد",
+  "startMs": 81680,
+  "endMs": 82080,
+  "timestampMs": 81880,
+  "confidence": null
+ },
+ {
+  "text": " عدد",
+  "startMs": 82140,
+  "endMs": 82360,
+  "timestampMs": 82250,
+  "confidence": null
+ },
+ {
+  "text": " المجموعات،",
+  "startMs": 82380,
+  "endMs": 83000,
+  "timestampMs": 82690,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "والخوارزمية",
+  "startMs": 83240,
+  "endMs": 83980,
+  "timestampMs": 83610,
+  "confidence": null
+ },
+ {
+  "text": " تجمع",
+  "startMs": 84060,
+  "endMs": 84380,
+  "timestampMs": 84220,
+  "confidence": null
+ },
+ {
+  "text": " الزبائن",
+  "startMs": 84400,
+  "endMs": 84860,
+  "timestampMs": 84630,
+  "confidence": null
+ },
+ {
+  "text": " المتشابهين",
+  "startMs": 84880,
+  "endMs": 85640,
+  "timestampMs": 85260,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "حسب",
+  "startMs": 85700,
+  "endMs": 85980,
+  "timestampMs": 85840,
+  "confidence": null
+ },
+ {
+  "text": " بياناتهم،",
+  "startMs": 86000,
+  "endMs": 86640,
+  "timestampMs": 86320,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "مثل",
+  "startMs": 86820,
+  "endMs": 87020,
+  "timestampMs": 86920,
+  "confidence": null
+ },
+ {
+  "text": " عدد",
+  "startMs": 87060,
+  "endMs": 87280,
+  "timestampMs": 87170,
+  "confidence": null
+ },
+ {
+  "text": " المشتريات",
+  "startMs": 87300,
+  "endMs": 88040,
+  "timestampMs": 87670,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وقيمة",
+  "startMs": 88080,
+  "endMs": 88480,
+  "timestampMs": 88280,
+  "confidence": null
+ },
+ {
+  "text": " الإنفاق",
+  "startMs": 88480,
+  "endMs": 88960,
+  "timestampMs": 88720,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "الفرق",
+  "startMs": 89240,
+  "endMs": 89600,
+  "timestampMs": 89420,
+  "confidence": null
+ },
+ {
+  "text": " هنا:",
+  "startMs": 89640,
+  "endMs": 89800,
+  "timestampMs": 89720,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "ما",
+  "startMs": 90200,
+  "endMs": 90280,
+  "timestampMs": 90240,
+  "confidence": null
+ },
+ {
+  "text": " نعطيها",
+  "startMs": 90320,
+  "endMs": 90680,
+  "timestampMs": 90500,
+  "confidence": null
+ },
+ {
+  "text": " تصنيفات",
+  "startMs": 90720,
+  "endMs": 91260,
+  "timestampMs": 90990,
+  "confidence": null
+ },
+ {
+  "text": " جاهزة،",
+  "startMs": 91300,
+  "endMs": 91640,
+  "timestampMs": 91470,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "هي",
+  "startMs": 91960,
+  "endMs": 92140,
+  "timestampMs": 92050,
+  "confidence": null
+ },
+ {
+  "text": " تكوّن",
+  "startMs": 92220,
+  "endMs": 92640,
+  "timestampMs": 92430,
+  "confidence": null
+ },
+ {
+  "text": " المجموعات",
+  "startMs": 92660,
+  "endMs": 93260,
+  "timestampMs": 92960,
+  "confidence": null
+ },
+ {
+  "text": " من",
+  "startMs": 93300,
+  "endMs": 93380,
+  "timestampMs": 93340,
+  "confidence": null
+ },
+ {
+  "text": " التشابه",
+  "startMs": 93400,
+  "endMs": 93960,
+  "timestampMs": 93680,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "هذه",
+  "startMs": 94360,
+  "endMs": 94740,
+  "timestampMs": 94550,
+  "confidence": null
+ },
+ {
+  "text": " خمس",
+  "startMs": 94800,
+  "endMs": 95020,
+  "timestampMs": 94910,
+  "confidence": null
+ },
+ {
+  "text": " خوارزميات",
+  "startMs": 95080,
+  "endMs": 95800,
+  "timestampMs": 95440,
+  "confidence": null
+ },
+ {
+  "text": " كبداية",
+  "startMs": 95840,
+  "endMs": 96300,
+  "timestampMs": 96070,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "اختيار",
+  "startMs": 96580,
+  "endMs": 96960,
+  "timestampMs": 96770,
+  "confidence": null
+ },
+ {
+  "text": " الأنسب",
+  "startMs": 96980,
+  "endMs": 97480,
+  "timestampMs": 97230,
+  "confidence": null
+ },
+ {
+  "text": " يعتمد",
+  "startMs": 97540,
+  "endMs": 97940,
+  "timestampMs": 97740,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "على",
+  "startMs": 97980,
+  "endMs": 98140,
+  "timestampMs": 98060,
+  "confidence": null
+ },
+ {
+  "text": " مشكلتك",
+  "startMs": 98180,
+  "endMs": 98740,
+  "timestampMs": 98460,
+  "confidence": null
+ },
+ {
+  "text": " وبياناتك،",
+  "startMs": 98820,
+  "endMs": 99440,
+  "timestampMs": 99130,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "ثم",
+  "startMs": 99780,
+  "endMs": 100000,
+  "timestampMs": 99890,
+  "confidence": null
+ },
+ {
+  "text": " اختبار",
+  "startMs": 100040,
+  "endMs": 100460,
+  "timestampMs": 100250,
+  "confidence": null
+ },
+ {
+  "text": " النتيجة",
+  "startMs": 100480,
+  "endMs": 100980,
+  "timestampMs": 100730,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "احفظ",
+  "startMs": 101260,
+  "endMs": 101600,
+  "timestampMs": 101430,
+  "confidence": null
+ },
+ {
+  "text": " الفيديو",
+  "startMs": 101620,
+  "endMs": 101960,
+  "timestampMs": 101790,
+  "confidence": null
+ },
+ {
+  "text": " لترجع",
+  "startMs": 102000,
+  "endMs": 102400,
+  "timestampMs": 102200,
+  "confidence": null
+ },
+ {
+  "text": " للأسماء،",
+  "startMs": 102420,
+  "endMs": 102880,
+  "timestampMs": 102650,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "وتابعني",
+  "startMs": 103180,
+  "endMs": 103720,
+  "timestampMs": 103450,
+  "confidence": null
+ },
+ {
+  "text": " لتفهم",
+  "startMs": 103760,
+  "endMs": 104140,
+  "timestampMs": 103950,
+  "confidence": null
+ },
+ {
+  "text": " التقنية",
+  "startMs": 104160,
+  "endMs": 104900,
+  "timestampMs": 104530,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": "بمثال",
+  "startMs": 104940,
+  "endMs": 105400,
+  "timestampMs": 105170,
+  "confidence": null
+ },
+ {
+  "text": " بسيط",
+  "startMs": 105440,
+  "endMs": 105820,
+  "timestampMs": 105630,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]

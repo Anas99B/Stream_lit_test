@@ -3,6 +3,7 @@ export type GazeState = "forward" | "image-left" | "image-right";
 export type GazeEvent = { from: number; to: number; state: GazeState };
 export type Blink = { frame: number; frames: number };
 export type LayoutKey = { frame: number; preset: string };
+export type Reaction = { from: number; to: number; glyph: string };
 
 export type CaptionToken = { text: string; ltr: boolean; frame: number };
 export type CaptionPhrase = {
@@ -11,6 +12,8 @@ export type CaptionPhrase = {
   startFrame: number;
   endFrame: number;
   keyIndex: number;
+  /** Number of consecutive key tokens (multi-word English terms); default 1. */
+  keyCount?: number;
   keyFrame: number;
   tokens: CaptionToken[];
 };
@@ -26,13 +29,15 @@ export type EpisodeTimeline = {
   durationInFrames: number;
   audio: {
     src: string;
+    /** Per-episode narration gain (defaults to tokens.audio.narrationGain). */
+    gain?: number;
     segments: Array<{ from: number; trimBefore: number; durationInFrames: number }>;
     endFrame: number;
   };
   sfx: { events: Array<{ frame: number; sound: string; gain: number }> };
   chapters: Chapter[];
   cues: Record<string, number>;
-  avatar: { gaze: GazeEvent[]; layout: LayoutKey[]; blinks: Blink[] };
+  avatar: { gaze: GazeEvent[]; layout: LayoutKey[]; blinks: Blink[]; reactions?: Reaction[] };
 };
 
 /** Typed cue lookup that fails loudly on a typo instead of rendering at frame NaN. */

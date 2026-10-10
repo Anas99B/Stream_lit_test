@@ -18,14 +18,16 @@ export const Ltr: React.FC<{ children: React.ReactNode; mono?: boolean; style?: 
 
 /**
  * Renders a string that may contain Latin tokens, isolating each Latin run.
- * Arabic runs are never split below word level, so letter joining is intact.
+ * Consecutive Latin words ("Linear Regression") form ONE isolate: separate
+ * isolates joined by a space would be laid out right-to-left and read
+ * "Regression Linear". Arabic runs are never split below word level.
  */
 export const MixedText: React.FC<{ text: string; latinStyle?: React.CSSProperties; mono?: boolean }> = ({
   text,
   latinStyle,
   mono,
 }) => {
-  const parts = text.split(/([A-Za-z][A-Za-z0-9_\-.]*)/g).filter((s) => s !== "");
+  const parts = text.split(/([A-Za-z][A-Za-z0-9_\-.]*(?: [A-Za-z0-9][A-Za-z0-9_\-.]*)*)/g).filter((s) => s !== "");
   return (
     <>
       {parts.map((part, i) =>

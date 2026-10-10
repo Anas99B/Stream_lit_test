@@ -26,7 +26,10 @@ const rawWords = read(path.join(epDir, "narration-words.raw.json")).words;
 const fps = tokens.video.timebaseFps ?? tokens.video.fps;
 const renderFps = tokens.video.fps;
 const PUNCT = /[«»…:؟?،,؛;.!"'ـ]/g;
-const norm = (s) => s.replace(PUNCT, "").trim();
+// Arabic diacritics (tashkeel) and Latin case do not change the spoken word,
+// so display text may add a shadda («توقّع») or capitals («Linear»).
+const TASHKEEL = /[\u064B-\u0652\u0670]/g;
+const norm = (s) => s.replace(PUNCT, "").replace(TASHKEEL, "").toLowerCase().trim();
 
 // ---- spoken words (audio-tag tokens such as [curious] are not speech) ----
 const words = rawWords
@@ -99,6 +102,14 @@ const layout = cuesSrc.avatar.layout.map((l, k) => {
   return { frame: Math.max(0, f(anchorSeconds(l))), preset: l.preset };
 });
 
+// Graphical reactions next to the host's head ("?" curiosity, "!" surprise):
+// an overlay, never a change to the approved artwork.
+const reactions = (cuesSrc.avatar.reactions ?? []).map((r, k) => {
+  checkAnchor(r, `reaction #${k}`);
+  const from = f(anchorSeconds(r));
+  return { from, to: from + f(r.hold ?? 1.5), glyph: r.glyph };
+});
+
 // Deterministic blinks: varied 3-5 s intervals, 3-5 frame closures, never
 // during a gaze hold or a layout move, plus a few hand-placed ones.
 const mulberry32 = (a) => () => {
@@ -145,7 +156,7 @@ const phrases = capSrc.phrases.map((p, pi) => {
   const display = p.text.split(/\s+/).filter(Boolean);
   const toks = display.map((d) => {
     const bare = norm(d);
-    const spoken = acronyms[bare];
+    const spoken = acronyms[d.replace(PUNCT, "").trim()];
     const n = spoken ? spoken.length : 1;
     const span = words.slice(cursor, cursor + n);
     if (span.length < n) fail(`caption ${pi} "${p.text}": ran out of narration words`);
@@ -165,9 +176,11 @@ const phrases = capSrc.phrases.map((p, pi) => {
       firstWord: span[0].i,
     };
   });
-  const keyIdx = display.findIndex((d) => d === p.key || norm(d) === norm(p.key));
+  // key: one display token, or several consecutive ones (e.g. "Linear Regression")
+  const keyToks = p.key.split(/\s+/).filter(Boolean);
+  const keyIdx = display.findIndex((_, s0) => keyToks.every((k, j) => display[s0 + j] !== undefined && norm(display[s0 + j]) === norm(k)));
   if (keyIdx < 0) fail(`caption ${pi} "${p.text}": keyword "${p.key}" not in phrase`);
-  return { text: p.text, key: keyIdx, toks };
+  return { text: p.text, key: keyIdx, keyCount: keyToks.length, toks };
 });
 if (cursor !== words.length) fail(`captions cover ${cursor} of ${words.length} narration words`);
 
@@ -183,6 +196,7 @@ const capOut = phrases.map((p, k) => {
     startFrame: f(start),
     endFrame: f(end),
     keyIndex: p.key,
+    ...(p.keyCount > 1 ? { keyCount: p.keyCount } : {}),
     keyFrame: f(p.toks[p.key].start),
     tokens: p.toks.map((t) => ({ text: t.text, ltr: t.ltr, frame: f(t.start) })),
   };
@@ -216,14 +230,20 @@ const timeline = {
   renderFps,
   durationInFrames,
   alignment: {
-    source: "ElevenLabs Scribe alignment of the final narration take (exact, not provisional)",
+    source: audioCfg.alignmentSource ?? "ElevenLabs Scribe alignment of the final narration take (exact, not provisional)",
     provisional: false,
   },
-  audio: { src: audioCfg.src, segments, endFrame: audioEndFrame, inserts },
+  audio: {
+    src: audioCfg.src,
+    ...(audioCfg.gain !== undefined ? { gain: audioCfg.gain } : {}),
+    segments,
+    endFrame: audioEndFrame,
+    inserts,
+  },
   sfx: { events: sfx },
   chapters,
   cues,
-  avatar: { gaze, layout, blinks },
+  avatar: { gaze, layout, blinks, ...(reactions.length ? { reactions } : {}) },
   words: words.map((w) => ({ i: w.i, text: w.text, frame: f(toComp(w.start)), endFrame: f(toComp(w.end)) })),
 };
 

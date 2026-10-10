@@ -1,6 +1,6 @@
 {
   "styleId": "arab-tech-explainer-v2",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "language": "ar",
   "variety": "Clear conversational Modern Standard Arabic, broadly understandable across Arab countries",
   "delivery": {
@@ -11,7 +11,7 @@
       "USB-C": "«يو إس بي سي»"
     },
     "audioTags": "Used sparingly: [curious] on the opening question, [warmly] when the explanation starts, [short pause] after a one-word correction. Tags are not spoken.",
-    "measuredPace": "Episode 01 v2: 201 words in 102.2 s (about 118 words/min); median pitch about 127 Hz."
+    "measuredPace": "Episode 01 v2: 201 words in 102.2 s (about 118 words/min); median pitch about 127 Hz. Episode 02 (owner-supplied take): 210 words in 113.7 s (111 words/min) before processing, 105.5 s (119 words/min) after 1.08x; median F0 about 144 Hz before and after (pitch preserved)."
   },
   "provider": {
     "name": "ElevenLabs",
@@ -40,5 +40,6 @@
     "sfx": "procedural v2 kit, see STYLE_GUIDE.md §8"
   },
   "account": "On 2026-10-09 the ElevenLabs account reported a 10,000-credit quota with 358 credits left after this episode. A full 100 s narration costs about 1,223 credits per take.",
-  "secrets": "Never store API keys or tokens here or anywhere in the repo."
+  "secrets": "Never store API keys or tokens here or anywhere in the repo.",
+  "suppliedTakes": "The owner may supply a finished ElevenLabs take (EP.02). Keep the original unchanged; process a copy only (trim excess silence; pitch-preserving FFmpeg atempo 1.05-1.12x when asked); align the processed copy; never regenerate or change the speaker."
 }

@@ -1,0 +1,1265 @@
+{
+"source": "ElevenLabs Scribe (eleven_scribe_v1) word timestamps of public/audio/ml-algorithms/narration.wav (the FINAL 1.08x processed narration). Timestamps unchanged; spelling corrected for display (English terms in English with capitals, shadda for clarity, hamza seat in شرائهم). Untouched Scribe output: narration-words.scribe.json.",
+"words": [
+{
+"text": "خمس",
+"type": "word",
+"start": 0.12,
+"end": 0.34
+},
+{
+"text": "خوارزميات",
+"type": "word",
+"start": 0.4,
+"end": 1.14
+},
+{
+"text": "في",
+"type": "word",
+"start": 1.18,
+"end": 1.26
+},
+{
+"text": "Machine",
+"type": "word",
+"start": 1.3,
+"end": 1.64
+},
+{
+"text": "Learning",
+"type": "word",
+"start": 1.68,
+"end": 2.06
+},
+{
+"text": "لازم",
+"type": "word",
+"start": 2.18,
+"end": 2.56
+},
+{
+"text": "تعرفها!",
+"type": "word",
+"start": 2.62,
+"end": 3.12
+},
+{
+"text": "ما",
+"type": "word",
+"start": 3.46,
+"end": 3.54
+},
+{
+"text": "تحتاج",
+"type": "word",
+"start": 3.6,
+"end": 3.98
+},
+{
+"text": "تحفظ",
+"type": "word",
+"start": 4.019,
+"end": 4.3
+},
+{
+"text": "معادلاتها.",
+"type": "word",
+"start": 4.34,
+"end": 4.96
+},
+{
+"text": "خلّينا",
+"type": "word",
+"start": 5.38,
+"end": 5.66
+},
+{
+"text": "نفهم",
+"type": "word",
+"start": 5.7,
+"end": 6.08
+},
+{
+"text": "كل",
+"type": "word",
+"start": 6.14,
+"end": 6.3
+},
+{
+"text": "واحدة",
+"type": "word",
+"start": 6.34,
+"end": 6.64
+},
+{
+"text": "بمثال",
+"type": "word",
+"start": 6.7,
+"end": 7.1
+},
+{
+"text": "بسيط.",
+"type": "word",
+"start": 7.12,
+"end": 7.5
+},
+{
+"text": "أولًا:",
+"type": "word",
+"start": 7.98,
+"end": 8.4
+},
+{
+"text": "Linear",
+"type": "word",
+"start": 8.84,
+"end": 9.16
+},
+{
+"text": "Regression.",
+"type": "word",
+"start": 9.24,
+"end": 9.76
+},
+{
+"text": "تخيّل",
+"type": "word",
+"start": 10.14,
+"end": 10.58
+},
+{
+"text": "إنك",
+"type": "word",
+"start": 10.62,
+"end": 10.84
+},
+{
+"text": "تريد",
+"type": "word",
+"start": 10.88,
+"end": 11.1
+},
+{
+"text": "تقدّر",
+"type": "word",
+"start": 11.14,
+"end": 11.64
+},
+{
+"text": "سعر",
+"type": "word",
+"start": 11.68,
+"end": 11.94
+},
+{
+"text": "شقة",
+"type": "word",
+"start": 11.98,
+"end": 12.26
+},
+{
+"text": "من",
+"type": "word",
+"start": 12.32,
+"end": 12.42
+},
+{
+"text": "مساحتها.",
+"type": "word",
+"start": 12.44,
+"end": 13.04
+},
+{
+"text": "تعطيه",
+"type": "word",
+"start": 13.4,
+"end": 13.74
+},
+{
+"text": "أمثلة",
+"type": "word",
+"start": 13.76,
+"end": 14.14
+},
+{
+"text": "لشقق",
+"type": "word",
+"start": 14.18,
+"end": 14.58
+},
+{
+"text": "نعرف",
+"type": "word",
+"start": 14.62,
+"end": 14.9
+},
+{
+"text": "مساحاتها",
+"type": "word",
+"start": 14.92,
+"end": 15.5
+},
+{
+"text": "وأسعارها،",
+"type": "word",
+"start": 15.58,
+"end": 16.079
+},
+{
+"text": "وهو",
+"type": "word",
+"start": 16.48,
+"end": 16.8
+},
+{
+"text": "يتعلم",
+"type": "word",
+"start": 16.84,
+"end": 17.32
+},
+{
+"text": "العلاقة",
+"type": "word",
+"start": 17.38,
+"end": 17.78
+},
+{
+"text": "بينها.",
+"type": "word",
+"start": 17.84,
+"end": 18.14
+},
+{
+"text": "بعدها",
+"type": "word",
+"start": 18.52,
+"end": 18.88
+},
+{
+"text": "تدخل",
+"type": "word",
+"start": 19.28,
+"end": 19.58
+},
+{
+"text": "مساحة",
+"type": "word",
+"start": 19.62,
+"end": 20.02
+},
+{
+"text": "شقة",
+"type": "word",
+"start": 20.06,
+"end": 20.32
+},
+{
+"text": "جديدة",
+"type": "word",
+"start": 20.38,
+"end": 20.92
+},
+{
+"text": "ويعطيك",
+"type": "word",
+"start": 20.94,
+"end": 21.4
+},
+{
+"text": "سعرًا",
+"type": "word",
+"start": 21.46,
+"end": 21.82
+},
+{
+"text": "تقريبيًا.",
+"type": "word",
+"start": 21.86,
+"end": 22.46
+},
+{
+"text": "الفكرة",
+"type": "word",
+"start": 22.8,
+"end": 23.18
+},
+{
+"text": "هنا:",
+"type": "word",
+"start": 23.22,
+"end": 23.44
+},
+{
+"text": "توقّع",
+"type": "word",
+"start": 23.86,
+"end": 24.44
+},
+{
+"text": "رقم.",
+"type": "word",
+"start": 24.48,
+"end": 24.78
+},
+{
+"text": "ثانيًا:",
+"type": "word",
+"start": 25.24,
+"end": 25.68
+},
+{
+"text": "Logistic",
+"type": "word",
+"start": 26.0,
+"end": 26.52
+},
+{
+"text": "Regression.",
+"type": "word",
+"start": 26.58,
+"end": 27.06
+},
+{
+"text": "وصلتك",
+"type": "word",
+"start": 27.48,
+"end": 27.92
+},
+{
+"text": "رسالة،",
+"type": "word",
+"start": 27.94,
+"end": 28.36
+},
+{
+"text": "عادية",
+"type": "word",
+"start": 28.76,
+"end": 29.22
+},
+{
+"text": "أو",
+"type": "word",
+"start": 29.54,
+"end": 29.66
+},
+{
+"text": "Spam؟",
+"type": "word",
+"start": 29.76,
+"end": 30.06
+},
+{
+"text": "هذه",
+"type": "word",
+"start": 30.48,
+"end": 30.7
+},
+{
+"text": "الخوارزمية",
+"type": "word",
+"start": 30.7,
+"end": 31.42
+},
+{
+"text": "تتعلم",
+"type": "word",
+"start": 31.5,
+"end": 31.94
+},
+{
+"text": "من",
+"type": "word",
+"start": 31.98,
+"end": 32.08
+},
+{
+"text": "رسائل",
+"type": "word",
+"start": 32.1,
+"end": 32.52
+},
+{
+"text": "مصنّفة",
+"type": "word",
+"start": 32.56,
+"end": 33.06
+},
+{
+"text": "سابقًا،",
+"type": "word",
+"start": 33.1,
+"end": 33.54
+},
+{
+"text": "وتقدّر",
+"type": "word",
+"start": 33.86,
+"end": 34.36
+},
+{
+"text": "احتمال",
+"type": "word",
+"start": 34.42,
+"end": 34.84
+},
+{
+"text": "أن",
+"type": "word",
+"start": 34.9,
+"end": 34.96
+},
+{
+"text": "تكون",
+"type": "word",
+"start": 35.0,
+"end": 35.26
+},
+{
+"text": "الرسالة",
+"type": "word",
+"start": 35.28,
+"end": 35.7
+},
+{
+"text": "الجديدة",
+"type": "word",
+"start": 35.7,
+"end": 36.14
+},
+{
+"text": "Spam،",
+"type": "word",
+"start": 36.26,
+"end": 36.56
+},
+{
+"text": "وبناءً",
+"type": "word",
+"start": 36.84,
+"end": 37.28
+},
+{
+"text": "على",
+"type": "word",
+"start": 37.32,
+"end": 37.46
+},
+{
+"text": "هذا",
+"type": "word",
+"start": 37.5,
+"end": 37.66
+},
+{
+"text": "الاحتمال",
+"type": "word",
+"start": 37.68,
+"end": 38.2
+},
+{
+"text": "نحدّد",
+"type": "word",
+"start": 38.54,
+"end": 38.98
+},
+{
+"text": "تصنيفها.",
+"type": "word",
+"start": 39.02,
+"end": 39.56
+},
+{
+"text": "يعني",
+"type": "word",
+"start": 39.92,
+"end": 40.18
+},
+{
+"text": "رغم",
+"type": "word",
+"start": 40.22,
+"end": 40.44
+},
+{
+"text": "اسمها",
+"type": "word",
+"start": 40.5,
+"end": 40.86
+},
+{
+"text": "تستخدم",
+"type": "word",
+"start": 41.18,
+"end": 41.76
+},
+{
+"text": "للتصنيف.",
+"type": "word",
+"start": 41.8,
+"end": 42.46
+},
+{
+"text": "ثالثًا:",
+"type": "word",
+"start": 42.88,
+"end": 43.36
+},
+{
+"text": "Decision",
+"type": "word",
+"start": 43.68,
+"end": 44.1
+},
+{
+"text": "Tree.",
+"type": "word",
+"start": 44.22,
+"end": 44.5
+},
+{
+"text": "تخيّل",
+"type": "word",
+"start": 44.86,
+"end": 45.28
+},
+{
+"text": "شجرة،",
+"type": "word",
+"start": 45.32,
+"end": 45.66
+},
+{
+"text": "لكن",
+"type": "word",
+"start": 46.0,
+"end": 46.26
+},
+{
+"text": "بدل",
+"type": "word",
+"start": 46.28,
+"end": 46.5
+},
+{
+"text": "الأوراق",
+"type": "word",
+"start": 46.56,
+"end": 47.02
+},
+{
+"text": "فيها",
+"type": "word",
+"start": 47.18,
+"end": 47.4
+},
+{
+"text": "أسئلة.",
+"type": "word",
+"start": 47.48,
+"end": 47.8
+},
+{
+"text": "مساحة",
+"type": "word",
+"start": 48.12,
+"end": 48.52
+},
+{
+"text": "الشقة",
+"type": "word",
+"start": 48.54,
+"end": 49.0
+},
+{
+"text": "أكبر",
+"type": "word",
+"start": 49.02,
+"end": 49.32
+},
+{
+"text": "من",
+"type": "word",
+"start": 49.36,
+"end": 49.46
+},
+{
+"text": "100",
+"type": "word",
+"start": 49.46,
+"end": 49.7
+},
+{
+"text": "متر؟",
+"type": "word",
+"start": 49.74,
+"end": 50.0
+},
+{
+"text": "فيها",
+"type": "word",
+"start": 50.32,
+"end": 50.52
+},
+{
+"text": "أكثر",
+"type": "word",
+"start": 50.6,
+"end": 50.82
+},
+{
+"text": "من",
+"type": "word",
+"start": 50.86,
+"end": 50.94
+},
+{
+"text": "غرفتين؟",
+"type": "word",
+"start": 50.96,
+"end": 51.46
+},
+{
+"text": "كل",
+"type": "word",
+"start": 51.78,
+"end": 51.96
+},
+{
+"text": "إجابة",
+"type": "word",
+"start": 52.0,
+"end": 52.54
+},
+{
+"text": "تأخذنا",
+"type": "word",
+"start": 52.56,
+"end": 52.94
+},
+{
+"text": "إلى",
+"type": "word",
+"start": 52.98,
+"end": 53.14
+},
+{
+"text": "فرع",
+"type": "word",
+"start": 53.24,
+"end": 53.48
+},
+{
+"text": "حتى",
+"type": "word",
+"start": 53.72,
+"end": 53.96
+},
+{
+"text": "نصل",
+"type": "word",
+"start": 54.02,
+"end": 54.32
+},
+{
+"text": "إلى",
+"type": "word",
+"start": 54.36,
+"end": 54.5
+},
+{
+"text": "توقّع",
+"type": "word",
+"start": 54.58,
+"end": 55.04
+},
+{
+"text": "للسعر.",
+"type": "word",
+"start": 55.06,
+"end": 55.5
+},
+{
+"text": "والأسئلة؟",
+"type": "word",
+"start": 55.76,
+"end": 56.24
+},
+{
+"text": "الخوارزمية",
+"type": "word",
+"start": 56.56,
+"end": 57.28
+},
+{
+"text": "تتعلمها",
+"type": "word",
+"start": 57.34,
+"end": 57.92
+},
+{
+"text": "من",
+"type": "word",
+"start": 57.96,
+"end": 58.04
+},
+{
+"text": "البيانات.",
+"type": "word",
+"start": 58.06,
+"end": 58.64
+},
+{
+"text": "رابعًا:",
+"type": "word",
+"start": 59.08,
+"end": 59.52
+},
+{
+"text": "Random",
+"type": "word",
+"start": 59.9,
+"end": 60.24
+},
+{
+"text": "Forest.",
+"type": "word",
+"start": 60.36,
+"end": 60.8
+},
+{
+"text": "طيب،",
+"type": "word",
+"start": 61.14,
+"end": 61.48
+},
+{
+"text": "لماذا",
+"type": "word",
+"start": 61.72,
+"end": 62.04
+},
+{
+"text": "نعتمد",
+"type": "word",
+"start": 62.08,
+"end": 62.46
+},
+{
+"text": "على",
+"type": "word",
+"start": 62.5,
+"end": 62.64
+},
+{
+"text": "شجرة",
+"type": "word",
+"start": 62.72,
+"end": 63.0
+},
+{
+"text": "واحدة؟",
+"type": "word",
+"start": 63.04,
+"end": 63.4
+},
+{
+"text": "هنا",
+"type": "word",
+"start": 63.78,
+"end": 64.04
+},
+{
+"text": "نستخدم",
+"type": "word",
+"start": 64.08,
+"end": 64.56
+},
+{
+"text": "مجموعة",
+"type": "word",
+"start": 64.599,
+"end": 65.099
+},
+{
+"text": "أشجار",
+"type": "word",
+"start": 65.16,
+"end": 65.459
+},
+{
+"text": "مختلفة،",
+"type": "word",
+"start": 65.519,
+"end": 66.0
+},
+{
+"text": "وكل",
+"type": "word",
+"start": 66.28,
+"end": 66.6
+},
+{
+"text": "واحدة",
+"type": "word",
+"start": 66.64,
+"end": 66.98
+},
+{
+"text": "تعطي",
+"type": "word",
+"start": 67.02,
+"end": 67.3
+},
+{
+"text": "توقّعها.",
+"type": "word",
+"start": 67.34,
+"end": 67.9
+},
+{
+"text": "في",
+"type": "word",
+"start": 68.2,
+"end": 68.26
+},
+{
+"text": "مثال",
+"type": "word",
+"start": 68.3,
+"end": 68.6
+},
+{
+"text": "سعر",
+"type": "word",
+"start": 68.66,
+"end": 68.82
+},
+{
+"text": "الشقة،",
+"type": "word",
+"start": 68.84,
+"end": 69.26
+},
+{
+"text": "نأخذ",
+"type": "word",
+"start": 69.6,
+"end": 69.96
+},
+{
+"text": "متوسط",
+"type": "word",
+"start": 70.0,
+"end": 70.54
+},
+{
+"text": "التوقّعات،",
+"type": "word",
+"start": 70.58,
+"end": 71.28
+},
+{
+"text": "كأنك",
+"type": "word",
+"start": 71.6,
+"end": 71.96
+},
+{
+"text": "تجمع",
+"type": "word",
+"start": 71.98,
+"end": 72.32
+},
+{
+"text": "آراء",
+"type": "word",
+"start": 72.4,
+"end": 72.66
+},
+{
+"text": "عدة",
+"type": "word",
+"start": 72.74,
+"end": 73.06
+},
+{
+"text": "خبراء",
+"type": "word",
+"start": 73.1,
+"end": 73.46
+},
+{
+"text": "بدل",
+"type": "word",
+"start": 73.72,
+"end": 73.94
+},
+{
+"text": "الاعتماد",
+"type": "word",
+"start": 73.96,
+"end": 74.48
+},
+{
+"text": "على",
+"type": "word",
+"start": 74.54,
+"end": 74.68
+},
+{
+"text": "رأي",
+"type": "word",
+"start": 74.72,
+"end": 74.92
+},
+{
+"text": "واحد.",
+"type": "word",
+"start": 74.94,
+"end": 75.32
+},
+{
+"text": "خامسًا:",
+"type": "word",
+"start": 75.74,
+"end": 76.24
+},
+{
+"text": "K-Means.",
+"type": "word",
+"start": 76.62,
+"end": 77.34
+},
+{
+"text": "عندك",
+"type": "word",
+"start": 77.74,
+"end": 78.02
+},
+{
+"text": "متجر،",
+"type": "word",
+"start": 78.06,
+"end": 78.4
+},
+{
+"text": "وتريد",
+"type": "word",
+"start": 78.64,
+"end": 78.96
+},
+{
+"text": "تقسّم",
+"type": "word",
+"start": 79.0,
+"end": 79.4
+},
+{
+"text": "زبائنك",
+"type": "word",
+"start": 79.48,
+"end": 79.94
+},
+{
+"text": "حسب",
+"type": "word",
+"start": 79.98,
+"end": 80.24
+},
+{
+"text": "طريقة",
+"type": "word",
+"start": 80.26,
+"end": 80.6
+},
+{
+"text": "شرائهم؟",
+"type": "word",
+"start": 80.64,
+"end": 81.04
+},
+{
+"text": "تحدّد",
+"type": "word",
+"start": 81.38,
+"end": 81.78
+},
+{
+"text": "عدد",
+"type": "word",
+"start": 81.84,
+"end": 82.06
+},
+{
+"text": "المجموعات،",
+"type": "word",
+"start": 82.08,
+"end": 82.7
+},
+{
+"text": "والخوارزمية",
+"type": "word",
+"start": 82.94,
+"end": 83.68
+},
+{
+"text": "تجمع",
+"type": "word",
+"start": 83.76,
+"end": 84.08
+},
+{
+"text": "الزبائن",
+"type": "word",
+"start": 84.1,
+"end": 84.56
+},
+{
+"text": "المتشابهين",
+"type": "word",
+"start": 84.58,
+"end": 85.34
+},
+{
+"text": "حسب",
+"type": "word",
+"start": 85.4,
+"end": 85.68
+},
+{
+"text": "بياناتهم،",
+"type": "word",
+"start": 85.7,
+"end": 86.34
+},
+{
+"text": "مثل",
+"type": "word",
+"start": 86.52,
+"end": 86.72
+},
+{
+"text": "عدد",
+"type": "word",
+"start": 86.76,
+"end": 86.98
+},
+{
+"text": "المشتريات",
+"type": "word",
+"start": 87.0,
+"end": 87.74
+},
+{
+"text": "وقيمة",
+"type": "word",
+"start": 87.78,
+"end": 88.18
+},
+{
+"text": "الإنفاق.",
+"type": "word",
+"start": 88.18,
+"end": 88.66
+},
+{
+"text": "الفرق",
+"type": "word",
+"start": 88.94,
+"end": 89.3
+},
+{
+"text": "هنا:",
+"type": "word",
+"start": 89.34,
+"end": 89.5
+},
+{
+"text": "ما",
+"type": "word",
+"start": 89.9,
+"end": 89.98
+},
+{
+"text": "نعطيها",
+"type": "word",
+"start": 90.02,
+"end": 90.38
+},
+{
+"text": "تصنيفات",
+"type": "word",
+"start": 90.42,
+"end": 90.96
+},
+{
+"text": "جاهزة،",
+"type": "word",
+"start": 91.0,
+"end": 91.34
+},
+{
+"text": "هي",
+"type": "word",
+"start": 91.66,
+"end": 91.84
+},
+{
+"text": "تكوّن",
+"type": "word",
+"start": 91.92,
+"end": 92.34
+},
+{
+"text": "المجموعات",
+"type": "word",
+"start": 92.36,
+"end": 92.96
+},
+{
+"text": "من",
+"type": "word",
+"start": 93.0,
+"end": 93.08
+},
+{
+"text": "التشابه.",
+"type": "word",
+"start": 93.1,
+"end": 93.66
+},
+{
+"text": "هذه",
+"type": "word",
+"start": 94.06,
+"end": 94.44
+},
+{
+"text": "خمس",
+"type": "word",
+"start": 94.5,
+"end": 94.72
+},
+{
+"text": "خوارزميات",
+"type": "word",
+"start": 94.78,
+"end": 95.5
+},
+{
+"text": "كبداية.",
+"type": "word",
+"start": 95.54,
+"end": 96.0
+},
+{
+"text": "اختيار",
+"type": "word",
+"start": 96.28,
+"end": 96.66
+},
+{
+"text": "الأنسب",
+"type": "word",
+"start": 96.68,
+"end": 97.18
+},
+{
+"text": "يعتمد",
+"type": "word",
+"start": 97.24,
+"end": 97.64
+},
+{
+"text": "على",
+"type": "word",
+"start": 97.68,
+"end": 97.84
+},
+{
+"text": "مشكلتك",
+"type": "word",
+"start": 97.88,
+"end": 98.44
+},
+{
+"text": "وبياناتك،",
+"type": "word",
+"start": 98.52,
+"end": 99.14
+},
+{
+"text": "ثم",
+"type": "word",
+"start": 99.48,
+"end": 99.7
+},
+{
+"text": "اختبار",
+"type": "word",
+"start": 99.74,
+"end": 100.16
+},
+{
+"text": "النتيجة.",
+"type": "word",
+"start": 100.18,
+"end": 100.68
+},
+{
+"text": "احفظ",
+"type": "word",
+"start": 100.96,
+"end": 101.3
+},
+{
+"text": "الفيديو",
+"type": "word",
+"start": 101.32,
+"end": 101.66
+},
+{
+"text": "لترجع",
+"type": "word",
+"start": 101.7,
+"end": 102.1
+},
+{
+"text": "للأسماء،",
+"type": "word",
+"start": 102.12,
+"end": 102.58
+},
+{
+"text": "وتابعني",
+"type": "word",
+"start": 102.88,
+"end": 103.42
+},
+{
+"text": "لتفهم",
+"type": "word",
+"start": 103.46,
+"end": 103.84
+},
+{
+"text": "التقنية",
+"type": "word",
+"start": 103.86,
+"end": 104.6
+},
+{
+"text": "بمثال",
+"type": "word",
+"start": 104.64,
+"end": 105.1
+},
+{
+"text": "بسيط.",
+"type": "word",
+"start": 105.14,
+"end": 105.52
+}
+]
+}

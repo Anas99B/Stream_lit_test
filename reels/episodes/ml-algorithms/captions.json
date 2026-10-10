@@ -1,0 +1,1688 @@
+[
+ {
+  "id": 0,
+  "text": "خمس خوارزميات في Machine Learning",
+  "startFrame": 13,
+  "endFrame": 74,
+  "keyIndex": 3,
+  "keyCount": 2,
+  "keyFrame": 48,
+  "tokens": [
+   {
+    "text": "خمس",
+    "ltr": false,
+    "frame": 13
+   },
+   {
+    "text": "خوارزميات",
+    "ltr": false,
+    "frame": 21
+   },
+   {
+    "text": "في",
+    "ltr": false,
+    "frame": 44
+   },
+   {
+    "text": "Machine",
+    "ltr": true,
+    "frame": 48
+   },
+   {
+    "text": "Learning",
+    "ltr": true,
+    "frame": 59
+   }
+  ]
+ },
+ {
+  "id": 1,
+  "text": "لازم تعرفها!",
+  "startFrame": 74,
+  "endFrame": 113,
+  "keyIndex": 1,
+  "keyFrame": 88,
+  "tokens": [
+   {
+    "text": "لازم",
+    "ltr": false,
+    "frame": 74
+   },
+   {
+    "text": "تعرفها!",
+    "ltr": false,
+    "frame": 88
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "text": "ما تحتاج تحفظ معادلاتها",
+  "startFrame": 113,
+  "endFrame": 170,
+  "keyIndex": 3,
+  "keyFrame": 139,
+  "tokens": [
+   {
+    "text": "ما",
+    "ltr": false,
+    "frame": 113
+   },
+   {
+    "text": "تحتاج",
+    "ltr": false,
+    "frame": 117
+   },
+   {
+    "text": "تحفظ",
+    "ltr": false,
+    "frame": 130
+   },
+   {
+    "text": "معادلاتها",
+    "ltr": false,
+    "frame": 139
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "text": "خلّينا نفهم كل واحدة",
+  "startFrame": 170,
+  "endFrame": 210,
+  "keyIndex": 1,
+  "keyFrame": 180,
+  "tokens": [
+   {
+    "text": "خلّينا",
+    "ltr": false,
+    "frame": 170
+   },
+   {
+    "text": "نفهم",
+    "ltr": false,
+    "frame": 180
+   },
+   {
+    "text": "كل",
+    "ltr": false,
+    "frame": 193
+   },
+   {
+    "text": "واحدة",
+    "ltr": false,
+    "frame": 199
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "text": "بمثال بسيط",
+  "startFrame": 210,
+  "endFrame": 248,
+  "keyIndex": 0,
+  "keyFrame": 210,
+  "tokens": [
+   {
+    "text": "بمثال",
+    "ltr": false,
+    "frame": 210
+   },
+   {
+    "text": "بسيط",
+    "ltr": false,
+    "frame": 223
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "text": "أولًا: Linear Regression",
+  "startFrame": 248,
+  "endFrame": 313,
+  "keyIndex": 1,
+  "keyCount": 2,
+  "keyFrame": 274,
+  "tokens": [
+   {
+    "text": "أولًا:",
+    "ltr": false,
+    "frame": 248
+   },
+   {
+    "text": "Linear",
+    "ltr": true,
+    "frame": 274
+   },
+   {
+    "text": "Regression",
+    "ltr": true,
+    "frame": 286
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "text": "تخيّل إنك تريد تقدّر",
+  "startFrame": 313,
+  "endFrame": 359,
+  "keyIndex": 3,
+  "keyFrame": 343,
+  "tokens": [
+   {
+    "text": "تخيّل",
+    "ltr": false,
+    "frame": 313
+   },
+   {
+    "text": "إنك",
+    "ltr": false,
+    "frame": 328
+   },
+   {
+    "text": "تريد",
+    "ltr": false,
+    "frame": 335
+   },
+   {
+    "text": "تقدّر",
+    "ltr": false,
+    "frame": 343
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "text": "سعر شقة من مساحتها",
+  "startFrame": 359,
+  "endFrame": 411,
+  "keyIndex": 0,
+  "keyFrame": 359,
+  "tokens": [
+   {
+    "text": "سعر",
+    "ltr": false,
+    "frame": 359
+   },
+   {
+    "text": "شقة",
+    "ltr": false,
+    "frame": 368
+   },
+   {
+    "text": "من",
+    "ltr": false,
+    "frame": 379
+   },
+   {
+    "text": "مساحتها",
+    "ltr": false,
+    "frame": 382
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "text": "تعطيه أمثلة لشقق",
+  "startFrame": 411,
+  "endFrame": 448,
+  "keyIndex": 1,
+  "keyFrame": 422,
+  "tokens": [
+   {
+    "text": "تعطيه",
+    "ltr": false,
+    "frame": 411
+   },
+   {
+    "text": "أمثلة",
+    "ltr": false,
+    "frame": 422
+   },
+   {
+    "text": "لشقق",
+    "ltr": false,
+    "frame": 434
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "text": "نعرف مساحاتها وأسعارها،",
+  "startFrame": 448,
+  "endFrame": 503,
+  "keyIndex": 2,
+  "keyFrame": 476,
+  "tokens": [
+   {
+    "text": "نعرف",
+    "ltr": false,
+    "frame": 448
+   },
+   {
+    "text": "مساحاتها",
+    "ltr": false,
+    "frame": 457
+   },
+   {
+    "text": "وأسعارها،",
+    "ltr": false,
+    "frame": 476
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "text": "وهو يتعلم العلاقة بينها",
+  "startFrame": 503,
+  "endFrame": 565,
+  "keyIndex": 2,
+  "keyFrame": 530,
+  "tokens": [
+   {
+    "text": "وهو",
+    "ltr": false,
+    "frame": 503
+   },
+   {
+    "text": "يتعلم",
+    "ltr": false,
+    "frame": 514
+   },
+   {
+    "text": "العلاقة",
+    "ltr": false,
+    "frame": 530
+   },
+   {
+    "text": "بينها",
+    "ltr": false,
+    "frame": 544
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "text": "بعدها تدخل مساحة شقة جديدة",
+  "startFrame": 565,
+  "endFrame": 637,
+  "keyIndex": 4,
+  "keyFrame": 620,
+  "tokens": [
+   {
+    "text": "بعدها",
+    "ltr": false,
+    "frame": 565
+   },
+   {
+    "text": "تدخل",
+    "ltr": false,
+    "frame": 587
+   },
+   {
+    "text": "مساحة",
+    "ltr": false,
+    "frame": 598
+   },
+   {
+    "text": "شقة",
+    "ltr": false,
+    "frame": 611
+   },
+   {
+    "text": "جديدة",
+    "ltr": false,
+    "frame": 620
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "text": "ويعطيك سعرًا تقريبيًا",
+  "startFrame": 637,
+  "endFrame": 693,
+  "keyIndex": 2,
+  "keyFrame": 665,
+  "tokens": [
+   {
+    "text": "ويعطيك",
+    "ltr": false,
+    "frame": 637
+   },
+   {
+    "text": "سعرًا",
+    "ltr": false,
+    "frame": 653
+   },
+   {
+    "text": "تقريبيًا",
+    "ltr": false,
+    "frame": 665
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "text": "الفكرة هنا: توقّع رقم",
+  "startFrame": 693,
+  "endFrame": 766,
+  "keyIndex": 2,
+  "keyCount": 2,
+  "keyFrame": 725,
+  "tokens": [
+   {
+    "text": "الفكرة",
+    "ltr": false,
+    "frame": 693
+   },
+   {
+    "text": "هنا:",
+    "ltr": false,
+    "frame": 706
+   },
+   {
+    "text": "توقّع",
+    "ltr": false,
+    "frame": 725
+   },
+   {
+    "text": "رقم",
+    "ltr": false,
+    "frame": 743
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "text": "ثانيًا: Logistic Regression",
+  "startFrame": 766,
+  "endFrame": 833,
+  "keyIndex": 1,
+  "keyCount": 2,
+  "keyFrame": 789,
+  "tokens": [
+   {
+    "text": "ثانيًا:",
+    "ltr": false,
+    "frame": 766
+   },
+   {
+    "text": "Logistic",
+    "ltr": true,
+    "frame": 789
+   },
+   {
+    "text": "Regression",
+    "ltr": true,
+    "frame": 806
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "text": "وصلتك رسالة،",
+  "startFrame": 833,
+  "endFrame": 872,
+  "keyIndex": 1,
+  "keyFrame": 847,
+  "tokens": [
+   {
+    "text": "وصلتك",
+    "ltr": false,
+    "frame": 833
+   },
+   {
+    "text": "رسالة،",
+    "ltr": false,
+    "frame": 847
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "text": "عادية أو Spam؟",
+  "startFrame": 872,
+  "endFrame": 923,
+  "keyIndex": 2,
+  "keyFrame": 902,
+  "tokens": [
+   {
+    "text": "عادية",
+    "ltr": false,
+    "frame": 872
+   },
+   {
+    "text": "أو",
+    "ltr": false,
+    "frame": 895
+   },
+   {
+    "text": "Spam؟",
+    "ltr": true,
+    "frame": 902
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "text": "هذه الخوارزمية تتعلم",
+  "startFrame": 923,
+  "endFrame": 968,
+  "keyIndex": 2,
+  "keyFrame": 954,
+  "tokens": [
+   {
+    "text": "هذه",
+    "ltr": false,
+    "frame": 923
+   },
+   {
+    "text": "الخوارزمية",
+    "ltr": false,
+    "frame": 930
+   },
+   {
+    "text": "تتعلم",
+    "ltr": false,
+    "frame": 954
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "text": "من رسائل مصنّفة سابقًا،",
+  "startFrame": 968,
+  "endFrame": 1025,
+  "keyIndex": 2,
+  "keyFrame": 986,
+  "tokens": [
+   {
+    "text": "من",
+    "ltr": false,
+    "frame": 968
+   },
+   {
+    "text": "رسائل",
+    "ltr": false,
+    "frame": 972
+   },
+   {
+    "text": "مصنّفة",
+    "ltr": false,
+    "frame": 986
+   },
+   {
+    "text": "سابقًا،",
+    "ltr": false,
+    "frame": 1002
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "text": "وتقدّر احتمال أن تكون",
+  "startFrame": 1025,
+  "endFrame": 1067,
+  "keyIndex": 1,
+  "keyFrame": 1042,
+  "tokens": [
+   {
+    "text": "وتقدّر",
+    "ltr": false,
+    "frame": 1025
+   },
+   {
+    "text": "احتمال",
+    "ltr": false,
+    "frame": 1042
+   },
+   {
+    "text": "أن",
+    "ltr": false,
+    "frame": 1056
+   },
+   {
+    "text": "تكون",
+    "ltr": false,
+    "frame": 1059
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "text": "الرسالة الجديدة Spam،",
+  "startFrame": 1067,
+  "endFrame": 1114,
+  "keyIndex": 2,
+  "keyFrame": 1097,
+  "tokens": [
+   {
+    "text": "الرسالة",
+    "ltr": false,
+    "frame": 1067
+   },
+   {
+    "text": "الجديدة",
+    "ltr": false,
+    "frame": 1080
+   },
+   {
+    "text": "Spam،",
+    "ltr": true,
+    "frame": 1097
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "text": "وبناءً على هذا الاحتمال",
+  "startFrame": 1114,
+  "endFrame": 1165,
+  "keyIndex": 3,
+  "keyFrame": 1139,
+  "tokens": [
+   {
+    "text": "وبناءً",
+    "ltr": false,
+    "frame": 1114
+   },
+   {
+    "text": "على",
+    "ltr": false,
+    "frame": 1129
+   },
+   {
+    "text": "هذا",
+    "ltr": false,
+    "frame": 1134
+   },
+   {
+    "text": "الاحتمال",
+    "ltr": false,
+    "frame": 1139
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "text": "نحدّد تصنيفها",
+  "startFrame": 1165,
+  "endFrame": 1207,
+  "keyIndex": 1,
+  "keyFrame": 1180,
+  "tokens": [
+   {
+    "text": "نحدّد",
+    "ltr": false,
+    "frame": 1165
+   },
+   {
+    "text": "تصنيفها",
+    "ltr": false,
+    "frame": 1180
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "text": "يعني رغم اسمها",
+  "startFrame": 1207,
+  "endFrame": 1244,
+  "keyIndex": 2,
+  "keyFrame": 1224,
+  "tokens": [
+   {
+    "text": "يعني",
+    "ltr": false,
+    "frame": 1207
+   },
+   {
+    "text": "رغم",
+    "ltr": false,
+    "frame": 1216
+   },
+   {
+    "text": "اسمها",
+    "ltr": false,
+    "frame": 1224
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "text": "تستخدم للتصنيف",
+  "startFrame": 1244,
+  "endFrame": 1295,
+  "keyIndex": 1,
+  "keyFrame": 1263,
+  "tokens": [
+   {
+    "text": "تستخدم",
+    "ltr": false,
+    "frame": 1244
+   },
+   {
+    "text": "للتصنيف",
+    "ltr": false,
+    "frame": 1263
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "text": "ثالثًا: Decision Tree",
+  "startFrame": 1295,
+  "endFrame": 1355,
+  "keyIndex": 1,
+  "keyCount": 2,
+  "keyFrame": 1319,
+  "tokens": [
+   {
+    "text": "ثالثًا:",
+    "ltr": false,
+    "frame": 1295
+   },
+   {
+    "text": "Decision",
+    "ltr": true,
+    "frame": 1319
+   },
+   {
+    "text": "Tree",
+    "ltr": true,
+    "frame": 1336
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "text": "تخيّل شجرة،",
+  "startFrame": 1355,
+  "endFrame": 1389,
+  "keyIndex": 1,
+  "keyFrame": 1369,
+  "tokens": [
+   {
+    "text": "تخيّل",
+    "ltr": false,
+    "frame": 1355
+   },
+   {
+    "text": "شجرة،",
+    "ltr": false,
+    "frame": 1369
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "text": "لكن بدل الأوراق فيها أسئلة",
+  "startFrame": 1389,
+  "endFrame": 1453,
+  "keyIndex": 4,
+  "keyFrame": 1433,
+  "tokens": [
+   {
+    "text": "لكن",
+    "ltr": false,
+    "frame": 1389
+   },
+   {
+    "text": "بدل",
+    "ltr": false,
+    "frame": 1397
+   },
+   {
+    "text": "الأوراق",
+    "ltr": false,
+    "frame": 1406
+   },
+   {
+    "text": "فيها",
+    "ltr": false,
+    "frame": 1424
+   },
+   {
+    "text": "أسئلة",
+    "ltr": false,
+    "frame": 1433
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "text": "مساحة الشقة",
+  "startFrame": 1453,
+  "endFrame": 1480,
+  "keyIndex": 0,
+  "keyFrame": 1453,
+  "tokens": [
+   {
+    "text": "مساحة",
+    "ltr": false,
+    "frame": 1453
+   },
+   {
+    "text": "الشقة",
+    "ltr": false,
+    "frame": 1465
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "text": "أكبر من 100 متر؟",
+  "startFrame": 1480,
+  "endFrame": 1519,
+  "keyIndex": 2,
+  "keyFrame": 1493,
+  "tokens": [
+   {
+    "text": "أكبر",
+    "ltr": false,
+    "frame": 1480
+   },
+   {
+    "text": "من",
+    "ltr": false,
+    "frame": 1490
+   },
+   {
+    "text": "100",
+    "ltr": true,
+    "frame": 1493
+   },
+   {
+    "text": "متر؟",
+    "ltr": false,
+    "frame": 1501
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "text": "فيها أكثر من غرفتين؟",
+  "startFrame": 1519,
+  "endFrame": 1562,
+  "keyIndex": 3,
+  "keyFrame": 1538,
+  "tokens": [
+   {
+    "text": "فيها",
+    "ltr": false,
+    "frame": 1519
+   },
+   {
+    "text": "أكثر",
+    "ltr": false,
+    "frame": 1527
+   },
+   {
+    "text": "من",
+    "ltr": false,
+    "frame": 1535
+   },
+   {
+    "text": "غرفتين؟",
+    "ltr": false,
+    "frame": 1538
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "text": "كل إجابة تأخذنا إلى فرع",
+  "startFrame": 1562,
+  "endFrame": 1621,
+  "keyIndex": 4,
+  "keyFrame": 1606,
+  "tokens": [
+   {
+    "text": "كل",
+    "ltr": false,
+    "frame": 1562
+   },
+   {
+    "text": "إجابة",
+    "ltr": false,
+    "frame": 1569
+   },
+   {
+    "text": "تأخذنا",
+    "ltr": false,
+    "frame": 1586
+   },
+   {
+    "text": "إلى",
+    "ltr": false,
+    "frame": 1598
+   },
+   {
+    "text": "فرع",
+    "ltr": false,
+    "frame": 1606
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "text": "حتى نصل إلى توقّع للسعر",
+  "startFrame": 1621,
+  "endFrame": 1682,
+  "keyIndex": 3,
+  "keyFrame": 1646,
+  "tokens": [
+   {
+    "text": "حتى",
+    "ltr": false,
+    "frame": 1621
+   },
+   {
+    "text": "نصل",
+    "ltr": false,
+    "frame": 1630
+   },
+   {
+    "text": "إلى",
+    "ltr": false,
+    "frame": 1640
+   },
+   {
+    "text": "توقّع",
+    "ltr": false,
+    "frame": 1646
+   },
+   {
+    "text": "للسعر",
+    "ltr": false,
+    "frame": 1661
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "text": "والأسئلة؟ الخوارزمية تتعلمها",
+  "startFrame": 1682,
+  "endFrame": 1748,
+  "keyIndex": 2,
+  "keyFrame": 1729,
+  "tokens": [
+   {
+    "text": "والأسئلة؟",
+    "ltr": false,
+    "frame": 1682
+   },
+   {
+    "text": "الخوارزمية",
+    "ltr": false,
+    "frame": 1706
+   },
+   {
+    "text": "تتعلمها",
+    "ltr": false,
+    "frame": 1729
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "text": "من البيانات",
+  "startFrame": 1748,
+  "endFrame": 1781,
+  "keyIndex": 1,
+  "keyFrame": 1751,
+  "tokens": [
+   {
+    "text": "من",
+    "ltr": false,
+    "frame": 1748
+   },
+   {
+    "text": "البيانات",
+    "ltr": false,
+    "frame": 1751
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "text": "رابعًا: Random Forest",
+  "startFrame": 1781,
+  "endFrame": 1843,
+  "keyIndex": 1,
+  "keyCount": 2,
+  "keyFrame": 1806,
+  "tokens": [
+   {
+    "text": "رابعًا:",
+    "ltr": false,
+    "frame": 1781
+   },
+   {
+    "text": "Random",
+    "ltr": true,
+    "frame": 1806
+   },
+   {
+    "text": "Forest",
+    "ltr": true,
+    "frame": 1820
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "text": "طيب، لماذا نعتمد",
+  "startFrame": 1843,
+  "endFrame": 1884,
+  "keyIndex": 1,
+  "keyFrame": 1861,
+  "tokens": [
+   {
+    "text": "طيب،",
+    "ltr": false,
+    "frame": 1843
+   },
+   {
+    "text": "لماذا",
+    "ltr": false,
+    "frame": 1861
+   },
+   {
+    "text": "نعتمد",
+    "ltr": false,
+    "frame": 1871
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "text": "على شجرة واحدة؟",
+  "startFrame": 1884,
+  "endFrame": 1922,
+  "keyIndex": 2,
+  "keyFrame": 1900,
+  "tokens": [
+   {
+    "text": "على",
+    "ltr": false,
+    "frame": 1884
+   },
+   {
+    "text": "شجرة",
+    "ltr": false,
+    "frame": 1891
+   },
+   {
+    "text": "واحدة؟",
+    "ltr": false,
+    "frame": 1900
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "text": "هنا نستخدم مجموعة أشجار مختلفة،",
+  "startFrame": 1922,
+  "endFrame": 1997,
+  "keyIndex": 3,
+  "keyFrame": 1964,
+  "tokens": [
+   {
+    "text": "هنا",
+    "ltr": false,
+    "frame": 1922
+   },
+   {
+    "text": "نستخدم",
+    "ltr": false,
+    "frame": 1931
+   },
+   {
+    "text": "مجموعة",
+    "ltr": false,
+    "frame": 1947
+   },
+   {
+    "text": "أشجار",
+    "ltr": false,
+    "frame": 1964
+   },
+   {
+    "text": "مختلفة،",
+    "ltr": false,
+    "frame": 1975
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "text": "وكل واحدة تعطي توقّعها",
+  "startFrame": 1997,
+  "endFrame": 2055,
+  "keyIndex": 3,
+  "keyFrame": 2029,
+  "tokens": [
+   {
+    "text": "وكل",
+    "ltr": false,
+    "frame": 1997
+   },
+   {
+    "text": "واحدة",
+    "ltr": false,
+    "frame": 2008
+   },
+   {
+    "text": "تعطي",
+    "ltr": false,
+    "frame": 2020
+   },
+   {
+    "text": "توقّعها",
+    "ltr": false,
+    "frame": 2029
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "text": "في مثال سعر الشقة،",
+  "startFrame": 2055,
+  "endFrame": 2097,
+  "keyIndex": 2,
+  "keyFrame": 2069,
+  "tokens": [
+   {
+    "text": "في",
+    "ltr": false,
+    "frame": 2055
+   },
+   {
+    "text": "مثال",
+    "ltr": false,
+    "frame": 2058
+   },
+   {
+    "text": "سعر",
+    "ltr": false,
+    "frame": 2069
+   },
+   {
+    "text": "الشقة،",
+    "ltr": false,
+    "frame": 2074
+   }
+  ]
+ },
+ {
+  "id": 41,
+  "text": "نأخذ متوسط التوقّعات،",
+  "startFrame": 2097,
+  "endFrame": 2157,
+  "keyIndex": 1,
+  "keyFrame": 2109,
+  "tokens": [
+   {
+    "text": "نأخذ",
+    "ltr": false,
+    "frame": 2097
+   },
+   {
+    "text": "متوسط",
+    "ltr": false,
+    "frame": 2109
+   },
+   {
+    "text": "التوقّعات،",
+    "ltr": false,
+    "frame": 2126
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "text": "كأنك تجمع آراء عدة خبراء",
+  "startFrame": 2157,
+  "endFrame": 2221,
+  "keyIndex": 4,
+  "keyFrame": 2202,
+  "tokens": [
+   {
+    "text": "كأنك",
+    "ltr": false,
+    "frame": 2157
+   },
+   {
+    "text": "تجمع",
+    "ltr": false,
+    "frame": 2168
+   },
+   {
+    "text": "آراء",
+    "ltr": false,
+    "frame": 2181
+   },
+   {
+    "text": "عدة",
+    "ltr": false,
+    "frame": 2191
+   },
+   {
+    "text": "خبراء",
+    "ltr": false,
+    "frame": 2202
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "text": "بدل الاعتماد على رأي واحد",
+  "startFrame": 2221,
+  "endFrame": 2281,
+  "keyIndex": 4,
+  "keyFrame": 2257,
+  "tokens": [
+   {
+    "text": "بدل",
+    "ltr": false,
+    "frame": 2221
+   },
+   {
+    "text": "الاعتماد",
+    "ltr": false,
+    "frame": 2228
+   },
+   {
+    "text": "على",
+    "ltr": false,
+    "frame": 2245
+   },
+   {
+    "text": "رأي",
+    "ltr": false,
+    "frame": 2251
+   },
+   {
+    "text": "واحد",
+    "ltr": false,
+    "frame": 2257
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "text": "خامسًا: K-Means",
+  "startFrame": 2281,
+  "endFrame": 2341,
+  "keyIndex": 1,
+  "keyFrame": 2308,
+  "tokens": [
+   {
+    "text": "خامسًا:",
+    "ltr": false,
+    "frame": 2281
+   },
+   {
+    "text": "K-Means",
+    "ltr": true,
+    "frame": 2308
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "text": "عندك متجر،",
+  "startFrame": 2341,
+  "endFrame": 2368,
+  "keyIndex": 1,
+  "keyFrame": 2351,
+  "tokens": [
+   {
+    "text": "عندك",
+    "ltr": false,
+    "frame": 2341
+   },
+   {
+    "text": "متجر،",
+    "ltr": false,
+    "frame": 2351
+   }
+  ]
+ },
+ {
+  "id": 46,
+  "text": "وتريد تقسّم زبائنك",
+  "startFrame": 2368,
+  "endFrame": 2408,
+  "keyIndex": 2,
+  "keyFrame": 2393,
+  "tokens": [
+   {
+    "text": "وتريد",
+    "ltr": false,
+    "frame": 2368
+   },
+   {
+    "text": "تقسّم",
+    "ltr": false,
+    "frame": 2379
+   },
+   {
+    "text": "زبائنك",
+    "ltr": false,
+    "frame": 2393
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "text": "حسب طريقة شرائهم؟",
+  "startFrame": 2408,
+  "endFrame": 2450,
+  "keyIndex": 2,
+  "keyFrame": 2428,
+  "tokens": [
+   {
+    "text": "حسب",
+    "ltr": false,
+    "frame": 2408
+   },
+   {
+    "text": "طريقة",
+    "ltr": false,
+    "frame": 2417
+   },
+   {
+    "text": "شرائهم؟",
+    "ltr": false,
+    "frame": 2428
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "text": "تحدّد عدد المجموعات،",
+  "startFrame": 2450,
+  "endFrame": 2497,
+  "keyIndex": 1,
+  "keyFrame": 2464,
+  "tokens": [
+   {
+    "text": "تحدّد",
+    "ltr": false,
+    "frame": 2450
+   },
+   {
+    "text": "عدد",
+    "ltr": false,
+    "frame": 2464
+   },
+   {
+    "text": "المجموعات،",
+    "ltr": false,
+    "frame": 2471
+   }
+  ]
+ },
+ {
+  "id": 49,
+  "text": "والخوارزمية تجمع الزبائن المتشابهين",
+  "startFrame": 2497,
+  "endFrame": 2571,
+  "keyIndex": 3,
+  "keyFrame": 2546,
+  "tokens": [
+   {
+    "text": "والخوارزمية",
+    "ltr": false,
+    "frame": 2497
+   },
+   {
+    "text": "تجمع",
+    "ltr": false,
+    "frame": 2522
+   },
+   {
+    "text": "الزبائن",
+    "ltr": false,
+    "frame": 2532
+   },
+   {
+    "text": "المتشابهين",
+    "ltr": false,
+    "frame": 2546
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "text": "حسب بياناتهم،",
+  "startFrame": 2571,
+  "endFrame": 2605,
+  "keyIndex": 1,
+  "keyFrame": 2580,
+  "tokens": [
+   {
+    "text": "حسب",
+    "ltr": false,
+    "frame": 2571
+   },
+   {
+    "text": "بياناتهم،",
+    "ltr": false,
+    "frame": 2580
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "text": "مثل عدد المشتريات",
+  "startFrame": 2605,
+  "endFrame": 2642,
+  "keyIndex": 2,
+  "keyFrame": 2619,
+  "tokens": [
+   {
+    "text": "مثل",
+    "ltr": false,
+    "frame": 2605
+   },
+   {
+    "text": "عدد",
+    "ltr": false,
+    "frame": 2612
+   },
+   {
+    "text": "المشتريات",
+    "ltr": false,
+    "frame": 2619
+   }
+  ]
+ },
+ {
+  "id": 52,
+  "text": "وقيمة الإنفاق",
+  "startFrame": 2642,
+  "endFrame": 2677,
+  "keyIndex": 1,
+  "keyFrame": 2654,
+  "tokens": [
+   {
+    "text": "وقيمة",
+    "ltr": false,
+    "frame": 2642
+   },
+   {
+    "text": "الإنفاق",
+    "ltr": false,
+    "frame": 2654
+   }
+  ]
+ },
+ {
+  "id": 53,
+  "text": "الفرق هنا:",
+  "startFrame": 2677,
+  "endFrame": 2706,
+  "keyIndex": 0,
+  "keyFrame": 2677,
+  "tokens": [
+   {
+    "text": "الفرق",
+    "ltr": false,
+    "frame": 2677
+   },
+   {
+    "text": "هنا:",
+    "ltr": false,
+    "frame": 2689
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "text": "ما نعطيها تصنيفات جاهزة،",
+  "startFrame": 2706,
+  "endFrame": 2759,
+  "keyIndex": 2,
+  "keyFrame": 2722,
+  "tokens": [
+   {
+    "text": "ما",
+    "ltr": false,
+    "frame": 2706
+   },
+   {
+    "text": "نعطيها",
+    "ltr": false,
+    "frame": 2710
+   },
+   {
+    "text": "تصنيفات",
+    "ltr": false,
+    "frame": 2722
+   },
+   {
+    "text": "جاهزة،",
+    "ltr": false,
+    "frame": 2739
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "text": "هي تكوّن المجموعات من التشابه",
+  "startFrame": 2759,
+  "endFrame": 2831,
+  "keyIndex": 4,
+  "keyFrame": 2802,
+  "tokens": [
+   {
+    "text": "هي",
+    "ltr": false,
+    "frame": 2759
+   },
+   {
+    "text": "تكوّن",
+    "ltr": false,
+    "frame": 2767
+   },
+   {
+    "text": "المجموعات",
+    "ltr": false,
+    "frame": 2780
+   },
+   {
+    "text": "من",
+    "ltr": false,
+    "frame": 2799
+   },
+   {
+    "text": "التشابه",
+    "ltr": false,
+    "frame": 2802
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "text": "هذه خمس خوارزميات كبداية",
+  "startFrame": 2831,
+  "endFrame": 2897,
+  "keyIndex": 1,
+  "keyFrame": 2844,
+  "tokens": [
+   {
+    "text": "هذه",
+    "ltr": false,
+    "frame": 2831
+   },
+   {
+    "text": "خمس",
+    "ltr": false,
+    "frame": 2844
+   },
+   {
+    "text": "خوارزميات",
+    "ltr": false,
+    "frame": 2852
+   },
+   {
+    "text": "كبداية",
+    "ltr": false,
+    "frame": 2875
+   }
+  ]
+ },
+ {
+  "id": 57,
+  "text": "اختيار الأنسب يعتمد",
+  "startFrame": 2897,
+  "endFrame": 2939,
+  "keyIndex": 1,
+  "keyFrame": 2909,
+  "tokens": [
+   {
+    "text": "اختيار",
+    "ltr": false,
+    "frame": 2897
+   },
+   {
+    "text": "الأنسب",
+    "ltr": false,
+    "frame": 2909
+   },
+   {
+    "text": "يعتمد",
+    "ltr": false,
+    "frame": 2926
+   }
+  ]
+ },
+ {
+  "id": 58,
+  "text": "على مشكلتك وبياناتك،",
+  "startFrame": 2939,
+  "endFrame": 2993,
+  "keyIndex": 1,
+  "keyFrame": 2945,
+  "tokens": [
+   {
+    "text": "على",
+    "ltr": false,
+    "frame": 2939
+   },
+   {
+    "text": "مشكلتك",
+    "ltr": false,
+    "frame": 2945
+   },
+   {
+    "text": "وبياناتك،",
+    "ltr": false,
+    "frame": 2965
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "text": "ثم اختبار النتيجة",
+  "startFrame": 2993,
+  "endFrame": 3038,
+  "keyIndex": 1,
+  "keyFrame": 3001,
+  "tokens": [
+   {
+    "text": "ثم",
+    "ltr": false,
+    "frame": 2993
+   },
+   {
+    "text": "اختبار",
+    "ltr": false,
+    "frame": 3001
+   },
+   {
+    "text": "النتيجة",
+    "ltr": false,
+    "frame": 3014
+   }
+  ]
+ },
+ {
+  "id": 60,
+  "text": "احفظ الفيديو لترجع للأسماء،",
+  "startFrame": 3038,
+  "endFrame": 3095,
+  "keyIndex": 0,
+  "keyFrame": 3038,
+  "tokens": [
+   {
+    "text": "احفظ",
+    "ltr": false,
+    "frame": 3038
+   },
+   {
+    "text": "الفيديو",
+    "ltr": false,
+    "frame": 3049
+   },
+   {
+    "text": "لترجع",
+    "ltr": false,
+    "frame": 3060
+   },
+   {
+    "text": "للأسماء،",
+    "ltr": false,
+    "frame": 3073
+   }
+  ]
+ },
+ {
+  "id": 61,
+  "text": "وتابعني لتفهم التقنية",
+  "startFrame": 3095,
+  "endFrame": 3148,
+  "keyIndex": 0,
+  "keyFrame": 3095,
+  "tokens": [
+   {
+    "text": "وتابعني",
+    "ltr": false,
+    "frame": 3095
+   },
+   {
+    "text": "لتفهم",
+    "ltr": false,
+    "frame": 3113
+   },
+   {
+    "text": "التقنية",
+    "ltr": false,
+    "frame": 3125
+   }
+  ]
+ },
+ {
+  "id": 62,
+  "text": "بمثال بسيط",
+  "startFrame": 3148,
+  "endFrame": 3199,
+  "keyIndex": 0,
+  "keyFrame": 3148,
+  "tokens": [
+   {
+    "text": "بمثال",
+    "ltr": false,
+    "frame": 3148
+   },
+   {
+    "text": "بسيط",
+    "ltr": false,
+    "frame": 3163
+   }
+  ]
+ }
+]

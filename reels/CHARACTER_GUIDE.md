@@ -132,6 +132,20 @@ and floor glow on (`rimLight` prop, default true) in dark styles.
 - Gaze states are limited to the four supplied images; vertical gaze or
   brow expressions need new aligned artwork.
 
+## Graphical reactions (v2.1)
+
+The host has no expression variants beyond the four eye states, so emotion
+is shown **next to** him, never drawn on him: `Reaction` renders a small
+accent bubble above-right of the head with a glyph («?» curiosity, «!»
+surprise), follows the live placement (hidden while `away`), pops in with a
+short pulse and fades out. Data: `cues.json → avatar.reactions`
+(`{ w, word, offset, glyph, hold }`). Pair a surprise with the `emphasis`
+preset for a restrained framing change (EP.02: «يعني رغم اسمها»).
+
+EP.02 starts with the host already present on frame 0 (`enterAt={-12}`:
+the 12-frame entrance is completed before the first frame), as the owner
+asked the video to start immediately with the avatar.
+
 ## Component API
 
 ```tsx
