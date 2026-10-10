@@ -1,155 +1,34 @@
-# Prompt Builder – Streamlit
+# Arabic tech explainer reels (Remotion)
 
-A first Streamlit version of the Prompt Builder app.
+Reusable production template for Arabic Instagram Reels / YouTube Shorts in
+the style **`arab-tech-explainer-v2`** (dark grid + HUD, 60 fps), plus
+episode 01 (MCP).
 
-## What it does
-
-- Presents the 10 Prompt Builder questions in a clean UI.
-- Converts answers into a structured AI prompt using editable placeholders in `prompt_template.txt`.
-- Saves submissions locally as JSON Lines (`data/submissions.jsonl`).
-- Allows prompt/data downloads.
-- Contains a commented placeholder for future AI/API integration.
-- Runs on port `8080`, which is convenient for container deployment.
-
-## Questions included
-
-1. Task
-2. Role
-3. Context
-4. Sources
-5. Knowledge rule
-6. Focus
-7. Audience
-8. Output
-9. Review intensity
-10. Restrictions
-11. Output language
-
-Language is displayed separately because it is a global output setting.
-
-## Run locally
+- **Start here:** [`CLAUDE.md`](CLAUDE.md) → [`STYLE_GUIDE.md`](STYLE_GUIDE.md),
+  [`CHARACTER_GUIDE.md`](CHARACTER_GUIDE.md), [`docs/NEW_EPISODE.md`](docs/NEW_EPISODE.md)
+- **Brand data:** [`brand/tokens.json`](brand/tokens.json),
+  [`brand/voice-profile.json`](brand/voice-profile.json), `brand/avatar-source/` (originals)
+- **Components:** `src/components/` — `ReelLayout` (+ `Backdrop`), `Hud`,
+  `AvatarPresenter`, `Reaction`, `CaptionStrip`, `DiagramCard`, `Connector`, `Chip`, `Ltr`,
+  `MaskLine`, `ListProgress`, `Icon`;
+  helpers `src/lib/` (`useTime`, `stageAt`, motion curves)
+- **Episode 01:** data in `episodes/mcp/`, scenes in `src/episodes/mcp/`,
+  rendered files in `deliverables/mcp-ep01-v2/`
+- **Episode 02 (5 ML algorithms):** data in `episodes/ml-algorithms/`, scenes in
+  `src/episodes/ml-algorithms/`, rendered files in `deliverables/ml-algorithms-ep02/`
+- **Reference studies:** [`reference/reference-analysis-v2.md`](reference/reference-analysis-v2.md) (v2 motion style)
 
 ```bash
-python -m venv .venv
+npm i
+npm run dev                 # Remotion Studio (compositions: Episodes/McpEpisode, McpCover; Brand/AvatarStates)
+npm run build:timeline      # re-resolve cues/captions after editing episode data
+npm run preview:mcp         # 12 s opening preview -> out/
+npm run render:mcp          # 60 fps master MP4 -> out/
+npm run still:mcp-cover     # cover -> out/
+npm run render:ml           # EP.02 master -> out/  (preview:ml, still:ml-cover)
 ```
 
-Windows:
-
-```bash
-.venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Open the URL shown by Streamlit in your browser.
-
-## Docker
-
-Build:
-
-```bash
-docker build -t prompt-builder:latest .
-```
-
-Run:
-
-```bash
-docker run --rm -p 8080:8080 prompt-builder:latest
-```
-
-Then open:
-
-```text
-http://localhost:8080
-```
-
-## Harbor example
-
-Adapt the image path to your project/repository naming convention:
-
-```bash
-docker build -t harbor.continental-tires.com/<PROJECT>/prompt-builder:latest .
-docker login harbor.continental-tires.com
-docker push harbor.continental-tires.com/<PROJECT>/prompt-builder:latest
-```
-
-If your internal setup uses a Docker Hub proxy project such as `dockerhub/`,
-that proxy is normally used for pulling base images. Your own image should
-be pushed to the Harbor project/repository assigned to your team.
-
-## Pergola
-
-Typical container settings:
-
-- Container port: `8080`
-- Start command: already defined in the Dockerfile
-- Health/startup: configure according to the Pergola environment
-- Environment variable for persistent prompt history:
-
-```text
-PROMPT_BUILDER_DATA_DIR=/your/mounted/persistent/path
-```
-
-### Persistence warning
-
-The default `data/submissions.jsonl` lives inside the running container.
-That is enough for development, but it may disappear if the container is
-replaced/redeployed. For real usage, mount persistent storage and set
-`PROMPT_BUILDER_DATA_DIR`.
-
-## Future AI integration
-
-Search in `app.py` for:
-
-```text
-FUTURE AI / API CONNECTION
-```
-
-The example client code is intentionally commented out. You can later
-replace it with the approved Continental AIDA/LiteLLM setup.
-
-## Prompt template placeholders
-
-The prompt structure is stored in `prompt_template.txt`. You can change it without editing the UI.
-
-Available placeholders:
-
-```text
-{{TASK}}
-{{ROLE}}
-{{CONTEXT}}
-{{SOURCES}}
-{{KNOWLEDGE_RULE}}
-{{FOCUS}}
-{{AUDIENCE}}
-{{OUTPUT_FORMAT}}
-{{OUTPUT_REQUIREMENTS}}
-{{REVIEW_INTENSITY}}
-{{RESTRICTIONS}}
-{{LANGUAGE}}
-```
-
-
-## GitHub → Pergola
-
-Keep `pergola.yaml` in the repository root, next to `Dockerfile`.
-
-Repository structure:
-
-```text
-prompt-builder/
-├── app.py
-├── prompt_template.txt
-├── requirements.txt
-├── Dockerfile
-├── pergola.yaml
-├── .dockerignore
-├── .gitignore
-├── .streamlit/
-│   └── config.toml
-└── data/
-```
-
-The Pergola manifest builds the component from the repository `Dockerfile`,
-publishes port `8080`, and creates the ingress host `prompt-builder`.
-
+Fonts: Noto Sans Arabic / Noto Sans / Noto Sans Mono (SIL OFL, licences in
+`public/fonts`). Sound effects are generated procedurally
+(`scripts/make_sfx.py`). Remotion is free for individuals and companies of
+up to 3 people; see remotion.pro/license otherwise.
