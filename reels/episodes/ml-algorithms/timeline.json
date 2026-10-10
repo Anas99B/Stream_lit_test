@@ -24,9 +24,9 @@
  "sfx": {
   "events": [
    {
-    "frame": 13,
+    "frame": 16,
     "sound": "impact",
-    "gain": 0.5
+    "gain": 0.38
    },
    {
     "frame": 48,

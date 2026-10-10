@@ -77,7 +77,24 @@ validates every caption word and cue anchor against the narration words
   (none while away); deterministic blinks; «?» and «!» reaction bubbles.
 - The host is present on frame 0 (entrance completed before the cut).
 
-## Tests
+## Tests (final master, deliverables/ml-algorithms-ep02)
 
-See `deliverables/ml-algorithms-ep02/NOTES.md` for the master's measured
-values (filled in after the final render).
+| Check | Method | Result |
+|---|---|---|
+| Opening preview | 12 s render at 60 fps, frame strip + first 13 frames | Found and fixed: host faded in over the first 0.2 s (now present on frame 0) |
+| Every beat | 42 QA stills (2 × timebase frames) + 8 full-res re-checks + guides | Fixed: K = 3 chip over the y-axis title, «للتصنيف» chip over the title/email card then between class chips, "LogisticRegression" (word scale ate the space), forest expert badges on incoming connectors, one-word second caption lines (balanced wrap) |
+| Sync | `scripts/qa_audio_sync.py` (envelope cross-correlation vs processed narration, pause and caption-onset checks) | 0 ms lag at start / middle / end; 0 unexplained pauses; captions ≤ 70 ms from onsets |
+| Loudness | EBU R128 | −16.1 LUFS, true peak −0.7 dBFS → fixed (opening impact +0.1 s, gain 0.38) → **−1.4 dBFS** |
+| Remux pitfall | sync check after an audio-only fix | ADTS `.aac` remux shifted audio by ~40 ms (encoder priming) — discarded; WAV render + FFmpeg AAC at mux → 0 ms |
+| Eye swaps / jitter | lossless frames 842 / 846 (60 fps) | 951 changed px, all inside the eye patches |
+| Encoding | ffprobe | 1080×1920, 60 fps, H.264 High yuv420p BT.709 TV, AAC-LC 48 kHz stereo ~187 kb/s, 108.50 s |
+| Final frame | frame 6509 of the master | Recap + CTA + handle, no caption |
+| Code | `npm run lint` | Pass |
+
+## Known limitations
+
+- Narration judged by measurement, not by ear (no audio playback in the
+  render environment).
+- Channel handle `@anas.theengineer` is text (no logo artwork exists); please
+  confirm the handle.
+- Scribe run reported ≈ 1,467 credits although the estimate said 117.

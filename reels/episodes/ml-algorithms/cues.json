@@ -140,7 +140,7 @@
       "impact": 0.5
     },
     "events": [
-      { "cue": "hook.five", "sound": "impact" },
+      { "cue": "hook.five", "sound": "impact", "offset": 0.1, "gain": 0.38, "why": "on the cue it summed with the loudest transient of the first word (true peak -0.7 dBFS); 0.1 s later it lands mid-reveal of the «5» and the mix peak stays at the narration's own -1.4 dBFS" },
       { "cue": "hook.ml", "sound": "tick" },
       { "cue": "hook.noMathX", "sound": "tick" },
       { "cue": "hook.cards", "sound": "pop" },

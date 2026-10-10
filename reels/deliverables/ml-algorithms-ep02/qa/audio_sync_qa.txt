@@ -1,0 +1,7 @@
+master 108.50 s, narration placed at +0.300 s, gain 0.92
+sync opening     0.0-  12.0 s: lag +0 ms
+sync middle     48.3-  60.3 s: lag +0 ms
+sync closing    94.5- 106.5 s: lag +0 ms
+pauses: 52 total -> 41 quiet in master, 8 filled by a sound effect, 3 follow the narration's own level (word edge / breath), 0 unexplained
+captions after a pause: 36 checked, worst |caption start - speech onset| = 70 ms (1 frame = 33 ms)
+loudness: integrated -16.1 LUFS, true peak -1.4 dBFS

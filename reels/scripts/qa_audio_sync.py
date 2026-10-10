@@ -66,19 +66,29 @@ def main():
     sfx = [(e["frame"] / fps, e["sound"]) for e in tl["sfx"]["events"]]
     sfx_len = {"tick": 0.25, "pop": 0.35, "connect": 0.7, "whoosh": 0.9, "riser": 1.5, "impact": 1.4}
     pauses = [(words[i]["end"] + lead, words[i + 1]["start"] + lead) for i in range(len(words) - 1) if words[i + 1]["start"] - words[i]["end"] >= 0.25]
-    quiet = covered = loud = 0
+    # Offset between the master's level and the narration-only level (stereo
+    # mix vs mono reference); measured on speech, applied to the pauses.
+    speech = en > -30
+    offset = float(np.median(em[speech] - en[speech]))
+    quiet = covered = edge = loud = 0
     for a, b in pauses:
-        seg = em[int((a + 0.05) * 100): int((b - 0.05) * 100)]
+        i0, i1 = int((a + 0.05) * 100), int((b - 0.05) * 100)
+        seg, ref = em[i0:i1], en[i0:i1]
         lvl = seg.max() if len(seg) else -120
         has_sfx = any(s < b and s + sfx_len[k] > a for s, k in sfx)
         if lvl < -38:
             quiet += 1
         elif has_sfx:
             covered += 1
+        elif len(seg) and np.max(seg - ref - offset) < 3:
+            edge += 1  # the narration itself is not silent there (word edge / breath): same contour, not drift
         else:
             loud += 1
-            print(f"  pause {a:.2f}-{b:.2f} s not quiet ({lvl:.1f} dB), no SFX")
-    print(f"pauses: {len(pauses)} total -> {quiet} quiet in master, {covered} filled by a sound effect, {loud} unexplained")
+            print(f"  pause {a:.2f}-{b:.2f} s not quiet ({lvl:.1f} dB), no SFX, not in the narration")
+    print(
+        f"pauses: {len(pauses)} total -> {quiet} quiet in master, {covered} filled by a sound effect, "
+        f"{edge} follow the narration's own level (word edge / breath), {loud} unexplained"
+    )
 
     # 3. caption starts vs speech onsets (captions that follow a pause)
     worst = 0.0
